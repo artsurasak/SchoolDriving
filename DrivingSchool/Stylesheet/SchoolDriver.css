@@ -1,0 +1,17 @@
+﻿body {
+    font-family: 'Kanit', sans-serif;
+}
+
+.navbar-brand{
+    font-size:24px;
+}
+
+.nav-link {
+    font-size:18px;
+}
+
+.img_showCase{
+    width:20%;
+    height:20%;
+    margin:0px 5px 5px 5px;
+}

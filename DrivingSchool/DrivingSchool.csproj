@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{575D9738-5365-49EF-8359-3B8A016C08BF}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DrivingSchool</RootNamespace>
+    <AssemblyName>DrivingSchool</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Bootstrape\css\bootstrap-grid.css.map" />
+    <Content Include="Bootstrape\css\bootstrap-grid.min.css.map" />
+    <Content Include="Bootstrape\css\bootstrap-reboot.css.map" />
+    <Content Include="Bootstrape\css\bootstrap-reboot.min.css.map" />
+    <Content Include="Bootstrape\css\bootstrap.css.map" />
+    <Content Include="Bootstrape\css\bootstrap.min.css.map" />
+    <Content Include="Bootstrape\css\jumbotron.css" />
+    <Content Include="Bootstrape\css\sticky-footer.css" />
+    <Content Include="Bootstrape\js\bootstrap.bundle.js.map" />
+    <Content Include="Bootstrape\js\bootstrap.bundle.min.js.map" />
+    <Content Include="Bootstrape\js\bootstrap.js.map" />
+    <Content Include="Bootstrape\js\bootstrap.min.js.map" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Bootstrape\css\bootstrap-grid.css" />
+    <Content Include="Bootstrape\css\bootstrap-grid.min.css" />
+    <Content Include="Bootstrape\css\bootstrap-reboot.css" />
+    <Content Include="Bootstrape\css\bootstrap-reboot.min.css" />
+    <Content Include="Bootstrape\css\bootstrap.css" />
+    <Content Include="Bootstrape\css\bootstrap.min.css" />
+    <Content Include="Bootstrape\css\carousel.css" />
+    <Content Include="Bootstrape\js\bootstrap.bundle.js" />
+    <Content Include="Bootstrape\js\bootstrap.bundle.min.js" />
+    <Content Include="Bootstrape\js\bootstrap.js" />
+    <Content Include="Bootstrape\js\bootstrap.min.js" />
+    <Content Include="Bootstrape\js\holder.min.js" />
+    <Content Include="Bootstrape\js\jquery-slim.min.js" />
+    <Content Include="Bootstrape\js\popper.min.js" />
+    <Content Include="Img\1521886235998.jpg" />
+    <Content Include="Img\20151008_121206.jpg" />
+    <Content Include="Img\23798.jpg" />
+    <Content Include="Img\23800.jpg" />
+    <Content Include="Img\23801.jpg" />
+    <Content Include="Img\23802.jpg" />
+    <Content Include="Img\288578.jpg" />
+    <Content Include="Img\288579.jpg" />
+    <Content Include="Img\288580.jpg" />
+    <Content Include="Img\Drive.jpg" />
+    <Content Include="Img\Logo\Logo1.PNG" />
+    <Content Include="Img\Logo\Logo2.PNG" />
+    <Content Include="Img\Logo\Logo2_Clear.png" />
+    <Content Include="Page\StepWork.aspx" />
+    <Content Include="Stylesheet\SchoolDriver.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Img\51525.jpg" />
+    <Content Include="Img\51526.jpg" />
+    <Content Include="Img\51527.jpg" />
+    <Content Include="Img\51528.jpg" />
+    <Content Include="Img\51529.jpg" />
+    <Content Include="Img\51530.jpg" />
+    <Content Include="Img\51531.jpg" />
+    <Content Include="Img\51532.jpg" />
+    <Content Include="Img\51533.jpg" />
+    <Content Include="Img\51536.jpg" />
+    <Content Include="Img\51540.jpg" />
+    <Content Include="Img\51541.jpg" />
+    <Content Include="Img\51542.jpg" />
+    <Content Include="Img\51543.jpg" />
+    <Content Include="Img\51544.jpg" />
+    <Content Include="Img\51545.jpg" />
+    <Content Include="Img\51546.jpg" />
+    <Content Include="Img\51547.jpg" />
+    <Content Include="Img\51548.jpg" />
+    <Content Include="Img\51550.jpg" />
+    <Content Include="Img\51551.jpg" />
+    <Content Include="Page\Collection.aspx" />
+    <Content Include="Page\Contact.aspx" />
+    <Content Include="Page\Program.aspx" />
+    <Content Include="Video\23799.t.mp4" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\Collection.aspx.cs">
+      <DependentUpon>Collection.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\Collection.aspx.designer.cs">
+      <DependentUpon>Collection.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\Program.aspx.cs">
+      <DependentUpon>Program.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\Program.aspx.designer.cs">
+      <DependentUpon>Program.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\StepWork.aspx.cs">
+      <DependentUpon>StepWork.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\StepWork.aspx.designer.cs">
+      <DependentUpon>StepWork.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>59008</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:59008/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
