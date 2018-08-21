@@ -14,6 +14,7 @@
     <link href="Bootstrape/css/carousel.css" rel="stylesheet" />
     <link href="Stylesheet/SchoolDriver.css" rel="stylesheet" />
     <link href="Bootstrape/css/sticky-footer.css" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
     <%--<link href="Bootstrape/css/jumbotron.css" rel="stylesheet" />--%>
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -29,7 +30,7 @@
     <header>
         <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #267cd3;">
             <a class="navbar-brand" href="Default.aspx">
-                <img src="Img/Logo/Logo2_Clear.png" alt="certificate" width="70" height="70" /></a>
+                <img src="Img/Logo/Logo2_Clear.png" alt="certificate" width="50" height="50" /></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -171,17 +172,6 @@
           </div>
         </div>
 
-        <%--<hr class="featurette-divider" />
-          <div class="row featurette">
-              <div class="col-md-7">
-                  <h2 class="featurette-heading">ชั่วโมงที่ 5 - 6</h2>
-                  <p class="lead">การถอยหลังเข้าจอดด้านซ้าย มุม 45 องศา การถอยหลังเข้าจอดช่องด้านซ้ายมุม 90</p>
-              </div>
-              <div class="col-md-5">
-                  <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" src="Img/51528.jpg" alt="Generic placeholder image" />
-              </div>
-          </div>--%>
-
         <hr class="featurette-divider" />
           <div class="row featurette">
               <div class="col-md-7">
@@ -195,37 +185,24 @@
                   <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" src="Img/Drive.jpg" alt="Generic placeholder image" />
               </div>
           </div>
-         <%-- <hr class="featurette-divider" />
-          <div class="row featurette">
-              <div class="col-md-7">
-                  <h2 class="featurette-heading">ชั่วโมงที่ 8 , 9 , 10</h2>
-                  <p class="lead">วิ่งออกถนนใหญ่ในเส้นทางต่างๆ เช่น ลาดกระบัง มีนบุรี ศรีนครินทร์ พระโขนง บางกะปิ ทางด่วนต่างๆ</p>
-              </div>
-              <div class="col-md-5">
-                  <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" src="Img/Drive.jpg" alt="Generic placeholder image" />
-              </div>
-          </div>--%>
       </div><!-- /.container -->
-
-
-      <!-- FOOTER -->
-        <footer class="footer" style="background-color: #267cd3;">
-              <div class="container" style="color:white">
-                  <%--<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>--%>
-                    <div class="row">
-                      <div class="col-md-4">
-                        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                      </div>
-                      <div class="col-md-4">
-                        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                      </div>
-                      <div class="col-md-4">
-                            <p>ติดต่อโรงเรียนสอนขับรถ</p>
-                           <p>โรงเรียนสอนขับรถ มืตรรวมใจ สำนักงานใหญ่ 498 ถนน.อ่อนนุช แขวง ประเวศ เขต.ประเวศ กรุงเทพมหานคร 10250</p>
-                            <p>โทร 02-329-0187, 02-329-0188 </p>
-                      </div>
-                    </div>
-              </div>
+        <div style="width:98.9%;">
+            <div class="row" style="margin-top:60px; padding-top:20px; background-color:#267cd3; color:#ffffff" >
+                <div class="col-md-6" style="vertical-align:middle; text-align:center">
+                    <h4>LIKE US</h4>
+                </div>
+                <div class="col-md-6"  style="vertical-align:middle;">
+                    <h4><u>โรงเรียนสอนขับรถ มิตรร่วมใจ</u></h4>
+                    <p><span class="fa fa-home"></span>&nbsp;โรงเรียนสอนขับรถ มิตรรวมใจ สำนักงานใหญ่ 498 ถ.อ่อนนุช ประเวศ ประเวศ กรุงเทพ 10250 </p> 
+                    <p><span class="fa fa-phone"></span>&nbsp;02-329-0187, 02-329-0188</p>
+                    <p><span class="fa fa-facebook-square"></span>&nbsp;</p>
+                </div>
+            </div>
+        </div>
+        <footer class="footer" style="background-color:black; color:white">
+            <div class="container">
+                <div class="copyright-txt">&copy; Copyright <a href="#">mldriveschool.com</a> 2017 All Rights Reserved </div>
+            </div>
         </footer>
     </main>
 </body>
