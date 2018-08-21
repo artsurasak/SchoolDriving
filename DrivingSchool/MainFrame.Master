@@ -27,6 +27,15 @@
     <script src="../Bootstrape/js/bootstrap.min.js"></script>
     <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
     <script src="../Bootstrape/js/holder.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var url = window.location;
+            $('ul.nav a[href="' + url + '"]').parent().addClass('active');
+            $('ul.nav a').filter(function () {
+                return this.href == url;
+            }).parent().addClass('active');
+        });
+    </script>
 </head>
 <body>
     <header>
@@ -38,7 +47,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="Home.aspx">หน้าแรก</a>
                     </li>
                     <li class="nav-item">
@@ -105,7 +114,7 @@
                 </a>
             </div>
         </div>
-        <div style="background-color:black">
+        <div>
             <asp:ContentPlaceHolder ID="ContentDetail" runat="server"></asp:ContentPlaceHolder>
         </div>
         <div style="width:98.9%;">
