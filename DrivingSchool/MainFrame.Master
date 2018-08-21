@@ -64,8 +64,8 @@
                 <li data-target="#myCarousel" data-slide-to="1"></li>
                 <li data-target="#myCarousel" data-slide-to="2"></li>
             </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
+            <div class="carousel-inner" style="height:450px;">
+                <div class="carousel-item active" style="height:100%" >
                     <img class="first-slide" src="../Img/51525.jpg" alt="SchoolDriving">
                     <div class="container">
                       <div class="carousel-caption text-left">
@@ -75,7 +75,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item" style="height:100%" >
                     <img class="second-slide" src="../Img/51533.jpg" alt="Second slide">
                     <div class="container">
                       <div class="carousel-caption text-left">
@@ -85,7 +85,7 @@
                       </div>
                     </div>
                   </div>
-          <div class="carousel-item">
+          <div class="carousel-item" style="height:100%">
             <img class="third-slide" src="../Img/51540.jpg" alt="Third slide" />
             <div class="container">
               <div class="carousel-caption text-left">
@@ -105,7 +105,7 @@
                 </a>
             </div>
         </div>
-        <div>
+        <div style="background-color:black">
             <asp:ContentPlaceHolder ID="ContentDetail" runat="server"></asp:ContentPlaceHolder>
         </div>
         <div style="width:98.9%;">

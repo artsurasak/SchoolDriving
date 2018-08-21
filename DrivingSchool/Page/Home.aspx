@@ -3,7 +3,7 @@
     หน้าแรก
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentDetail" runat="server">
-     <div class="container marketing">
+     <div class="container marketing" style="background-color:white">
 
         <!-- Three columns of text below the carousel -->
         <div class="row">
