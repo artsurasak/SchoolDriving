@@ -15,7 +15,7 @@
           </div><!-- /.col-lg-4 -->--%>
           <div class="col-lg-4" style="vertical-align:middle; text-align:center">
                  <%-- <img class="rounded-circle" src="Img/Logo/Logo1.PNG" alt="certificate" width="140" height="140" />--%>
-            <img class="rounded-circle" src="Img/Logo/Logo2.PNG" alt="certificate" width="140" height="140" />
+            <img class="rounded-circle" src="../Img/Logo/Logo2.PNG" alt="certificate" width="140" height="140" />
             <h2>มาตรฐาน</h2>
             <p>โดยการรับรองของ กรมการขนส่งทางบก</p>
           </div><!-- /.col-lg-4 -->
@@ -39,7 +39,7 @@
             <p class="lead">แนะนำอุปกรณ์ภายในรถ เช่น เบรก ครัช คันเร่ง (20 นาที) ขับรถเดินหน้าตรง และหยุดรถ เลี้ยวซ้าย เลี้ยวขวา และวงเวียน เดินหน้าเข้าซองตรงและถอยหลังซองตรง</p>
           </div>
           <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" src="Img/51529.jpg" alt="Generic placeholder image">
+            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" src="../Img/51529.jpg" alt="Generic placeholder image">
           </div>
         </div>
 
@@ -54,8 +54,8 @@
             </p>
           </div>
           <div class="col-md-5 order-md-1">
-            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" src="Img/51526.jpg" alt="Footbath">
-            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" src="Img/51528.jpg" alt="Generic placeholder image" />
+            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" src="../Img/51526.jpg" alt="Footbath">
+            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" src="../Img/51528.jpg" alt="Generic placeholder image" />
           </div>
         </div>
 
@@ -68,8 +68,8 @@
                   </p>
               </div>
               <div class="col-md-5">
-                  <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" src="Img/20151008_121206.jpg" alt="Generic placeholder image" />
-                  <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" src="Img/Drive.jpg" alt="Generic placeholder image" />
+                  <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" src="../Img/20151008_121206.jpg" alt="Generic placeholder image" />
+                  <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" src="../Img/Drive.jpg" alt="Generic placeholder image" />
               </div>
           </div>
       </div><!-- /.container -->

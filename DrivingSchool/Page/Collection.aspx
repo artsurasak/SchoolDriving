@@ -1,71 +1,9 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Collection.aspx.cs" Inherits="DrivingSchool.Page.Collection" %>
-
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title>ภาพบรรยากาศ</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="โรงเรียนสอนขับรถ" />
-    <meta name="author" content="" />
-    <link rel="icon" href="" />
-    <link href="../Bootstrape/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="../Bootstrape/css/carousel.css" rel="stylesheet" />
-    <link href="../Stylesheet/SchoolDriver.css" rel="stylesheet" />
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="Bootstrape/js/jquery-slim.min.js"><\/script>')</script>
-    <script src="../Bootstrape/js/popper.min.js"></script>
-    <script src="../Bootstrape/js/bootstrap.min.js"></script>
-    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
-    <script src="../Bootstrape/js/holder.min.js"></script>
-    <style>
-        /*.expandImg{
-        }*/
-        .img_showCase:hover {
-            -ms-transform: scale(1.5); /* IE 9 */
-            -webkit-transform: scale(1.5); /* Safari 3-8 */
-            transform: scale(1.5); 
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-            <a class="navbar-brand" href="../Default.aspx">มิตรร่วมใจ</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="../Default.aspx">หน้าแรก</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="StepWork.aspx">หลักการสอนขับรถยนต์</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Program.aspx">หลักสูตรเปิดสอน</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="Collection.aspx">ภาพบรรยากาศ<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Contact.aspx">ติดต่อเรา</a>
-                    </li>
-                </ul>
-                <%--<form class="form-inline mt-2 mt-md-0">
-                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>--%>
-            </div>
-        </nav>
-    </header>
-    <main role="main">
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MainFrame.Master" AutoEventWireup="true" CodeBehind="Collection.aspx.cs" Inherits="DrivingSchool.Page.Collection" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="Title" runat="server">
+    ภาพบรรยากาศ
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentDetail" runat="server">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                 <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -163,10 +101,4 @@
                 <img class="img_showCase" src="../Img/288580.jpg" />
             </div>
             </div>
-    <footer class="container">
-        <p class="float-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2017-2018 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-      </footer>
-        </main>
-</body>
-</html>
+</asp:Content>

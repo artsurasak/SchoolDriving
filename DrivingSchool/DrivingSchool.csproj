@@ -105,10 +105,12 @@
     <Content Include="Img\Logo\Logo1.PNG" />
     <Content Include="Img\Logo\Logo2.PNG" />
     <Content Include="Img\Logo\Logo2_Clear.png" />
+    <Content Include="Page\Collection.aspx" />
+    <Content Include="Page\Contact.aspx" />
     <Content Include="Page\Home.aspx" />
+    <Content Include="Page\Program.aspx" />
     <Content Include="Page\StepWork.aspx" />
     <Content Include="Stylesheet\SchoolDriver.css" />
-    <Content Include="Default.aspx" />
     <Content Include="Img\51525.jpg" />
     <Content Include="Img\51526.jpg" />
     <Content Include="Img\51527.jpg" />
@@ -130,20 +132,10 @@
     <Content Include="Img\51548.jpg" />
     <Content Include="Img\51550.jpg" />
     <Content Include="Img\51551.jpg" />
-    <Content Include="Page\Collection.aspx" />
-    <Content Include="Page\Contact.aspx" />
-    <Content Include="Page\Program.aspx" />
     <Content Include="Video\23799.t.mp4" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Default.aspx.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Default.aspx.designer.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
-    </Compile>
     <Compile Include="MainFrame.Master.cs">
       <DependentUpon>MainFrame.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
