@@ -21,6 +21,7 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script>window.jQuery || document.write('<script src="Bootstrape/js/jquery-slim.min.js"><\/script>')</script>
     <script src="../Bootstrape/js/popper.min.js"></script>
@@ -29,15 +30,24 @@
     <script src="../Bootstrape/js/holder.min.js"></script>
     <script>
         $(document).ready(function () {
-            var url = window.location;
-            $('ul.nav a[href="' + url + '"]').parent().addClass('active');
-            $('ul.nav a').filter(function () {
-                return this.href == url;
-            }).parent().addClass('active');
+            var links = $('.navbar ul li a');
+            $.each(links, function (key, va) {
+                if (va.href == document.URL) {
+                    $(this).addClass('active');
+                }
+            });
         });
     </script>
 </head>
 <body>
+    <div id="fb-root"></div>
+    <script>(function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/th_TH/sdk.js#xfbml=1&version=v3.1';
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
     <header>
         <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #267cd3;">
             <a class="navbar-brand" href="Home.aspx">
@@ -49,18 +59,23 @@
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="Home.aspx">หน้าแรก</a>
+                        <%--<a class="nav-link" href="#">หน้าแรก</a>--%>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="StepWork.aspx">หลักการสอนขับรถยนต์</a>
+                        <%--<a class="nav-link" href="#">หลักการสอนขับรถยนต์</a>--%>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="Program.aspx">หลักสูตรเปิดสอน</a>
+                        <%--<a class="nav-link" href="#">หลักสูตรเปิดสอน</a>--%>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="Collection.aspx">ภาพบรรยากาศ</a>
+                        <%--<a class="nav-link" href="#">ภาพบรรยากาศ</a>--%>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="Contact.aspx">ติดต่อเรา</a>
+                        <%--<a class="nav-link" href="#">ติดต่อเรา</a>--%>
                     </li>
                 </ul>
             </div>
@@ -118,9 +133,10 @@
             <asp:ContentPlaceHolder ID="ContentDetail" runat="server"></asp:ContentPlaceHolder>
         </div>
         <div style="width:98.9%;">
-            <div class="row" style="margin-top:60px; padding-top:20px; background-color:#267cd3; color:#ffffff" >
+            <div class="row" style="margin-top:60px; padding-top:20px; padding-bottom:20px; background-color:#267cd3; color:#ffffff" >
                 <div class="col-md-6" style="vertical-align:middle; text-align:center">
                     <h4>LIKE US</h4>
+                    <div class="fb-page" data-href="https://www.facebook.com/Mitruemjai/" data-width="400" data-height="200" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Mitruemjai/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Mitruemjai/">มิตรร่วมใจสอนขับรถยนต์ by เสริมศักดิ์</a></blockquote></div>
                 </div>
                 <div class="col-md-6"  style="vertical-align:middle;">
                     <h4><u>โรงเรียนสอนขับรถ มิตรร่วมใจ</u></h4>
