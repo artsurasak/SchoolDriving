@@ -7,31 +7,19 @@
 
         <!-- Three columns of text below the carousel -->
         <div class="row">
-        <%--  <div class="col-lg-4">
-            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-            <h2>Heading</h2>
-            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-          </div><!-- /.col-lg-4 -->--%>
           <div class="col-lg-4" style="vertical-align:middle; text-align:center">
-                 <%-- <img class="rounded-circle" src="Img/Logo/Logo1.PNG" alt="certificate" width="140" height="140" />--%>
+            <img class="rounded-circle" src="../Img/Part2/S__6840322.jpg" alt="certificate" width="140" height="140" />
             <img class="rounded-circle" src="../Img/Logo/Logo2.PNG" alt="certificate" width="140" height="140" />
             <h2>มาตรฐาน</h2>
             <p>โดยการรับรองของ กรมการขนส่งทางบก</p>
-          </div><!-- /.col-lg-4 -->
-          <%--<div class="col-lg-4">
-            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-            <h2>Heading</h2>
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-          </div><!-- /.col-lg-4 -->--%>
-        </div><!-- /.row -->
+          </div>
+        </div>
 
 
         <!-- START THE FEATURETTES -->
 
         <hr class="featurette-divider" />
-          <h2 class="featurette-heading">ขั้นตอนการสอนขับรถ</h2>
+          <h4 class="featurette-heading">ขั้นตอนการสอนขับรถ</h4>
           <hr class="featurette-divider">
         <div class="row featurette">
           <div class="col-md-7">
@@ -55,7 +43,7 @@
           </div>
           <div class="col-md-5 order-md-1">
             <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" src="../Img/51526.jpg" alt="Footbath">
-            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" src="../Img/51528.jpg" alt="Generic placeholder image" />
+            <%--<img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" src="../Img/51528.jpg" alt="Generic placeholder image" />--%>
           </div>
         </div>
 

@@ -90,7 +90,7 @@
             </ol>
             <div class="carousel-inner" style="height:450px;">
                 <div class="carousel-item active" style="height:100%" >
-                    <img class="first-slide" src="../Img/51525.jpg" alt="SchoolDriving">
+                    <img class="first-slide" src="../Img/Part2/S__6840335.jpg" alt="SchoolDriving">
                     <div class="container">
                       <div class="carousel-caption text-left">
                         <h1>โรงเรียนสอนขับรถ มิตรรวมใจ</h1>
@@ -100,7 +100,7 @@
                   </div>
                 </div>
                 <div class="carousel-item" style="height:100%" >
-                    <img class="second-slide" src="../Img/51533.jpg" alt="Second slide">
+                    <img class="second-slide" src="../Img/Part2/S__6840334.jpg" alt="Second slide">
                     <div class="container">
                       <div class="carousel-caption text-left">
                         <h1>โรงเรียนสอนขับรถ มิตรรวมใจ</h1>
@@ -110,7 +110,7 @@
                     </div>
                   </div>
           <div class="carousel-item" style="height:100%">
-            <img class="third-slide" src="../Img/51540.jpg" alt="Third slide" />
+            <img class="third-slide" src="../Img/Part2/S__6840328.jpg" alt="Third slide" />
             <div class="container">
               <div class="carousel-caption text-left">
                    <h1>โรงเรียนสอนขับรถ มิตรรวมใจ</h1>
@@ -142,7 +142,7 @@
                     <h4><u>โรงเรียนสอนขับรถ มิตรร่วมใจ</u></h4>
                     <p><span class="fa fa-home"></span>&nbsp;โรงเรียนสอนขับรถ มิตรรวมใจ สำนักงานใหญ่ 498 ถ.อ่อนนุช ประเวศ ประเวศ กรุงเทพ 10250 </p> 
                     <p><span class="fa fa-phone"></span>&nbsp;02-329-0187, 02-329-0188</p>
-                    <p><span class="fa fa-facebook-square"></span>&nbsp;</p>
+                    <p><span class="fa fa-facebook-square">&nbsp;<a style="color:black;" href="https://th-th.facebook.com/Mitruemjai/">Mitruemjai Mitr</a></span>&nbsp;</p>
                 </div>
             </div>
         </div>

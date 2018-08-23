@@ -1,5 +1,11 @@
 ﻿body {
-    font-family: 'Kanit', sans-serif;
+    /*font-family: 'Angsana New';*/
+    font-family:Ekkamai;
+}
+
+@font-face {
+    font-family: Ekkamai;
+    src: url('../font/EkkamaiStandard-Light.ttf');
 }
 
 .navbar-brand{

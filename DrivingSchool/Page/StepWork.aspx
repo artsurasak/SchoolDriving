@@ -8,8 +8,8 @@
         <h1>หลักการสอนขับรถยนต์</h1>
         <ul>
             <li class="bodyText">สอนด้วยรถเก๋งติดแอร์ และรถกระบะติดแอร์ สภาพดี</li>
-            <li class="bodyText" style="list-style-type: none;">
-                <img src="../Img/1521886235998.jpg" style="width: 400px; margin-left: 100px; height: 300px; background-repeat: no-repeat" /></li>
+            <%--<li class="bodyText" style="list-style-type: none;">
+                <img src="../Img/1521886235998.jpg" style="width: 400px; margin-left: 100px; height: 300px; background-repeat: no-repeat" /></li>--%>
             <li class="bodyText">สอนทฤษฎีและปฏิบัติควบคู่กัน เน้นประสบการณ์จริงบนถนน</li>
             <li class="bodyText">ผู้สอนมีทักษะในการสอน โดนจะสอนแบบคนต่อคน</li>
             <li class="bodyText">สอนโดยครูผู้มีประสบการณ์และมีหลักการสอนอย่างถูกวิธีใจเย็น</li>
