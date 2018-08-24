@@ -51,7 +51,9 @@
     <header>
         <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #267cd3;">
             <a class="navbar-brand" href="Home.aspx">
-                <img src="../Img/Logo/Logo2_Clear.png" alt="certificate" width="35" height="35" /></a>
+                <img src="../Img/Logo/Logo2_Clear.png" alt="certificate" width="35" height="35" />
+                <%--<img src="../Img/Part2/S__6840322.png" alt="certificate" width="35" height="35" />--%>
+            </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -93,9 +95,9 @@
                     <img class="first-slide" src="../Img/Part2/S__6840335.jpg" alt="SchoolDriving">
                     <div class="container">
                       <div class="carousel-caption text-left">
-                        <h1>โรงเรียนสอนขับรถ มิตรรวมใจ</h1>
-                        <h4>เรียนพร้อมสอบใบขับขี่ที่นี่ได้เลย รับรองโดยกรมการขนส่งทางบก</h4>
-                          <h4>โทร 02-329-0187, 02-329-0188</h4>
+                        <%--<h1 style="color:#ffffff; text-shadow:0.1em 0.1em 0.2em black; font-weight:bold;">โรงเรียนสอนขับรถ มิตรรวมใจ</h1>--%>
+                     <%--   <h4 style="color: blue; text-shadow: black 0.1em 0.1em 0.2em; font-weight:bold;">เรียนพร้อมสอบใบขับขี่ที่นี่ได้เลย รับรองโดยกรมการขนส่งทางบก</h4>
+                          <h4 style="color:#ffffff; text-shadow:0.05em 0.05em 0.2em black; font-weight:bold;">โทร 02-329-0187, 02-329-0188</h4>--%>
                     </div>
                   </div>
                 </div>
@@ -103,9 +105,9 @@
                     <img class="second-slide" src="../Img/Part2/S__6840334.jpg" alt="Second slide">
                     <div class="container">
                       <div class="carousel-caption text-left">
-                        <h1>โรงเรียนสอนขับรถ มิตรรวมใจ</h1>
-                        <h4>เรียนพร้อมสอบใบขับขี่ที่นี่ได้เลย รับรองโดยกรมการขนส่งทางบก</h4>
-                        <h4>โทร 02-329-0187, 02-329-0188</h4>
+                        <h1 style="color:#ffffff; text-shadow:0.1em 0.1em 0.2em black; font-weight:bold;">โรงเรียนสอนขับรถ มิตรรวมใจ</h1>
+                        <h4 style="color:#ffffff; text-shadow:0.1em 0.1em 0.2em black; font-weight:bold;">เรียนพร้อมสอบใบขับขี่ที่นี่ได้เลย รับรองโดยกรมการขนส่งทางบก</h4>
+                        <h4 style="color:#ffffff; text-shadow:0.1em 0.1em 0.2em black; font-weight:bold;">โทร 02-329-0187, 02-329-0188</h4>
                       </div>
                     </div>
                   </div>
@@ -113,9 +115,9 @@
             <img class="third-slide" src="../Img/Part2/S__6840328.jpg" alt="Third slide" />
             <div class="container">
               <div class="carousel-caption text-left">
-                   <h1>โรงเรียนสอนขับรถ มิตรรวมใจ</h1>
-                <h4>เรียนพร้อมสอบใบขับขี่ที่นี่ได้เลย รับรองโดยกรมการขนส่งทางบก</h4>
-                <h4>โทร 02-329-0187, 02-329-0188</h4>
+                   <h1 style="color:#ffffff; text-shadow:0.1em 0.1em 0.2em black; font-weight:bold;">โรงเรียนสอนขับรถ มิตรรวมใจ</h1>
+                <h4 style="color:#ffffff; text-shadow:0.1em 0.1em 0.2em black; font-weight:bold;">เรียนพร้อมสอบใบขับขี่ที่นี่ได้เลย รับรองโดยกรมการขนส่งทางบก</h4>
+                <h4 style="color:#ffffff; text-shadow:0.1em 0.1em 0.2em black; font-weight:bold;">โทร 02-329-0187, 02-329-0188</h4>
               </div>
             </div>
           </div>

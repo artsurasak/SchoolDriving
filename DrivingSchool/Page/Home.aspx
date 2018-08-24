@@ -8,7 +8,7 @@
         <!-- Three columns of text below the carousel -->
         <div class="row">
           <div class="col-lg-4" style="vertical-align:middle; text-align:center">
-            <img class="rounded-circle" src="../Img/Part2/S__6840322.jpg" alt="certificate" width="140" height="140" />
+            <img class="rounded-circle" src="../Img/Part2/S__6840322.png" alt="certificate" width="140" height="140" />
             <img class="rounded-circle" src="../Img/Logo/Logo2.PNG" alt="certificate" width="140" height="140" />
             <h2>มาตรฐาน</h2>
             <p>โดยการรับรองของ กรมการขนส่งทางบก</p>
