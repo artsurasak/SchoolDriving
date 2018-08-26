@@ -130,6 +130,16 @@
     <Content Include="Img\Logo\Logo1.PNG" />
     <Content Include="Img\Logo\Logo2.PNG" />
     <Content Include="Img\Logo\Logo2_Clear.png" />
+    <Content Include="Page\Branch.aspx" />
+    <Content Include="Page\BranchBang.aspx" />
+    <Content Include="Page\BranchDin.aspx" />
+    <Content Include="Page\BranchLad30.aspx" />
+    <Content Include="Page\BranchLad54.aspx" />
+    <Content Include="Page\BranchLadP.aspx" />
+    <Content Include="Page\BranchMin.aspx" />
+    <Content Include="Page\BranchPhra.aspx" />
+    <Content Include="Page\BranchRam.aspx" />
+    <Content Include="Page\BranchSri.aspx" />
     <Content Include="Page\Collection.aspx" />
     <Content Include="Page\CollectionImg\Teach\Default.aspx" />
     <Content Include="Page\CollectionTeach.aspx" />
@@ -138,6 +148,7 @@
     <Content Include="Page\Contact.aspx" />
     <Content Include="Page\Home.aspx" />
     <Content Include="Page\Program.aspx" />
+    <Content Include="Page\Register.aspx" />
     <Content Include="Page\StepWork.aspx" />
     <Content Include="Stylesheet\SchoolDriver.css" />
     <Content Include="Img\51525.jpg" />
@@ -171,6 +182,76 @@
     </Compile>
     <Compile Include="MainFrame.Master.designer.cs">
       <DependentUpon>MainFrame.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Page\Branch.aspx.cs">
+      <DependentUpon>Branch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\Branch.aspx.designer.cs">
+      <DependentUpon>Branch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\BranchBang.aspx.cs">
+      <DependentUpon>BranchBang.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\BranchBang.aspx.designer.cs">
+      <DependentUpon>BranchBang.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\BranchDin.aspx.cs">
+      <DependentUpon>BranchDin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\BranchDin.aspx.designer.cs">
+      <DependentUpon>BranchDin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\BranchLad30.aspx.cs">
+      <DependentUpon>BranchLad30.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\BranchLad30.aspx.designer.cs">
+      <DependentUpon>BranchLad30.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\BranchLad54.aspx.cs">
+      <DependentUpon>BranchLad54.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\BranchLad54.aspx.designer.cs">
+      <DependentUpon>BranchLad54.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\BranchLadP.aspx.cs">
+      <DependentUpon>BranchLadP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\BranchLadP.aspx.designer.cs">
+      <DependentUpon>BranchLadP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\BranchMin.aspx.cs">
+      <DependentUpon>BranchMin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\BranchMin.aspx.designer.cs">
+      <DependentUpon>BranchMin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\BranchPhra.aspx.cs">
+      <DependentUpon>BranchPhra.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\BranchPhra.aspx.designer.cs">
+      <DependentUpon>BranchPhra.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\BranchRam.aspx.cs">
+      <DependentUpon>BranchRam.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\BranchRam.aspx.designer.cs">
+      <DependentUpon>BranchRam.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\BranchSri.aspx.cs">
+      <DependentUpon>BranchSri.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\BranchSri.aspx.designer.cs">
+      <DependentUpon>BranchSri.aspx</DependentUpon>
     </Compile>
     <Compile Include="Page\Collection.aspx.cs">
       <DependentUpon>Collection.aspx</DependentUpon>
@@ -227,6 +308,13 @@
     </Compile>
     <Compile Include="Page\Program.aspx.designer.cs">
       <DependentUpon>Program.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
     </Compile>
     <Compile Include="Page\StepWork.aspx.cs">
       <DependentUpon>StepWork.aspx</DependentUpon>

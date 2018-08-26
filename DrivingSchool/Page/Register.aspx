@@ -1,0 +1,74 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MainFrame.Master" AutoEventWireup="true" CodeBehind="Register.aspx.cs" Inherits="DrivingSchool.Page.Register" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="Title" runat="server">
+    สมัครเรียน
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentDetail" runat="server">
+    <div style="margin-left: 50px;">
+        <h1>สมัครเรียนขับรถต์</h1>
+        <form runat="server">
+            <asp:Table runat="server" Style="border-spacing: 5px;">
+                <asp:TableRow Style="padding: 10px;">
+                    <asp:TableCell Style="padding: 10px;">ชื่อ-นามสกุล</asp:TableCell>
+                    <asp:TableCell Style="padding: 10px;">
+                        <asp:TextBox ID="txtName" CssClass="form-control" runat="server"></asp:TextBox></asp:TableCell>
+                </asp:TableRow>
+                <asp:TableRow>
+                    <asp:TableCell Style="padding: 10px;">อายุ</asp:TableCell>
+                    <asp:TableCell Style="padding: 10px;">
+                        <asp:TextBox ID="txtAge" CssClass="form-control" runat="server"></asp:TextBox></asp:TableCell>
+                </asp:TableRow>
+                <asp:TableRow>
+                    <asp:TableCell Style="padding: 10px;">เลขบัตรประชาชน</asp:TableCell>
+                    <asp:TableCell Style="padding: 10px;">
+                        <asp:TextBox ID="txtID" CssClass="form-control" runat="server"></asp:TextBox></asp:TableCell>
+                </asp:TableRow>
+                <asp:TableRow>
+                    <asp:TableCell Style="padding: 10px;">Email</asp:TableCell>
+                    <asp:TableCell Style="padding: 10px;">
+                        <asp:TextBox ID="txtEmail" CssClass="form-control" runat="server"></asp:TextBox></asp:TableCell>
+                </asp:TableRow>
+                <asp:TableRow>
+                    <asp:TableCell Style="padding: 10px;">หมายเลขโทรศัพท์</asp:TableCell>
+                    <asp:TableCell Style="padding: 10px;">
+                        <asp:TextBox ID="txtTel" CssClass="form-control" runat="server"></asp:TextBox></asp:TableCell>
+                </asp:TableRow>
+                <asp:TableRow>
+                    <asp:TableCell Style="padding: 10px;">หลักสูตร</asp:TableCell>
+                    <asp:TableCell Style="padding: 10px;">
+                        <asp:DropDownList ID="ddlCourse" CssClass="form-control" runat="server">
+                            <asp:ListItem Value="15" Text="หลักสูตรสอนขับรถยนต์ 15 ชั่วโมง"></asp:ListItem>
+                            <asp:ListItem Value="6" Text="หลักสูตรเรียนขับรถ (ที่ไม่สอบใบขับขี่) 6 ชั่วโมง"></asp:ListItem>
+                            <asp:ListItem Value="10" Text="หลักสูตรเรียนขับรถ (ที่ไม่สอบใบขับขี่) 10 ชั่วโมง"></asp:ListItem>
+                        </asp:DropDownList>
+                    </asp:TableCell>
+                </asp:TableRow>
+                <asp:TableRow>
+                    <asp:TableCell Style="padding: 10px;" ColumnSpan="2" HorizontalAlign="Center">
+                        <asp:Button CssClass="btn btn-primary" runat="server" Text="สมัครเรียน" />
+                    </asp:TableCell>
+                </asp:TableRow>
+            </asp:Table>
+            <hr />
+            <div>
+                <h3>คุณสมบัติผู้สมัครเรียน</h3>
+                <ul>
+                    <li>ต้องมีอายุไม่ต่ำกว่า 15 ปี สำหรับหลักสูตรสอนขับรถจักรยานยนต์ และ และ อายุ 18 ปีบริบูรณ์ สำหรับ หลักสูตรสอนขับรถยนต์</li>
+                    <li>ไม่เป็นผู้พิการทางสายตา</li>
+                    <li>ไม่มีอาการตาบอดสี</li>
+                </ul>
+            </div>
+            <hr />
+            <div>
+                <h3>หลักฐานการสอบใบอนุญาตขับขี่</h3>
+                <ul >
+                    <li>อายุ 18 ปี</li>
+                    <li>บัตรประชาชน</li>
+                    <li>รูปถ่ายขนาด 1 นิ้ว 4 รูป</li>
+                    <li>ใบรับรองแพทย์</li>
+                    <li>พาสสปอร์ต (สำหรับชาวต่างชาติ)</li>
+                </ul>
+            </div>
+        </form>
+    </div>
+</asp:Content>

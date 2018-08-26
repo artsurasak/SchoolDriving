@@ -61,23 +61,24 @@
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="Home.aspx">หน้าแรก</a>
-                        <%--<a class="nav-link" href="#">หน้าแรก</a>--%>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="StepWork.aspx">หลักการสอนขับรถยนต์</a>
-                        <%--<a class="nav-link" href="#">หลักการสอนขับรถยนต์</a>--%>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="Program.aspx">หลักสูตรเปิดสอน</a>
-                        <%--<a class="nav-link" href="#">หลักสูตรเปิดสอน</a>--%>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Register.aspx">สมัครเรียน</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Branch.aspx">จุดรับสมัคร</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="Collection.aspx">ภาพบรรยากาศ</a>
-                        <%--<a class="nav-link" href="#">ภาพบรรยากาศ</a>--%>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="Contact.aspx">ติดต่อเรา</a>
-                        <%--<a class="nav-link" href="#">ติดต่อเรา</a>--%>
                     </li>
                 </ul>
             </div>
