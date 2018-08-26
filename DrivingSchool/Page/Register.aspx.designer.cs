@@ -13,6 +13,15 @@ namespace DrivingSchool.Page {
     public partial class Register {
         
         /// <summary>
+        /// lblName control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblName;
+        
+        /// <summary>
         /// txtName control.
         /// </summary>
         /// <remarks>
@@ -20,6 +29,15 @@ namespace DrivingSchool.Page {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtName;
+        
+        /// <summary>
+        /// lblAge control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblAge;
         
         /// <summary>
         /// txtAge control.
@@ -31,6 +49,15 @@ namespace DrivingSchool.Page {
         protected global::System.Web.UI.WebControls.TextBox txtAge;
         
         /// <summary>
+        /// lblIdCard control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblIdCard;
+        
+        /// <summary>
         /// txtID control.
         /// </summary>
         /// <remarks>
@@ -38,6 +65,15 @@ namespace DrivingSchool.Page {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtID;
+        
+        /// <summary>
+        /// lblEmail control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblEmail;
         
         /// <summary>
         /// txtEmail control.
@@ -49,6 +85,15 @@ namespace DrivingSchool.Page {
         protected global::System.Web.UI.WebControls.TextBox txtEmail;
         
         /// <summary>
+        /// lblTel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblTel;
+        
+        /// <summary>
         /// txtTel control.
         /// </summary>
         /// <remarks>
@@ -58,6 +103,15 @@ namespace DrivingSchool.Page {
         protected global::System.Web.UI.WebControls.TextBox txtTel;
         
         /// <summary>
+        /// lblCourse control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblCourse;
+        
+        /// <summary>
         /// ddlCourse control.
         /// </summary>
         /// <remarks>
@@ -65,5 +119,14 @@ namespace DrivingSchool.Page {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddlCourse;
+        
+        /// <summary>
+        /// btnSubmit control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnSubmit;
     }
 }

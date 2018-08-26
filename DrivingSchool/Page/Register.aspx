@@ -9,32 +9,32 @@
         <form runat="server">
             <asp:Table runat="server" Style="border-spacing: 5px;">
                 <asp:TableRow Style="padding: 10px;">
-                    <asp:TableCell Style="padding: 10px;">ชื่อ-นามสกุล</asp:TableCell>
+                    <asp:TableCell Style="padding: 10px;"><asp:Label ID="lblName" runat="server">ชื่อ-นามสกุล</asp:Label></asp:TableCell>
                     <asp:TableCell Style="padding: 10px;">
                         <asp:TextBox ID="txtName" CssClass="form-control" runat="server"></asp:TextBox></asp:TableCell>
                 </asp:TableRow>
                 <asp:TableRow>
-                    <asp:TableCell Style="padding: 10px;">อายุ</asp:TableCell>
+                    <asp:TableCell Style="padding: 10px;"><asp:Label ID="lblAge" runat="server">อายุ</asp:Label></asp:TableCell>
                     <asp:TableCell Style="padding: 10px;">
                         <asp:TextBox ID="txtAge" CssClass="form-control" runat="server"></asp:TextBox></asp:TableCell>
                 </asp:TableRow>
                 <asp:TableRow>
-                    <asp:TableCell Style="padding: 10px;">เลขบัตรประชาชน</asp:TableCell>
-                    <asp:TableCell Style="padding: 10px;">
+                    <asp:TableCell Style="padding: 10px;"><asp:Label ID="lblIdCard" runat="server">เลขบัตรประชาชน</asp:Label></asp:TableCell>
+                    <asp:TableCell Style="padding: 10px;"> 
                         <asp:TextBox ID="txtID" CssClass="form-control" runat="server"></asp:TextBox></asp:TableCell>
                 </asp:TableRow>
                 <asp:TableRow>
-                    <asp:TableCell Style="padding: 10px;">Email</asp:TableCell>
+                    <asp:TableCell Style="padding: 10px;"><asp:Label ID="lblEmail" runat="server">Email</asp:Label></asp:TableCell>
                     <asp:TableCell Style="padding: 10px;">
                         <asp:TextBox ID="txtEmail" CssClass="form-control" runat="server"></asp:TextBox></asp:TableCell>
                 </asp:TableRow>
                 <asp:TableRow>
-                    <asp:TableCell Style="padding: 10px;">หมายเลขโทรศัพท์</asp:TableCell>
+                    <asp:TableCell Style="padding: 10px;"><asp:Label ID="lblTel" runat="server">หมายเลขโทรศัพท์</asp:Label></asp:TableCell>
                     <asp:TableCell Style="padding: 10px;">
                         <asp:TextBox ID="txtTel" CssClass="form-control" runat="server"></asp:TextBox></asp:TableCell>
                 </asp:TableRow>
                 <asp:TableRow>
-                    <asp:TableCell Style="padding: 10px;">หลักสูตร</asp:TableCell>
+                    <asp:TableCell Style="padding: 10px;"><asp:Label ID="lblCourse" runat="server">หลักสูตร</asp:Label></asp:TableCell>
                     <asp:TableCell Style="padding: 10px;">
                         <asp:DropDownList ID="ddlCourse" CssClass="form-control" runat="server">
                             <asp:ListItem Value="15" Text="หลักสูตรสอนขับรถยนต์ 15 ชั่วโมง"></asp:ListItem>
@@ -45,7 +45,7 @@
                 </asp:TableRow>
                 <asp:TableRow>
                     <asp:TableCell Style="padding: 10px;" ColumnSpan="2" HorizontalAlign="Center">
-                        <asp:Button CssClass="btn btn-primary" runat="server" Text="สมัครเรียน" />
+                        <asp:Button CssClass="btn btn-primary" runat="server" ID="btnSubmit" Text="สมัครเรียน" OnClick="btnSubmit_Click" />
                     </asp:TableCell>
                 </asp:TableRow>
             </asp:Table>
