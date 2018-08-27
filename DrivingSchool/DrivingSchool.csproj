@@ -57,6 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Bootstrape\css\album.css" />
     <Content Include="Bootstrape\css\bootstrap-grid.css.map" />
     <Content Include="Bootstrape\css\bootstrap-grid.min.css.map" />
     <Content Include="Bootstrape\css\bootstrap-reboot.css.map" />
@@ -69,6 +70,9 @@
     <Content Include="Bootstrape\js\bootstrap.bundle.min.js.map" />
     <Content Include="Bootstrape\js\bootstrap.js.map" />
     <Content Include="Bootstrape\js\bootstrap.min.js.map" />
+    <Content Include="Img\87776.jpg" />
+    <Content Include="Img\Contact.jpg" />
+    <Content Include="Img\Course.jpg" />
     <Content Include="Img\Part2\S__6840322.jpg" />
     <Content Include="Img\Part2\S__6840322.png" />
     <Content Include="Img\Part2\S__6840323.jpg" />
@@ -93,6 +97,7 @@
     <Content Include="Img\Part2\S__6840346.jpg" />
     <Content Include="Img\Part2\S__6840347.jpg" />
     <Content Include="Img\Part2\S__6840348.jpg" />
+    <Content Include="Img\Register.jpg" />
     <Content Include="MainFrame.Master" />
     <Content Include="font\EkkamaiStandard-Light.ttf" />
     <None Include="Web.Debug.config">
