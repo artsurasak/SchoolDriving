@@ -13,5 +13,20 @@ namespace DrivingSchool.Page
         {
 
         }
+
+        protected void btnCourse_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Program.aspx");
+        }
+
+        protected void btnRegister_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Register.aspx");
+        }
+
+        protected void btnContact_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Contact.aspx");
+        }
     }
 }
