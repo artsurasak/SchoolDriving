@@ -21,3 +21,42 @@
     height:20%;
     margin:0px 5px 5px 5px;
 }
+
+.headerDTL{
+    margin-left:60px;
+}
+
+.txtBranch{
+    padding-top:20px;
+}
+
+.underline{
+    margin-left:400px;
+    margin-right:400px;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+.underlineRegis{
+    margin-left:100px;
+    margin-right:100px;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+.liText{
+    font-size:18px;
+    padding-bottom:10px;
+    padding-top:10px;
+}
+
+.trHead{
+    background-color: #808080; 
+    font-size: 26px; 
+    color: white;
+    font-weight:bold;
+}
+
+.trBody{
+    font-size: 20px; 
+}

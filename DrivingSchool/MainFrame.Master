@@ -136,7 +136,7 @@
             <asp:ContentPlaceHolder ID="ContentDetail" runat="server"></asp:ContentPlaceHolder>
         </div>
         <div style="width:98.9%;">
-            <div class="row" style="margin-top:60px; padding-top:20px; padding-bottom:20px; background-color:#267cd3; color:#ffffff" >
+            <div class="row" style="margin-top:60px; padding-top:20px; padding-bottom:20px; background-color:#8da3ba; color:#ffffff" >
                 <div class="col-md-6" style="vertical-align:middle; text-align:center">
                     <h4>LIKE US</h4>
                     <div class="fb-page" data-href="https://www.facebook.com/Mitruemjai/" data-width="400" data-height="200" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Mitruemjai/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Mitruemjai/">มิตรร่วมใจสอนขับรถยนต์ by เสริมศักดิ์</a></blockquote></div>
