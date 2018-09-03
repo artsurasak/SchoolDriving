@@ -34,6 +34,16 @@
                         <asp:TextBox ID="txtTel" CssClass="form-control" runat="server"></asp:TextBox></asp:TableCell>
                 </asp:TableRow>
                 <asp:TableRow>
+                    <asp:TableCell Style="padding: 10px;"><asp:Label ID="Label1" runat="server">จุดสมัครเรียน</asp:Label></asp:TableCell>
+                    <asp:TableCell Style="padding: 10px;">
+                        <asp:DropDownList ID="ddlBranch" CssClass="form-control" runat="server">
+                            <asp:ListItem Value="Main" Text="สำนักงานใหญ่" Selected="True"></asp:ListItem>
+                            <asp:ListItem Value="6" Text="หลักสูตรเรียนขับรถ (ที่ไม่สอบใบขับขี่) 6 ชั่วโมง"></asp:ListItem>
+                            <asp:ListItem Value="10" Text="หลักสูตรเรียนขับรถ (ที่ไม่สอบใบขับขี่) 10 ชั่วโมง"></asp:ListItem>
+                        </asp:DropDownList>
+                    </asp:TableCell>
+                </asp:TableRow>
+                <asp:TableRow>
                     <asp:TableCell Style="padding: 10px;"><asp:Label ID="lblCourse" runat="server">หลักสูตร</asp:Label></asp:TableCell>
                     <asp:TableCell Style="padding: 10px;">
                         <asp:DropDownList ID="ddlCourse" CssClass="form-control" runat="server">

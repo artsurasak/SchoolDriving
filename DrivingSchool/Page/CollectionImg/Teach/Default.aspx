@@ -4,7 +4,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentDetail" runat="server">
     <div id="container" style="margin-left: 50px;">
-        <h4 class="featurette-heading">รูปภาพบรรยากาศการเรียนการสอนของโรงเรียน มิตรรวมใจ</h4>
+        <h4 class="featurette-heading">รูปภาพบรรยากาศการเรียนการสอนของโรงเรียน มิตรร่วมใจ</h4>
         <hr />
 
         <h3 style="margin-left: 50px; font-weight: bold;">บรรยากาศการเรียนการสอน</h3>

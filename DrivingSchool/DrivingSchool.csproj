@@ -71,6 +71,10 @@
     <Content Include="Bootstrape\js\bootstrap.js.map" />
     <Content Include="Bootstrape\js\bootstrap.min.js.map" />
     <Content Include="Img\87776.jpg" />
+    <Content Include="Img\Branch\Bang\109549.jpg" />
+    <Content Include="Img\Branch\Ram\109548.jpg" />
+    <Content Include="Img\Branch\Rom9\3543.jpg" />
+    <Content Include="Img\Branch\Rom9\S__6758408.jpg" />
     <Content Include="Img\Contact.jpg" />
     <Content Include="Img\Course.jpg" />
     <Content Include="Img\Part2\S__6840322.jpg" />

@@ -6,7 +6,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentDetail" runat="server">
     <div id="container" style="margin-left: 50px; margin-right:150px;">
         <%--<h2>ติดต่อโรงเรียนสอนขับรถ</h2>--%>
-        <h2>ติดต่อโรงเรียนสอนขับรถ มิตรรวมใจ พร้อม สอบใบขับขี่ ได้ที่</h2>
+        <h2>ติดต่อโรงเรียนสอนขับรถ มิตรร่วมใจ พร้อม สอบใบขับขี่ ได้ที่</h2>
         <h2>(ทั้งภาคทฤษฎี และ ภาคปฏิบัติ)</h2>
         <div align="center" style="margin-top:20px; margin-bottom:20px;">
             <img src="../Img/51551.jpg" style="border: solid; margin-left: 50px; margin-right: 50px; height: 450px; width: 600px;" align="left" />
@@ -19,7 +19,7 @@
         <div style="margin-left: 50px;">
             <h2>ติดต่อโรงเรียนสอนขับรถ</h2>
             <hr />
-            <h4>โรงเรียนสอนขับรถ มิตรรวมใจ สำนักงานใหญ่ 498 ถนน.อ่อนนุช แขวง ประเวศ เขต.ประเวศ กรุงเทพมหานคร 10250</h4>
+            <h4>โรงเรียนสอนขับรถ มิตรร่วมใจ สำนักงานใหญ่ 498 ถนน.อ่อนนุช แขวง ประเวศ เขต.ประเวศ กรุงเทพมหานคร 10250</h4>
             <h5>โทร 02-329-0187, 02-329-0188 </h5>
         </div>
     </div>

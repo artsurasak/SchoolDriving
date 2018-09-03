@@ -6,11 +6,11 @@
     <h1 class="headerDTL">จุดรับสมัคร</h1>
         <hr />
         <div class="row">
-            <%--<div class="col-lg-4" style="vertical-align: middle; text-align: center">
-                <a href="#"><img class="rounded-circle" src="../Img/Part2/S__6840346.jpg" alt="certificate" width="200" height="200" /></a>
-                <h4>สาขา ร่มเกล้า</h4>
-            </div>
             <div class="col-lg-4" style="vertical-align: middle; text-align: center">
+                <a href="#"><img class="rounded-circle" src="../Img/Branch/Rom9/S__6758408.jpg" alt="certificate" width="200" height="200" /></a>
+                <h4 class="txtBranch">สาขา ร่มเกล้า</h4>
+            </div>
+            <%--<div class="col-lg-4" style="vertical-align: middle; text-align: center">
                 <a href="#"><img class="rounded-circle" src="../Img/Part2/S__6840342.jpg" alt="certificate" width="200" height="200" /></a>
                 <h4>สาขา สุวรรณภูมิ</h4>
             </div>--%>
@@ -31,11 +31,11 @@
                 <h4 class="txtBranch">สาขา ลาดกระบัง 30</h4>
             </div>
             <div class="col-lg-4" style="vertical-align: middle; margin-bottom:30px; text-align: center">
-                <a href="BranchBang.aspx"><img class="rounded-circle" src="../Img/Part2/S__6840336.jpg" alt="certificate" width="200" height="200" /></a>
+                <a href="BranchBang.aspx"><img class="rounded-circle" src="../Img/Branch/Bang/109549.jpg" alt="certificate" width="200" height="200" /></a>
                 <h4 class="txtBranch">สาขา บางกะปิ</h4>
             </div>
             <div class="col-lg-4" style="vertical-align: middle; margin-bottom:30px; text-align: center">
-                <a href="BranchRam.aspx"><img class="rounded-circle" src="../Img/Part2/S__6840336.jpg" alt="certificate" width="200" height="200" /></a>
+                <a href="BranchRam.aspx"><img class="rounded-circle" src="../Img/Branch/Ram/109548.jpg" alt="certificate" width="200" height="200" /></a>
                 <h4 class="txtBranch">สาขา รามคำแหง</h4>
             </div>
             <div class="col-lg-4" style="vertical-align: middle; margin-bottom:30px; text-align: center">

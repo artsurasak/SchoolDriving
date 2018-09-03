@@ -40,7 +40,8 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div style="padding: 15px; background-color: white;">
-                                <img class="card-img-top" src="../Img/Course.jpg" alt="Course">
+                                <a href="Program.aspx" runat="server">
+                                    <img class="card-img-top" src="../Img/Course.jpg" alt="Course" /></a>
                                 <div class="card-body">
                                     <h5>หลักสูตรที่เปิดสอน</h5>
                                     <div class="d-flex justify-content-between align-items-center">
@@ -54,7 +55,8 @@
                         </div>
                         <div class="col-md-4">
                             <div style="padding: 15px; background-color: white;">
-                                <img class="card-img-top" src="../Img/Register.jpg" alt="Register">
+                                <a href="Register.aspx" runat="server">
+                                    <img class="card-img-top" src="../Img/Register.jpg" alt="Register" /></a>
                                 <div class="card-body">
                                     <h5>สมัครเรียนออนไลน์</h5>
                                     <div class="d-flex justify-content-between align-items-center">
@@ -68,7 +70,8 @@
                         </div>
                         <div class="col-md-4">
                             <div style="padding: 15px; background-color: white;">
-                                <img class="card-img-top" src="../Img/Contact.jpg" alt="Contact">
+                                <a href="Contact.aspx" runat="server">
+                                    <img class="card-img-top" src="../Img/Contact.jpg" alt="Contact" /></a>
                                 <div class="card-body">
                                     <h5>ติดต่อเรา</h5>
                                     <div class="d-flex justify-content-between align-items-center">
