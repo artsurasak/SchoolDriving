@@ -7,17 +7,12 @@
         <h3>สาขารามคำแหง</h3>
         <hr />
         <div align="center">
-            <img src="../Img/51551.jpg" style="border: solid; margin-left: 50px; margin-right: 50px; height: 450px; width: 600px;" align="left" />
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1350.7118234187124!2d100.70766894388183!3d13.720946809836686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x311d60d36b39653b%3A0x511f2df28ed84481!2z4LmC4Lij4LiH4LmA4Lij4Li14Lii4LiZIOC4oeC4tOC4leC4o-C4o-C5iOC4p-C4oeC5g-C4iCDguKrguK3guJnguILguLHguJrguKPguJbguKLguJnguJXguYw!5e0!3m2!1sth!2sth!4v1518844760414" width="600" height="450" frameborder="0" style="border: 0" allowfullscreen></iframe>
-            <%--<div>
-            <span>รูปภาพแผนที่โรงเรียนสอนชับรถ มืตรรวมใจ</span>
-        </div>
-         <div style="clear:both;"></div>--%>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1914.7982179808978!2d100.63297309462867!3d13.761775117743795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x311d61efae1a7a3d%3A0xf9f5d39a48089551!2z4LiL4Lit4LiiIOC4o-C4suC4oeC4hOC4s-C5geC4q-C4hyA3OS8yIOC5geC4guC4p-C4hyDguKvguLHguKfguKvguKHguLLguIEg4LmA4LiC4LiVIOC4muC4suC4h-C4geC4sOC4m-C4tCDguIHguKPguLjguIfguYDguJfguJ7guKHguKvguLLguJnguITguKMgMTAyNDA!5e0!3m2!1sth!2sth!4v1536074323024" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
         <div style="margin-left: 50px;">
             <h3>ติดต่อโรงเรียนสอนขับรถ</h3>
-            <h4>โรงเรียนสอนขับรถ มิตรรวมใจ สำนักงานใหญ่ 498 ถนน.อ่อนนุช แขวง ประเวศ เขต.ประเวศ กรุงเทพมหานคร 10250</h4>
-            <h5>โทร 02-329-0187, 02-329-0188 </h5>
+            <h4>โรงเรียนสอนขับรถ มิตรร่วมใจ สาขารามคำแหง เลขที่2857 ซอยรามคำแหง 79/2 ถนนรามคำแหง แขวงหัวหมาก เขตบางกะปิ กรุงเทพ 10240</h4>
+            <h5>โทร 081-303-3992.อ.ประดิษฐ </h5>
         </div>
     </div>
 </asp:Content>

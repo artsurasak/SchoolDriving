@@ -15,7 +15,7 @@
                 <h4>สาขา สุวรรณภูมิ</h4>
             </div>--%>
             <div class="col-lg-4" style="vertical-align: middle; margin-bottom:30px; text-align: center">
-                <a href="BranchLad54.aspx" ><img class="rounded-circle" src="../Img/Part2/S__6840336.jpg" alt="certificate" width="200" height="200" /></a>
+                <a href="BranchLad54.aspx" ><img class="rounded-circle" src="../Img/Branch/Lad54/89572.jpg" alt="certificate" width="200" height="200" /></a>
                 <h4 class="txtBranch">สาขา ลาดกระบัง (ปากซอย 54)</h4>
             </div>
             <div class="col-lg-4" style="vertical-align: middle; margin-bottom:30px; text-align: center">
@@ -43,7 +43,7 @@
                 <h4 class="txtBranch">สาขา ลาดพร้าว (โชคชัย 4)</h4>
             </div>
             <div class="col-lg-4" style="vertical-align: middle; margin-bottom:30px; text-align: center">
-                <a href="BranchSri.aspx"><img class="rounded-circle" src="../Img/Part2/S__6840346.jpg" alt="certificate" width="200" height="200" /></a>
+                <a href="BranchSri.aspx"><img class="rounded-circle" src="../Img/Branch/Sri/25188848.jpg" alt="certificate" width="200" height="200" /></a>
                 <h4 class="txtBranch">สาขาศรีนครินทร์</h4>
             </div>
             <div class="col-lg-4" style="vertical-align: middle; margin-bottom:30px; text-align: center">
