@@ -19,7 +19,7 @@
                 <h4 class="txtBranch">สาขา ลาดกระบัง (ปากซอย 54)</h4>
             </div>
             <div class="col-lg-4" style="vertical-align: middle; margin-bottom:30px; text-align: center">
-                <a href="BranchMin.aspx"><img class="rounded-circle" src="../Img/Part2/S__6840336.jpg" alt="certificate" width="200" height="200" /></a>
+                <a href="BranchMin.aspx"><img class="rounded-circle" src="../Img/Branch/Min/27545017.jpg" alt="certificate" width="200" height="200" /></a>
                 <h4 class="txtBranch">สาขา มีนบุรี</h4>
             </div>
             <div class="col-lg-4" style="vertical-align: middle; margin-bottom:30px; text-align: center">
