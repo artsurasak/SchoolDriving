@@ -72,8 +72,14 @@
     <Content Include="Bootstrape\js\bootstrap.min.js.map" />
     <Content Include="Img\87776.jpg" />
     <Content Include="Img\Branch\Bang\109549.jpg" />
+    <Content Include="Img\Branch\Bang\22715.jpg" />
+    <Content Include="Img\Branch\Bang\22720.jpg" />
+    <Content Include="Img\Branch\Dindang\Capture.JPG" />
+    <Content Include="Img\Branch\Lad30\149065.jpg" />
     <Content Include="Img\Branch\Lad54\89572.jpg" />
     <Content Include="Img\Branch\Min\27545017.jpg" />
+    <Content Include="Img\Branch\Mooban\3543.jpg" />
+    <Content Include="Img\Branch\Phra\Capture.JPG" />
     <Content Include="Img\Branch\Ram\109548.jpg" />
     <Content Include="Img\Branch\Rom9\3543.jpg" />
     <Content Include="Img\Branch\Rom9\S__6758408.jpg" />
@@ -147,8 +153,8 @@
     <Content Include="Page\BranchDin.aspx" />
     <Content Include="Page\BranchLad30.aspx" />
     <Content Include="Page\BranchLad54.aspx" />
-    <Content Include="Page\BranchLadP.aspx" />
     <Content Include="Page\BranchMin.aspx" />
+    <Content Include="Page\BranchMoo.aspx" />
     <Content Include="Page\BranchPhra.aspx" />
     <Content Include="Page\BranchRam.aspx" />
     <Content Include="Page\BranchRom9.aspx" />
@@ -231,19 +237,19 @@
     <Compile Include="Page\BranchLad54.aspx.designer.cs">
       <DependentUpon>BranchLad54.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Page\BranchLadP.aspx.cs">
-      <DependentUpon>BranchLadP.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Page\BranchLadP.aspx.designer.cs">
-      <DependentUpon>BranchLadP.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Page\BranchMin.aspx.cs">
       <DependentUpon>BranchMin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Page\BranchMin.aspx.designer.cs">
       <DependentUpon>BranchMin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\BranchMoo.aspx.cs">
+      <DependentUpon>BranchMoo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\BranchMoo.aspx.designer.cs">
+      <DependentUpon>BranchMoo.aspx</DependentUpon>
     </Compile>
     <Compile Include="Page\BranchPhra.aspx.cs">
       <DependentUpon>BranchPhra.aspx</DependentUpon>

@@ -30,6 +30,7 @@ namespace DrivingSchool.Page
                 mail.Body += lblIdCard.Text + ": " + txtID.Text + "\n";
                 mail.Body += lblEmail.Text + ": " + txtEmail.Text + "\n";
                 mail.Body += lblTel.Text + ": " + txtTel.Text + "\n";
+                mail.Body += lblRegis.Text + ": " + ddlBranch.SelectedValue + "\n"; 
                 mail.Body += lblCourse.Text + ": " + ddlCourse.SelectedItem.Text;
                 mail.From = new System.Net.Mail.MailAddress(txtEmail.Text);
                 //mail.To.Add("smartmedia.solution188@gmail.com");

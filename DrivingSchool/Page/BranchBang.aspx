@@ -1,14 +1,13 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MainFrame.Master" AutoEventWireup="true" CodeBehind="BranchBang.aspx.cs" Inherits="DrivingSchool.Page.BranchBang" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="Title" runat="server">
-    สาขาบางกะปิ
+    จุดรับสมัคร สุขาภิบาล3 ลำสาลี
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentDetail" runat="server">
     <div id="container" style="margin-left: 50px;">
-        <h3>สาขาบางกะปิ</h3>
+        <h3>จุดรับสมัคร สุขาภิบาล3 ลำสาลี</h3>
         <hr />
         <div align="center">
-            <img src="../Img/51551.jpg" style="border: solid; margin-left: 50px; margin-right: 50px; height: 450px; width: 600px;" align="left" />
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1350.7118234187124!2d100.70766894388183!3d13.720946809836686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x311d60d36b39653b%3A0x511f2df28ed84481!2z4LmC4Lij4LiH4LmA4Lij4Li14Lii4LiZIOC4oeC4tOC4leC4o-C4o-C5iOC4p-C4oeC5g-C4iCDguKrguK3guJnguILguLHguJrguKPguJbguKLguJnguJXguYw!5e0!3m2!1sth!2sth!4v1518844760414" width="600" height="450" frameborder="0" style="border: 0" allowfullscreen></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d309.5969625364817!2d100.64323707124191!3d13.762651632802212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x311d6192bf814f41%3A0x3b72a51be6f5e3a9!2z4Liq4Li44LiZ4LiX4LijIOC4quC4reC4meC4guC4seC4muC4o-C4luC4ouC4meC4leC5jA!5e0!3m2!1sth!2sth!4v1536250153744" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
             <%--<div>
             <span>รูปภาพแผนที่โรงเรียนสอนชับรถ มืตรรวมใจ</span>
         </div>
@@ -16,8 +15,8 @@
         </div>
         <div style="margin-left: 50px;">
             <h3>ติดต่อโรงเรียนสอนขับรถ</h3>
-            <h4>โรงเรียนสอนขับรถ มิตรรวมใจ สำนักงานใหญ่ 498 ถนน.อ่อนนุช แขวง ประเวศ เขต.ประเวศ กรุงเทพมหานคร 10250</h4>
-            <h5>โทร 02-329-0187, 02-329-0188 </h5>
+            <h4>โรงเรียนสอนขับรถ มิตรรวมใจ จุดรับสมัคร สุขาภิบาล3 ลำสาลี 3575/2 ซอย รามคำแหง 89/1 ถนน รามคำแหง แขวง หัวหมาก เขต บางกะปิ กรุงเทพมหานคร 10240</h4>
+            <h5>โทร 081-8336128 , 083-199-345 </h5>
         </div>
     </div>
 </asp:Content>

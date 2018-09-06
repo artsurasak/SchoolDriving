@@ -1,14 +1,13 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MainFrame.Master" AutoEventWireup="true" CodeBehind="BranchLad30.aspx.cs" Inherits="DrivingSchool.Page.BranchLad30" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="Title" runat="server">
-    สาขาลาดกระบัง 30 (วัด 2)
+    จุดรับสมัคร ลาดกระบัง 30/1 (วัด 2)
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentDetail" runat="server">
     <div id="container" style="margin-left: 50px;">
-        <h3>สาขาลาดกระบัง 30 (วัด 2)</h3>
+        <h3>จุดรับสมัคร ลาดกระบัง 30/1 (วัด 2)</h3>
         <hr />
         <div align="center">
-            <img src="../Img/51551.jpg" style="border: solid; margin-left: 50px; margin-right: 50px; height: 450px; width: 600px;" align="left" />
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1350.7118234187124!2d100.70766894388183!3d13.720946809836686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x311d60d36b39653b%3A0x511f2df28ed84481!2z4LmC4Lij4LiH4LmA4Lij4Li14Lii4LiZIOC4oeC4tOC4leC4o-C4o-C5iOC4p-C4oeC5g-C4iCDguKrguK3guJnguILguLHguJrguKPguJbguKLguJnguJXguYw!5e0!3m2!1sth!2sth!4v1518844760414" width="600" height="450" frameborder="0" style="border: 0" allowfullscreen></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.9364386237307!2d100.73530031483017!3d13.72229799036653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTPCsDQzJzIwLjMiTiAxMDDCsDQ0JzE1LjAiRQ!5e0!3m2!1sen!2sth!4v1536234360648" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
             <%--<div>
             <span>รูปภาพแผนที่โรงเรียนสอนชับรถ มืตรรวมใจ</span>
         </div>
@@ -16,8 +15,8 @@
         </div>
         <div style="margin-left: 50px;">
             <h3>ติดต่อโรงเรียนสอนขับรถ</h3>
-            <h4>โรงเรียนสอนขับรถ มิตรรวมใจ สำนักงานใหญ่ 498 ถนน.อ่อนนุช แขวง ประเวศ เขต.ประเวศ กรุงเทพมหานคร 10250</h4>
-            <h5>โทร 02-329-0187, 02-329-0188 </h5>
+            <h4>โรงเรียนสอนขับรถ มิตรร่วมใจ จุดรับสมัคร ลาดกระบัง 30/1 (วัด 2) 644 ซอย ลาดกระบัง 30/1 แขวง ลาดกระบัง เขต ลาดกระบัง กรุงเทพมหานคร 10520  </h4>
+            <h5>โทร 080-7527701 </h5>
         </div>
     </div>
 </asp:Content>
