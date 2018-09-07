@@ -31,8 +31,8 @@
                 <h4 class="txtBranch">จุดรับสมัคร สุขาภิบาล3 ลำสาลี </h4>
             </div>
             <div class="col-lg-4" style="vertical-align: middle; margin-bottom:30px; text-align: center">
-                <a href="BranchRam.aspx"><img class="rounded-circle" src="../Img/Branch/Ram/109548.jpg" alt="certificate" width="200" height="200" /></a>
-                <h4 class="txtBranch">จุดรับสมัคร รามคำแหง</h4>
+                <a href="BranchRam.aspx"><img class="rounded-circle" src="../Img/Branch/Ram/1536312747954.jpg" alt="certificate" width="200" height="200" /></a>
+                <h4 class="txtBranch">จุดรับสมัคร รามคำแหง 79/2 </h4>
             </div>
            <%-- <div class="col-lg-4" style="vertical-align: middle; margin-bottom:30px; text-align: center">
                 <a href="BranchLadP.aspx"><img class="rounded-circle" src="../Img/Part2/S__6840336.jpg" alt="certificate" width="200" height="200" /></a>
@@ -43,7 +43,7 @@
                 <h4 class="txtBranch">จุดรับสมัครศรีนครินทร์</h4>
             </div>
             <div class="col-lg-4" style="vertical-align: middle; margin-bottom:30px; text-align: center">
-                <a href="BranchDin.aspx"><img class="rounded-circle" src="../Img/Branch/Dindang/Capture.JPG" alt="certificate" width="200" height="200" /></a>
+                <a href="BranchDin.aspx"><img class="rounded-circle" src="../Img/Branch/Dindang/1536314066805.jpg" alt="certificate" width="200" height="200" /></a>
                 <h4 class="txtBranch">จุดรับสมัครลาดพร้าวโชคชัย4 ดินแดง รัชดา</h4>
             </div>
             <div class="col-lg-4" style="vertical-align: middle; margin-bottom:30px; text-align: center">

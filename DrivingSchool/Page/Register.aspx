@@ -41,9 +41,9 @@
                             <asp:ListItem Value="Rom" Text="ร่มเกล้า"></asp:ListItem>
                             <asp:ListItem Value="Lad54" Text="ลาดกระบัง54"></asp:ListItem>
                             <asp:ListItem Value="Min" Text="มีนบุรี"></asp:ListItem>
-                            <asp:ListItem Value="Lad30" Text="ลาดกระบัง30"></asp:ListItem>
+                            <asp:ListItem Value="Lad30" Text="ลาดกระบัง30/1 (วัด2)"></asp:ListItem>
                             <asp:ListItem Value="Min" Text="สุขาภิบาล3 ลำสาลี"></asp:ListItem>
-                            <asp:ListItem Value="Ram" Text="รามคำแหง"></asp:ListItem>
+                            <asp:ListItem Value="Ram" Text="รามคำแหง 79/2"></asp:ListItem>
                             <asp:ListItem Value="Sri" Text="ศรีนครินทร์"></asp:ListItem>
                             <asp:ListItem Value="Din" Text="ลาดพร้าวโชคชัย4 ดินแดง รัชดา"></asp:ListItem>
                             <asp:ListItem Value="Moo" Text="หมู่บ้านนักกีฬา"></asp:ListItem>

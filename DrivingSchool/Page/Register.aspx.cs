@@ -24,13 +24,13 @@ namespace DrivingSchool.Page
                 System.Net.Mail.MailMessage mail = new System.Net.Mail.MailMessage();
                 //SmtpClient SmtpServer = new SmtpClient("smtp.gmail.com");
                 SmtpClient SmtpServer = new SmtpClient();
-                mail.Subject = "Test Send Mail";
+                mail.Subject = "สมัครคอร์สเรียนขับรถ";
                 mail.Body = lblName.Text + ": " + txtName.Text + "\n";
                 mail.Body += lblAge.Text + ": " + txtAge.Text + "\n";
                 mail.Body += lblIdCard.Text + ": " + txtID.Text + "\n";
                 mail.Body += lblEmail.Text + ": " + txtEmail.Text + "\n";
                 mail.Body += lblTel.Text + ": " + txtTel.Text + "\n";
-                mail.Body += lblRegis.Text + ": " + ddlBranch.SelectedValue + "\n"; 
+                mail.Body += lblRegis.Text + ": " + ddlBranch.SelectedItem.Text + "\n"; 
                 mail.Body += lblCourse.Text + ": " + ddlCourse.SelectedItem.Text;
                 mail.From = new System.Net.Mail.MailAddress(txtEmail.Text);
                 //mail.To.Add("smartmedia.solution188@gmail.com");
@@ -42,7 +42,7 @@ namespace DrivingSchool.Page
                 SmtpServer.UseDefaultCredentials = false;
                 SmtpServer.Credentials = new NetworkCredential("mitreumjai@gmail.com", "P@ssw0rd007");
                 SmtpServer.Send(mail);
-                Response.Write("<script> alert('Send mail Complete') </script>");
+                Response.Write("<script> alert('สมัครเรียนเรียบร้อยครับ ขอบคุณครับ') </script>");
             }
             catch (Exception ex)
             {
