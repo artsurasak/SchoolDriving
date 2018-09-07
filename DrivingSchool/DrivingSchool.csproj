@@ -114,6 +114,7 @@
     <Content Include="Img\Register.jpg" />
     <Content Include="MainFrame.Master" />
     <Content Include="font\EkkamaiStandard-Light.ttf" />
+    <None Include="Properties\PublishProfiles\Art.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

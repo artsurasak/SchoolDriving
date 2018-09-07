@@ -13,30 +13,48 @@ namespace DrivingSchool.Page {
     public partial class Home {
         
         /// <summary>
-        /// btnCourse control.
+        /// logoSchool1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnCourse;
+        protected global::System.Web.UI.HtmlControls.HtmlImage logoSchool1;
         
         /// <summary>
-        /// btnRegister control.
+        /// logoSchool2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnRegister;
+        protected global::System.Web.UI.HtmlControls.HtmlImage logoSchool2;
         
         /// <summary>
-        /// btnContact control.
+        /// imgCourse control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnContact;
+        protected global::System.Web.UI.HtmlControls.HtmlImage imgCourse;
+        
+        /// <summary>
+        /// imgRegister control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlImage imgRegister;
+        
+        /// <summary>
+        /// imgContact control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlImage imgContact;
     }
 }

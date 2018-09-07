@@ -1,0 +1,159 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MainFrame.master.cs" Inherits="DrivingSchool.MainFrame" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>
+        <asp:ContentPlaceHolder ID="Title" runat="server"></asp:ContentPlaceHolder>
+    </title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="โรงเรียนสอนขับรถ" />
+    <meta name="author" content="" />
+    <link rel="icon" href="Img/Logo/Logo2_Clear.png" />
+    <link href="Bootstrape/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="Bootstrape/css/carousel.css" rel="stylesheet" />
+    <link href="Stylesheet/SchoolDriver.css" rel="stylesheet" />
+    <link href="Bootstrape/css/sticky-footer.css" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <%--<link href="Bootstrape/css/jumbotron.css" rel="stylesheet" />--%>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="Bootstrape/js/jquery-slim.min.js"><\/script>')</script>
+    <script src="../Bootstrape/js/popper.min.js"></script>
+    <script src="../Bootstrape/js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="../Bootstrape/js/holder.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var links = $('.navbar ul li a');
+            $.each(links, function (key, va) {
+                if (va.href == document.URL) {
+                    $(this).addClass('active');
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+    <div id="fb-root"></div>
+    <script>(function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/th_TH/sdk.js#xfbml=1&version=v3.1';
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #267cd3;">
+            <a class="navbar-brand" href="Home.aspx">
+                <img runat="server" id="logo" alt="certificate" width="40" height="40" />
+                <%--<img src="../Img/Part2/S__6840322.png" alt="certificate" width="35" height="35" />--%>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse" style="font-size:24px; font-weight:bold;">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" id="linkHome" runat="server">หน้าแรก</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="linkWork" runat="server">หลักการสอนขับรถยนต์</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="linkProgram" runat="server">หลักสูตรเปิดสอน</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="linkRegister" runat="server">สมัครเรียน</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="linkBranch" runat="server">จุดรับสมัคร</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="linkColl" runat="server">ภาพบรรยากาศ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="linkCont" runat="server">ติดต่อเรา</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main role="main">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" style="height:450px;">
+                <div class="carousel-item active" style="height:100%" >
+                    <img class="first-slide" runat="server" id="firstImg" alt="SchoolDriving">
+                    <div class="container">
+                      <div class="carousel-caption text-left">
+                        <h1 style="color:#ffffff; text-shadow:0.1em 0.1em 0.2em black; font-weight:bold;">โรงเรียนสอนขับรถ มิตรร่วมใจ</h1>
+                        <h4 style="color:#ffffff; text-shadow:0.1em 0.1em 0.2em black; font-weight:bold;">เรียนพร้อมสอบใบขับขี่ที่นี่ได้เลย รับรองโดยกรมการขนส่งทางบก</h4>
+                        <h4 style="color:#ffffff; text-shadow:0.1em 0.1em 0.2em black; font-weight:bold;">โทร 02-329-0187, 02-329-0188</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" style="height:100%" >
+                    <img class="second-slide" runat="server" id="SecondImg" alt="Second slide">
+                    <div class="container">
+                      <div class="carousel-caption text-left">
+                        <h1 style="color:#ffffff; text-shadow:0.1em 0.1em 0.2em black; font-weight:bold;">โรงเรียนสอนขับรถ มิตรร่วมใจ</h1>
+                        <h4 style="color:#ffffff; text-shadow:0.1em 0.1em 0.2em black; font-weight:bold;">เรียนพร้อมสอบใบขับขี่ที่นี่ได้เลย รับรองโดยกรมการขนส่งทางบก</h4>
+                        <h4 style="color:#ffffff; text-shadow:0.1em 0.1em 0.2em black; font-weight:bold;">โทร 02-329-0187, 02-329-0188</h4>
+                      </div>
+                    </div>
+                  </div>
+          <div class="carousel-item" style="height:100%">
+            <img class="third-slide" runat="server" id="thirdImg" alt="Third slide" />
+            <div class="container">
+              <div class="carousel-caption text-left">
+                   <h1 style="color:#ffffff; text-shadow:0.1em 0.1em 0.2em black; font-weight:bold;">โรงเรียนสอนขับรถ มิตรร่วมใจ</h1>
+                <h4 style="color:#ffffff; text-shadow:0.1em 0.1em 0.2em black; font-weight:bold;">เรียนพร้อมสอบใบขับขี่ที่นี่ได้เลย รับรองโดยกรมการขนส่งทางบก</h4>
+                <h4 style="color:#ffffff; text-shadow:0.1em 0.1em 0.2em black; font-weight:bold;">โทร 02-329-0187, 02-329-0188</h4>
+              </div>
+            </div>
+          </div>
+       <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+                <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentDetail" runat="server"></asp:ContentPlaceHolder>
+        </div>
+        <div style="width:98.9%;">
+            <div class="row" style="margin-top:60px; padding-top:20px; padding-bottom:20px; background-color:#8da3ba; color:#ffffff" >
+                <div class="col-md-6" style="vertical-align:middle; text-align:center">
+                    <h4>LIKE US</h4>
+                    <div class="fb-page" data-href="https://www.facebook.com/Mitruemjai/" data-width="400" data-height="200" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Mitruemjai/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Mitruemjai/">มิตรร่วมใจสอนขับรถยนต์ by เสริมศักดิ์</a></blockquote></div>
+                </div>
+                <div class="col-md-6"  style="vertical-align:middle;">
+                    <h4><u>โรงเรียนสอนขับรถ มิตรร่วมใจ</u></h4>
+                    <p><span class="fa fa-home"></span>&nbsp;โรงเรียนสอนขับรถ มิตรร่วมใจ สำนักงานใหญ่ (ใกล้โรงพบาบาลสิรินธร) 498 ถ.อ่อนนุช ประเวศ ประเวศ กรุงเทพ 10250 </p> 
+                    <p><span class="fa fa-phone"></span>&nbsp;02-329-0187, 02-329-0188  , 094-652-4697</p>
+                    <p><span class="fa fa-facebook-square">&nbsp;<a style="color:black;" href="https://th-th.facebook.com/Mitruemjai/">Mitruemjai Mitr</a></span>&nbsp;</p>
+                </div>
+            </div>
+        </div>
+        <footer class="footer" style="background-color:black; color:white">
+            <div class="container">
+                <div class="copyright-txt">&copy; Copyright <a href="#">mldriveschool.com</a> 2017 All Rights Reserved </div>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>

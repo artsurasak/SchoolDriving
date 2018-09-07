@@ -51,7 +51,7 @@
     <header>
         <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #267cd3;">
             <a class="navbar-brand" href="Home.aspx">
-                <img src="../Img/Logo/Logo2_Clear.png" alt="certificate" width="40" height="40" />
+                <img runat="server" id="logo" alt="certificate" width="40" height="40" />
                 <%--<img src="../Img/Part2/S__6840322.png" alt="certificate" width="35" height="35" />--%>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -60,25 +60,25 @@
             <div class="collapse navbar-collapse" id="navbarCollapse" style="font-size:24px; font-weight:bold;">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="Home.aspx">หน้าแรก</a>
+                        <a class="nav-link" id="linkHome" runat="server">หน้าแรก</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="StepWork.aspx">หลักการสอนขับรถยนต์</a>
+                        <a class="nav-link" id="linkWork" runat="server">หลักการสอนขับรถยนต์</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Program.aspx">หลักสูตรเปิดสอน</a>
+                        <a class="nav-link" id="linkProgram" runat="server">หลักสูตรเปิดสอน</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Register.aspx">สมัครเรียน</a>
+                        <a class="nav-link" id="linkRegister" runat="server">สมัครเรียน</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Branch.aspx">จุดรับสมัคร</a>
+                        <a class="nav-link" id="linkBranch" runat="server">จุดรับสมัคร</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Collection.aspx">ภาพบรรยากาศ</a>
+                        <a class="nav-link" id="linkColl" runat="server">ภาพบรรยากาศ</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Contact.aspx">ติดต่อเรา</a>
+                        <a class="nav-link" id="linkCont" runat="server">ติดต่อเรา</a>
                     </li>
                 </ul>
             </div>
@@ -93,17 +93,17 @@
             </ol>
             <div class="carousel-inner" style="height:450px;">
                 <div class="carousel-item active" style="height:100%" >
-                    <img class="first-slide" src="../Img/Part2/S__6840335.jpg" alt="SchoolDriving">
+                    <img class="first-slide" runat="server" id="firstImg" alt="SchoolDriving">
                     <div class="container">
                       <div class="carousel-caption text-left">
-                        <%--<h1 style="color:#ffffff; text-shadow:0.1em 0.1em 0.2em black; font-weight:bold;">โรงเรียนสอนขับรถ มิตรร่วมใจ</h1>--%>
-                     <%--   <h4 style="color: blue; text-shadow: black 0.1em 0.1em 0.2em; font-weight:bold;">เรียนพร้อมสอบใบขับขี่ที่นี่ได้เลย รับรองโดยกรมการขนส่งทางบก</h4>
-                          <h4 style="color:#ffffff; text-shadow:0.05em 0.05em 0.2em black; font-weight:bold;">โทร 02-329-0187, 02-329-0188</h4>--%>
+                        <h1 style="color:#ffffff; text-shadow:0.1em 0.1em 0.2em black; font-weight:bold;">โรงเรียนสอนขับรถ มิตรร่วมใจ</h1>
+                        <h4 style="color:#ffffff; text-shadow:0.1em 0.1em 0.2em black; font-weight:bold;">เรียนพร้อมสอบใบขับขี่ที่นี่ได้เลย รับรองโดยกรมการขนส่งทางบก</h4>
+                        <h4 style="color:#ffffff; text-shadow:0.1em 0.1em 0.2em black; font-weight:bold;">โทร 02-329-0187, 02-329-0188</h4>
                     </div>
                   </div>
                 </div>
                 <div class="carousel-item" style="height:100%" >
-                    <img class="second-slide" src="../Img/Part2/S__6840334.jpg" alt="Second slide">
+                    <img class="second-slide" runat="server" id="SecondImg" alt="Second slide">
                     <div class="container">
                       <div class="carousel-caption text-left">
                         <h1 style="color:#ffffff; text-shadow:0.1em 0.1em 0.2em black; font-weight:bold;">โรงเรียนสอนขับรถ มิตรร่วมใจ</h1>
@@ -113,7 +113,7 @@
                     </div>
                   </div>
           <div class="carousel-item" style="height:100%">
-            <img class="third-slide" src="../Img/Part2/S__6840328.jpg" alt="Third slide" />
+            <img class="third-slide" runat="server" id="thirdImg" alt="Third slide" />
             <div class="container">
               <div class="carousel-caption text-left">
                    <h1 style="color:#ffffff; text-shadow:0.1em 0.1em 0.2em black; font-weight:bold;">โรงเรียนสอนขับรถ มิตรร่วมใจ</h1>
@@ -151,7 +151,7 @@
         </div>
         <footer class="footer" style="background-color:black; color:white">
             <div class="container">
-                <div class="copyright-txt">&copy; Copyright <a href="#">mldriveschool.com</a> 2017 All Rights Reserved </div>
+                <div class="copyright-txt">&copy; Copyright <a href="http://www.mitruamjaidriving.com">mitruamjaidriving.com</a> 2017 All Rights Reserved </div>
             </div>
         </footer>
     </main>

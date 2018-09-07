@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MainFrame.Master" AutoEventWireup="true" CodeBehind="Home.aspx.cs" Inherits="DrivingSchool.Page.Home" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="Title" runat="server">
-    หน้าแรก
+    โรงเรียนสอนขับรถมิตรร่วมใจ
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentDetail" runat="server">
     <div id="fb-root"></div>
@@ -31,8 +31,8 @@
                 <div style="text-align: center;">
                     <div style="margin-bottom: 20px;">
                         <h2>โรงเรียนสอนขับรถมิตรร่วมใจ</h2>
-                        <img class="rounded-circle" src="../Img/Part2/S__6840322.png" alt="certificate" width="140" height="140" />
-                        <img class="rounded-circle" src="../Img/Logo/Logo2.PNG" alt="certificate" width="140" height="140" />
+                        <img class="rounded-circle" id="logoSchool1" runat="server" alt="certificate" width="140" height="140" />
+                        <img class="rounded-circle" id="logoSchool2" runat="server" alt="certificate" width="140" height="140" />
                     </div>
                     <h5>รับรองโดยกรมขนส่งทางบก ไม่ต้องสอบที่กรมฯ ไม่ต้องรอคิว จบหลักสูตรได้ใบขับขี่</h5>
                 </div>
@@ -41,45 +41,45 @@
                         <div class="col-md-4">
                             <div style="padding: 15px; background-color: white;">
                                 <a href="Program.aspx" runat="server">
-                                    <img class="card-img-top" src="../Img/Course.jpg" alt="Course" /></a>
+                                    <img class="card-img-top" id="imgCourse" runat="server" alt="Course" /></a>
                                 <div class="card-body">
                                     <h5>หลักสูตรที่เปิดสอน</h5>
-                                    <div class="d-flex justify-content-between align-items-center">
+                                    <%--<div class="d-flex justify-content-between align-items-center">
                                         <div class="btn-group">
                                             <asp:Button ID="btnCourse" runat="server" CssClass="btn btn-sm btn-outline-secondary" OnClick="btnCourse_Click" Text="View" />
-                                            <%--<button type="button" class="btn btn-sm btn-outline-secondary">View</button>--%>
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                                         </div>
-                                    </div>
+                                    </div>--%>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div style="padding: 15px; background-color: white;">
                                 <a href="Register.aspx" runat="server">
-                                    <img class="card-img-top" src="../Img/Register.jpg" alt="Register" /></a>
+                                    <img class="card-img-top" id="imgRegister" runat="server" alt="Register" style="width:100%;height:240px;" /></a>
                                 <div class="card-body">
                                     <h5>สมัครเรียนออนไลน์</h5>
-                                    <div class="d-flex justify-content-between align-items-center">
+                                    <%--<div class="d-flex justify-content-between align-items-center">
                                         <div class="btn-group">
                                             <asp:Button ID="btnRegister" runat="server" CssClass="btn btn-sm btn-outline-secondary" OnClick="btnRegister_Click" Text="View" />
-                                            <%--<button type="button" class="btn btn-sm btn-outline-secondary">View</button>--%>
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                                         </div>
-                                    </div>
+                                    </div>--%>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div style="padding: 15px; background-color: white;">
                                 <a href="Contact.aspx" runat="server">
-                                    <img class="card-img-top" src="../Img/Contact.jpg" alt="Contact" /></a>
+                                    <img class="card-img-top" id="imgContact" runat="server" alt="Contact" style="width:100%;height:240px;" /></a>
                                 <div class="card-body">
                                     <h5>ติดต่อเรา</h5>
-                                    <div class="d-flex justify-content-between align-items-center">
+                                    <%--<div class="d-flex justify-content-between align-items-center">
                                         <div class="btn-group">
                                             <asp:Button ID="btnContact" runat="server" CssClass="btn btn-sm btn-outline-secondary" OnClick="btnContact_Click" Text="View" />
-                                            <%--<button type="button" class="btn btn-sm btn-outline-secondary">View</button>--%>
+                                            <%--<button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                                         </div>
-                                    </div>
+                                    </div>--%>
                                 </div>
                             </div>
                         </div>
@@ -92,7 +92,7 @@
                 </div>
                 <div id="Logo" style="text-align: center;">
                     <%--<img class="img_showCase" src="../Img/87776.jpg" style=" display:inline-block; border:white solid" />--%>
-                    <iframe width="560" style="display: inline-block;" height="315" src="https://www.youtube.com/embed/Rjf9RT0AC8I" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <iframe width="60%" style="display: inline-block;" height="315" src="https://www.youtube.com/embed/Rjf9RT0AC8I" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                     <%--<div class="fb-video" data-href="https://web.facebook.com/Mitruemjai/videos/985847658259793/" data-width="200" data-show-text="false">
                     <blockquote cite="https://th-th.facebook.com/Mitruemjai/videos/985847658259793/" class="fb-xfbml-parse-ignore">
                         <a href="https://th-th.facebook.com/Mitruemjai/videos/985847658259793/"></a>
