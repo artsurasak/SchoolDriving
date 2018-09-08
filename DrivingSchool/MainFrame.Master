@@ -8,7 +8,7 @@
         <asp:ContentPlaceHolder ID="Title" runat="server"></asp:ContentPlaceHolder>
     </title>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <%--<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />--%>
     <meta name="description" content="โรงเรียนสอนขับรถ" />
     <meta name="author" content="" />
     <link rel="icon" href="Img/Logo/Logo2_Clear.png" />
