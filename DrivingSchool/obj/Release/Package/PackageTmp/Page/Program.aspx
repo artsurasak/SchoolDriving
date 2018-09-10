@@ -7,7 +7,7 @@
     <div style="margin-left: 50px; margin-bottom:20px; text-align: center;">
         <h1 style="text-align: center; margin-bottom:30px;"><strong>หลักสูตรการเรียน</strong></h1>
         <h3>สมัครแล้ว เลือกเวลาเรียนได้เลย ไม่เว้นวันหยุดราชการ</h3>
-        <h3>ตั้งแต่เวลา 07.00 น. - 20.00 น. </h3>
+        <h3>ตั้งแต่เวลา 06.00 น. - 21.00 น. </h3>
         <h5><strong>อัตราค่าเรียน เกียร์ ออโต้ - ธรรมดา</strong></h5>
         <table border="1" CELLPADDING=10 style=" width: 60%; margin-top: 30px; font-weight: bold;" align="center">
             <tr class="trHead">

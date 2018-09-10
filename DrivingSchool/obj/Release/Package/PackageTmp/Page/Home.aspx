@@ -92,7 +92,7 @@
                 </div>
                 <div id="Logo" style="text-align: center;">
                     <%--<img class="img_showCase" src="../Img/87776.jpg" style=" display:inline-block; border:white solid" />--%>
-                    <iframe width="560" style="display: inline-block;" height="315" src="https://www.youtube.com/embed/Rjf9RT0AC8I" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <iframe width="60%" style="display: inline-block;" height="315" src="https://www.youtube.com/embed/Rjf9RT0AC8I" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                     <%--<div class="fb-video" data-href="https://web.facebook.com/Mitruemjai/videos/985847658259793/" data-width="200" data-show-text="false">
                     <blockquote cite="https://th-th.facebook.com/Mitruemjai/videos/985847658259793/" class="fb-xfbml-parse-ignore">
                         <a href="https://th-th.facebook.com/Mitruemjai/videos/985847658259793/"></a>

@@ -48,43 +48,51 @@
     js.src = 'https://connect.facebook.net/th_TH/sdk.js#xfbml=1&version=v3.1';
     fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
-    <header>
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #267cd3;">
-            <a class="navbar-brand" href="Home.aspx">
-                <img runat="server" id="logo" alt="certificate" width="40" height="40" />
-                <%--<img src="../Img/Part2/S__6840322.png" alt="certificate" width="35" height="35" />--%>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse" style="font-size:24px; font-weight:bold;">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" id="linkHome" runat="server">หน้าแรก</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="linkWork" runat="server">หลักการสอนขับรถยนต์</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="linkProgram" runat="server">หลักสูตรเปิดสอน</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="linkRegister" runat="server">สมัครเรียน</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="linkBranch" runat="server">จุดรับสมัคร</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="linkColl" runat="server">ภาพบรรยากาศ</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="linkCont" runat="server">ติดต่อเรา</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-    <main role="main">
+    <form runat="server">
+        <header>
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #267cd3;">
+                <a class="navbar-brand" href="Home.aspx">
+                    <img runat="server" id="logo" alt="certificate" width="40" height="40" />
+                    <%--<img src="../Img/Part2/S__6840322.png" alt="certificate" width="35" height="35" />--%>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse" style="font-size: 24px; font-weight: bold;">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" id="linkHome" runat="server">หน้าแรก</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="linkWork" runat="server">หลักการสอนขับรถยนต์</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="linkProgram" runat="server">หลักสูตรเปิดสอน</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="linkRegister" runat="server">สมัครเรียน</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="linkBranch" runat="server">จุดรับสมัคร</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="linkColl" runat="server">ภาพบรรยากาศ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="linkCont" runat="server">ติดต่อเรา</a>
+                        </li>
+                        <%--<li style="margin-right:20px; margin-left:50px;">
+                            <asp:TextBox ID="txtUsername" runat="server" CssClass="form-control"></asp:TextBox>
+                        </li>
+                         <li>
+                            <asp:TextBox ID="txtPassword" TextMode="Password" runat="server" CssClass="form-control"></asp:TextBox>
+                        </li>--%>
+                    </ul>
+                </div>
+            </nav>
+
+        </header>
+        <main role="main">
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -98,7 +106,7 @@
                       <div class="carousel-caption text-left">
                         <h1 style="color:#ffffff; text-shadow:0.1em 0.1em 0.2em black; font-weight:bold;">โรงเรียนสอนขับรถ มิตรร่วมใจ</h1>
                         <h4 style="color:#ffffff; text-shadow:0.1em 0.1em 0.2em black; font-weight:bold;">เรียนพร้อมสอบใบขับขี่ที่นี่ได้เลย รับรองโดยกรมการขนส่งทางบก</h4>
-                        <h4 style="color:#ffffff; text-shadow:0.1em 0.1em 0.2em black; font-weight:bold;">โทร 02-329-0187, 02-329-0188</h4>
+                        <h4 style="color:#ffffff; text-shadow:0.1em 0.1em 0.2em black; font-weight:bold;">โทร 02-329-0188,094-652-4697,095-709-5417</h4>
                     </div>
                   </div>
                 </div>
@@ -108,7 +116,7 @@
                       <div class="carousel-caption text-left">
                         <h1 style="color:#ffffff; text-shadow:0.1em 0.1em 0.2em black; font-weight:bold;">โรงเรียนสอนขับรถ มิตรร่วมใจ</h1>
                         <h4 style="color:#ffffff; text-shadow:0.1em 0.1em 0.2em black; font-weight:bold;">เรียนพร้อมสอบใบขับขี่ที่นี่ได้เลย รับรองโดยกรมการขนส่งทางบก</h4>
-                        <h4 style="color:#ffffff; text-shadow:0.1em 0.1em 0.2em black; font-weight:bold;">โทร 02-329-0187, 02-329-0188</h4>
+                        <h4 style="color:#ffffff; text-shadow:0.1em 0.1em 0.2em black; font-weight:bold;">โทร 02-329-0188,094-652-4697,095-709-5417</h4>
                       </div>
                     </div>
                   </div>
@@ -118,7 +126,7 @@
               <div class="carousel-caption text-left">
                    <h1 style="color:#ffffff; text-shadow:0.1em 0.1em 0.2em black; font-weight:bold;">โรงเรียนสอนขับรถ มิตรร่วมใจ</h1>
                 <h4 style="color:#ffffff; text-shadow:0.1em 0.1em 0.2em black; font-weight:bold;">เรียนพร้อมสอบใบขับขี่ที่นี่ได้เลย รับรองโดยกรมการขนส่งทางบก</h4>
-                <h4 style="color:#ffffff; text-shadow:0.1em 0.1em 0.2em black; font-weight:bold;">โทร 02-329-0187, 02-329-0188</h4>
+                <h4 style="color:#ffffff; text-shadow:0.1em 0.1em 0.2em black; font-weight:bold;">โทร 02-329-0188,094-652-4697,095-709-5417</h4>
               </div>
             </div>
           </div>
@@ -144,7 +152,7 @@
                 <div class="col-md-6"  style="vertical-align:middle;">
                     <h4><u>โรงเรียนสอนขับรถ มิตรร่วมใจ</u></h4>
                     <p><span class="fa fa-home"></span>&nbsp;โรงเรียนสอนขับรถ มิตรร่วมใจ สำนักงานใหญ่ (ใกล้โรงพบาบาลสิรินธร) 498 ถ.อ่อนนุช ประเวศ ประเวศ กรุงเทพ 10250 </p> 
-                    <p><span class="fa fa-phone"></span>&nbsp;02-329-0187, 02-329-0188  , 094-652-4697</p>
+                    <p><span class="fa fa-phone"></span>&nbsp;02-329-0188, 094-652-4697, 095-709-5417</p>
                     <p><span class="fa fa-facebook-square">&nbsp;<a style="color:black;" href="https://th-th.facebook.com/Mitruemjai/">Mitruemjai Mitr</a></span>&nbsp;</p>
                 </div>
             </div>
@@ -155,5 +163,7 @@
             </div>
         </footer>
     </main>
+    </form>
 </body>
 </html>
+F

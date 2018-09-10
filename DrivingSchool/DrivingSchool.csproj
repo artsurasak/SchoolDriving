@@ -162,7 +162,6 @@
     <Content Include="Page\BranchRom9.aspx" />
     <Content Include="Page\BranchSri.aspx" />
     <Content Include="Page\Collection.aspx" />
-    <Content Include="Page\CollectionImg\Teach\Default.aspx" />
     <Content Include="Page\CollectionTeach.aspx" />
     <Content Include="Page\CollectionTest.aspx" />
     <Content Include="Page\CollectionTrain.aspx" />
@@ -171,6 +170,7 @@
     <Content Include="Page\Program.aspx" />
     <Content Include="Page\Register.aspx" />
     <Content Include="Page\StepWork.aspx" />
+    <Content Include="Page\UploadImg.aspx" />
     <Content Include="Stylesheet\SchoolDriver.css" />
     <Content Include="Img\51525.jpg" />
     <Content Include="Img\51526.jpg" />
@@ -288,13 +288,6 @@
     <Compile Include="Page\Collection.aspx.designer.cs">
       <DependentUpon>Collection.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Page\CollectionImg\Teach\Default.aspx.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Page\CollectionImg\Teach\Default.aspx.designer.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Page\CollectionTeach.aspx.cs">
       <DependentUpon>CollectionTeach.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -351,12 +344,16 @@
     <Compile Include="Page\StepWork.aspx.designer.cs">
       <DependentUpon>StepWork.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Page\UploadImg.aspx.cs">
+      <DependentUpon>UploadImg.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\UploadImg.aspx.designer.cs">
+      <DependentUpon>UploadImg.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Page\CollectionImg\Test\" />
-    <Folder Include="Page\CollectionImg\Train\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

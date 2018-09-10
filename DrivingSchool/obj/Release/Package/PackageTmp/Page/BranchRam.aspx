@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MainFrame.Master" AutoEventWireup="true" CodeBehind="BranchRam.aspx.cs" Inherits="DrivingSchool.Page.BranchRam" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="Title" runat="server">
-    จุดรับสมัคร รามคำแหง
+    จุดรับสมัคร รามคำแหง 79/2
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentDetail" runat="server">
     <div id="container" style="margin-left: 50px;">
@@ -12,7 +12,7 @@
         <div style="margin-left: 50px;">
             <h3>ติดต่อโรงเรียนสอนขับรถ</h3>
             <h4>โรงเรียนสอนขับรถ มิตรร่วมใจ จุดรับสมัคร รามคำแหง เลขที่2857 ซอยรามคำแหง 79/2 ถนนรามคำแหง แขวงหัวหมาก เขตบางกะปิ กรุงเทพ 10240</h4>
-            <h5>โทร 081-303-3992. อ.ประดิษฐ </h5>
+            <h5>โทร 081-303-3982. อ.ประดิษฐ </h5>
         </div>
     </div>
 </asp:Content>

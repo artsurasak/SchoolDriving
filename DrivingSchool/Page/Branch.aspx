@@ -28,7 +28,7 @@
             </div>
             <div class="col-lg-4" style="vertical-align: middle; margin-bottom:30px; text-align: center">
                 <a href="BranchBang.aspx"><img class="rounded-circle" src="../Img/Branch/Bang/22715.jpg" alt="certificate" width="200" height="200" /></a>
-                <h4 class="txtBranch">จุดรับสมัคร สุขาภิบาล3 ลำสาลี </h4>
+                <h4 class="txtBranch">จุดรับสมัคร สุขาภิบาล3 </h4>
             </div>
             <div class="col-lg-4" style="vertical-align: middle; margin-bottom:30px; text-align: center">
                 <a href="BranchRam.aspx"><img class="rounded-circle" src="../Img/Branch/Ram/1536312747954.jpg" alt="certificate" width="200" height="200" /></a>

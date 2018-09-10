@@ -8,7 +8,7 @@
         <asp:ContentPlaceHolder ID="Title" runat="server"></asp:ContentPlaceHolder>
     </title>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <%--<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />--%>
     <meta name="description" content="โรงเรียนสอนขับรถ" />
     <meta name="author" content="" />
     <link rel="icon" href="Img/Logo/Logo2_Clear.png" />
@@ -98,7 +98,7 @@
                       <div class="carousel-caption text-left">
                         <h1 style="color:#ffffff; text-shadow:0.1em 0.1em 0.2em black; font-weight:bold;">โรงเรียนสอนขับรถ มิตรร่วมใจ</h1>
                         <h4 style="color:#ffffff; text-shadow:0.1em 0.1em 0.2em black; font-weight:bold;">เรียนพร้อมสอบใบขับขี่ที่นี่ได้เลย รับรองโดยกรมการขนส่งทางบก</h4>
-                        <h4 style="color:#ffffff; text-shadow:0.1em 0.1em 0.2em black; font-weight:bold;">โทร 02-329-0187, 02-329-0188</h4>
+                        <h4 style="color:#ffffff; text-shadow:0.1em 0.1em 0.2em black; font-weight:bold;">โทร 02-329-0188,094-652-4697,095-709-5417</h4>
                     </div>
                   </div>
                 </div>
@@ -108,7 +108,7 @@
                       <div class="carousel-caption text-left">
                         <h1 style="color:#ffffff; text-shadow:0.1em 0.1em 0.2em black; font-weight:bold;">โรงเรียนสอนขับรถ มิตรร่วมใจ</h1>
                         <h4 style="color:#ffffff; text-shadow:0.1em 0.1em 0.2em black; font-weight:bold;">เรียนพร้อมสอบใบขับขี่ที่นี่ได้เลย รับรองโดยกรมการขนส่งทางบก</h4>
-                        <h4 style="color:#ffffff; text-shadow:0.1em 0.1em 0.2em black; font-weight:bold;">โทร 02-329-0187, 02-329-0188</h4>
+                        <h4 style="color:#ffffff; text-shadow:0.1em 0.1em 0.2em black; font-weight:bold;">โทร 02-329-0188,094-652-4697,095-709-5417</h4>
                       </div>
                     </div>
                   </div>
@@ -118,7 +118,7 @@
               <div class="carousel-caption text-left">
                    <h1 style="color:#ffffff; text-shadow:0.1em 0.1em 0.2em black; font-weight:bold;">โรงเรียนสอนขับรถ มิตรร่วมใจ</h1>
                 <h4 style="color:#ffffff; text-shadow:0.1em 0.1em 0.2em black; font-weight:bold;">เรียนพร้อมสอบใบขับขี่ที่นี่ได้เลย รับรองโดยกรมการขนส่งทางบก</h4>
-                <h4 style="color:#ffffff; text-shadow:0.1em 0.1em 0.2em black; font-weight:bold;">โทร 02-329-0187, 02-329-0188</h4>
+                <h4 style="color:#ffffff; text-shadow:0.1em 0.1em 0.2em black; font-weight:bold;">โทร 02-329-0188,094-652-4697,095-709-5417</h4>
               </div>
             </div>
           </div>
@@ -144,14 +144,14 @@
                 <div class="col-md-6"  style="vertical-align:middle;">
                     <h4><u>โรงเรียนสอนขับรถ มิตรร่วมใจ</u></h4>
                     <p><span class="fa fa-home"></span>&nbsp;โรงเรียนสอนขับรถ มิตรร่วมใจ สำนักงานใหญ่ (ใกล้โรงพบาบาลสิรินธร) 498 ถ.อ่อนนุช ประเวศ ประเวศ กรุงเทพ 10250 </p> 
-                    <p><span class="fa fa-phone"></span>&nbsp;02-329-0187, 02-329-0188  , 094-652-4697</p>
+                    <p><span class="fa fa-phone"></span>&nbsp;02-329-0188, 094-652-4697, 095-709-5417</p>
                     <p><span class="fa fa-facebook-square">&nbsp;<a style="color:black;" href="https://th-th.facebook.com/Mitruemjai/">Mitruemjai Mitr</a></span>&nbsp;</p>
                 </div>
             </div>
         </div>
         <footer class="footer" style="background-color:black; color:white">
             <div class="container">
-                <div class="copyright-txt">&copy; Copyright <a href="#">mldriveschool.com</a> 2017 All Rights Reserved </div>
+                <div class="copyright-txt">&copy; Copyright <a href="http://www.mitruamjaidriving.com">mitruamjaidriving.com</a> 2017 All Rights Reserved </div>
             </div>
         </footer>
     </main>
