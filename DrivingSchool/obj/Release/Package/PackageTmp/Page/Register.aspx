@@ -6,7 +6,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentDetail" runat="server">
     <div style="margin-left: 50px;">
         <h1>สมัครเรียนขับรถต์</h1>
-        <form runat="server">
+        <%--<form runat="server">--%>
             <asp:Table runat="server" Style="border-spacing: 5px;">
                 <asp:TableRow Style="padding: 10px;">
                     <asp:TableCell Style="padding: 10px;"><asp:Label ID="lblName" runat="server">ชื่อ-นามสกุล</asp:Label></asp:TableCell>
@@ -86,6 +86,6 @@
                     <li class="liText">พาสสปอร์ต (สำหรับชาวต่างชาติ)</li>
                 </ul>
             </div>
-        </form>
+       <%-- </form>--%>
     </div>
 </asp:Content>

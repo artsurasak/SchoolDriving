@@ -193,10 +193,11 @@
     <Content Include="Img\51548.jpg" />
     <Content Include="Img\51550.jpg" />
     <Content Include="Img\51551.jpg" />
-    <Content Include="Video\23799.t.mp4" />
+    <Content Include="Video\VideoTeach.mp4" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class\dbConfig.cs" />
     <Compile Include="MainFrame.Master.cs">
       <DependentUpon>MainFrame.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

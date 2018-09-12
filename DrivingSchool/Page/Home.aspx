@@ -58,8 +58,16 @@
             <div style="text-align: center; color: white;">
                 <h1>นำเสนอ</h1>
             </div>
-            <div id="Logo" style="text-align: center;">
-                <iframe width="60%" style="display: inline-block;" height="315" src="https://www.youtube.com/embed/Rjf9RT0AC8I" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <div class="row" style="margin-top:50px;">
+                <div class="col-lg-6" style="vertical-align: middle; margin-bottom: 30px; text-align: center">
+                    <video controls style="transform: rotate(270deg)" width="500" height="500">
+                        <source src="../Video/VideoTeach.mp4" type="video/mp4">
+                        your browser doesn't support this video type
+                    </video>
+                </div>
+                 <div class="col-lg-6" style="vertical-align: middle; text-align: center">
+                     <iframe style="display: inline-block;" height="500" width="500" src="https://www.youtube.com/embed/Rjf9RT0AC8I" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                 </div>
             </div>
         </div>
     </div>

@@ -9,7 +9,8 @@
     </title>
     <meta charset="utf-8" />
     <%--<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />--%>
-    <meta name="description" content="โรงเรียนสอนขับรถ" />
+    <meta name="description" content="โรงเรียนสอนขับรถมิตรร่วมใจ เรียนพร้อมสอบใบขับขี่ที่นี่ได้เลย รับรองโดยกรมการขนส่งทางบก" />
+    <meta name="keywords" content="โรงเรียนสอนขับรถ,ประเวศ,เรียนพร้อมสอบใบขับขี่,ขับรถ,โรงเรียน" />
     <meta name="author" content="" />
     <link rel="icon" href="Img/Logo/Logo2_Clear.png" />
     <link href="Bootstrape/css/bootstrap.min.css" rel="stylesheet" />
@@ -48,43 +49,51 @@
     js.src = 'https://connect.facebook.net/th_TH/sdk.js#xfbml=1&version=v3.1';
     fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
-    <header>
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #267cd3;">
-            <a class="navbar-brand" href="Home.aspx">
-                <img runat="server" id="logo" alt="certificate" width="40" height="40" />
-                <%--<img src="../Img/Part2/S__6840322.png" alt="certificate" width="35" height="35" />--%>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse" style="font-size:24px; font-weight:bold;">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" id="linkHome" runat="server">หน้าแรก</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="linkWork" runat="server">หลักการสอนขับรถยนต์</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="linkProgram" runat="server">หลักสูตรเปิดสอน</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="linkRegister" runat="server">สมัครเรียน</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="linkBranch" runat="server">จุดรับสมัคร</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="linkColl" runat="server">ภาพบรรยากาศ</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="linkCont" runat="server">ติดต่อเรา</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-    <main role="main">
+    <form runat="server">
+        <header>
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #267cd3;">
+                <a class="navbar-brand" href="Home.aspx">
+                    <img runat="server" id="logo" alt="certificate" width="40" height="40" />
+                    <%--<img src="../Img/Part2/S__6840322.png" alt="certificate" width="35" height="35" />--%>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse" style="font-size: 24px; font-weight: bold;">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" id="linkHome" runat="server">หน้าแรก</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="linkWork" runat="server">หลักการสอนขับรถยนต์</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="linkProgram" runat="server">หลักสูตรเปิดสอน</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="linkRegister" runat="server">สมัครเรียน</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="linkBranch" runat="server">จุดรับสมัคร</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="linkColl" runat="server">ภาพบรรยากาศ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="linkCont" runat="server">ติดต่อเรา</a>
+                        </li>
+                        <%--<li style="margin-right:20px; margin-left:50px;">
+                            <asp:TextBox ID="txtUsername" runat="server" CssClass="form-control"></asp:TextBox>
+                        </li>
+                         <li>
+                            <asp:TextBox ID="txtPassword" TextMode="Password" runat="server" CssClass="form-control"></asp:TextBox>
+                        </li>--%>
+                    </ul>
+                </div>
+            </nav>
+
+        </header>
+        <main role="main">
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -155,5 +164,7 @@
             </div>
         </footer>
     </main>
+    </form>
 </body>
 </html>
+F

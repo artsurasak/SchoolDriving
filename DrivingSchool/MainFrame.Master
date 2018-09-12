@@ -9,7 +9,8 @@
     </title>
     <meta charset="utf-8" />
     <%--<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />--%>
-    <meta name="description" content="โรงเรียนสอนขับรถ" />
+    <meta name="description" content="โรงเรียนสอนขับรถมิตรร่วมใจ เรียนพร้อมสอบใบขับขี่ที่นี่ได้เลย รับรองโดยกรมการขนส่งทางบก" />
+    <meta name="keywords" content="โรงเรียนสอนขับรถ,ประเวศ,เรียนพร้อมสอบใบขับขี่,ขับรถ,โรงเรียน" />
     <meta name="author" content="" />
     <link rel="icon" href="Img/Logo/Logo2_Clear.png" />
     <link href="Bootstrape/css/bootstrap.min.css" rel="stylesheet" />

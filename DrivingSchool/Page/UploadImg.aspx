@@ -14,9 +14,9 @@
                 </asp:TableCell>
                 <asp:TableCell Style="padding: 10px;">
                     <asp:DropDownList ID="ddlCategory" CssClass="form-control" runat="server">
-                        <asp:ListItem Selected="True" Value="Teach" Text="การเรียนการสอน"></asp:ListItem>
+                        <%--<asp:ListItem Selected="True" Value="Teach" Text="การเรียนการสอน"></asp:ListItem>
                         <asp:ListItem Value="Train" Text="การอบรม"></asp:ListItem>
-                        <asp:ListItem Value="Test" Text="การสอบ"></asp:ListItem>
+                        <asp:ListItem Value="Test" Text="การสอบ"></asp:ListItem>--%>
                     </asp:DropDownList>
                 </asp:TableCell>
             </asp:TableRow>
