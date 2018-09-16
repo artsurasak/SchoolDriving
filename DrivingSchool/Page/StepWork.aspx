@@ -20,13 +20,9 @@
                 การถอยหลังเข้าจอดด้านซ้าย มุม 45 องศา การถอยหลังเข้าจอดช่องด้านซ้ายมุม 90</li>
             <li class="liText">ชั่วโมงที่ 7 - 10 การหยุดรถบนทางราบและการหยุดรถ ออกรถ บนทางลาดชัน หรือสะพาน วิ่งออกถนนใหญ่ในเส้นทางต่างๆ เช่น ลาดกระบัง มีนบุรี ศรีนครินทร์ พระโขนง บางกะปิ ทางด่วนต่างๆ</li>
         </ul>
-        <%--</div>--%>
         <hr class="underline" />
-        <%--<div style="margin-left: 50px;">--%>
         <h1>หลักการสอนขับรถยนต์</h1>
         <ul>
-            <%--<li class="bodyText" style="list-style-type: none;">
-                <img src="../Img/1521886235998.jpg" style="width: 400px; margin-left: 100px; height: 300px; background-repeat: no-repeat" /></li>--%>
             <li class="liText">สอนทฤษฎีและปฏิบัติควบคู่กัน เน้นประสบการณ์จริงบนถนน</li>
             <li class="liText">ผู้สอนมีทักษะในการสอน โดยจะสอนแบบครูผู้ฝึกสอนหนึ่งคนต่อนักเรียนหนึ่งคน</li>
             <li class="liText">สอนโดยครูผู้มีประสบการณ์และมีหลักการสอนอย่างถูกวิธีใจเย็น</li>
@@ -34,31 +30,29 @@
             <li class="liText">เมื่อผู้เรียนมีความชำนาญในการขับขี่แล้ว สามารถเลือกเส้นทางในการเรียนเองได้</li>
             <li class="liText">สร้างความมั่นใจในการขับขี่บนถนน บนหลักการที่ถูกต้อง</li>
         </ul>
-        <%--</div>--%>
         <hr class="underline" />
-        <%--<div style="margin-left: 50px;">--%>
         <h1>ท่าที่สอนในการขับรถ</h1>
         <ul>
             <li class="liText">ขับรถถอยเข้าซอง</li>
             <li class="liText" style="list-style-type: none;">
-                <img src="../Img/51528.jpg" style="width: auto; height: auto; margin-left: 100px; height: 300px; background-repeat: no-repeat" /></li>
+                <img src="../Img/51528.jpg" style="width: auto; height: auto; margin-left: 100px; height: 300px; background-repeat: no-repeat" alt="imgBack" /></li>
             <li class="liText">ขับรถชิดขอบฟุตบาท</li>
             <li class="liText" style="list-style-type: none;">
-                <img src="../Img/51526.jpg" style="width: auto; height: auto; margin-left: 100px; height: 300px; background-repeat: no-repeat" />
-                <img src="../Img/51543.jpg" style="width: auto; height: auto; margin-left: 100px; height: 300px; background-repeat: no-repeat" />
+                <img src="../Img/51526.jpg" style="width: auto; height: auto; margin-left: 100px; height: 300px; background-repeat: no-repeat" alt="imgTeachFoot1" />
+                <img src="../Img/51543.jpg" style="width: auto; height: auto; margin-left: 100px; height: 300px; background-repeat: no-repeat" alt="imgTeachFoot2" />
             </li>
             <li class="liText">ขับรถเดินหน้าและถอยหลังในทางตรง </li>
             <li class="liText" style="list-style-type: none;">
-                <img src="../Img/51529.jpg" style="width: auto; height: auto; margin-left: 100px; height: 300px; background-repeat: no-repeat" />
+                <img src="../Img/51529.jpg" style="width: auto; height: auto; margin-left: 100px; height: 300px; background-repeat: no-repeat" alt="imgForward" />
             </li>
             <li class="liText">ขับรถรูปตัวเอส(S)</li>
             <li class="liText" style="list-style-type: none;">
-                <img src="../Img/51546.jpg" style="width: auto; height: auto; margin-left: 100px; height: 300px; background-repeat: no-repeat" />
+                <img src="../Img/51546.jpg" style="width: auto; height: auto; margin-left: 100px; height: 300px; background-repeat: no-repeat" alt="imgS" />
             </li>
             <li class="liText">ขับรถถอยหลัง 90 องศา</li>
             <li class="liText" style="list-style-type: none;">
-                <img src="../Img/51548.jpg" style="width: auto; height: auto; margin-left: 100px; height: 300px; background-repeat: no-repeat" />
-                <img src="../Img/51544.jpg" style="width: auto; height: auto; margin-left: 100px; height: 300px; background-repeat: no-repeat" />
+                <img src="../Img/51548.jpg" style="width: auto; height: auto; margin-left: 100px; height: 300px; background-repeat: no-repeat" alt="img90Degree1" />
+                <img src="../Img/51544.jpg" style="width: auto; height: auto; margin-left: 100px; height: 300px; background-repeat: no-repeat" alt="img90Degree2" />
             </li>
         </ul>
     </div>

@@ -5,9 +5,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentDetail" runat="server">
     <div id="container" style="margin-left: 50px;">
-        <%--<h2>ติดต่อโรงเรียนสอนขับรถ</h2>--%>
         <h2>สถานที่ตั้งของโรงเรียน</h2>
-        <%--<h2>(ทั้งภาคทฤษฎี และ ภาคปฏิบัติ)</h2>--%>
         <div class="row">
             <div class="col-lg-6" style="vertical-align: middle; margin-bottom:30px; text-align: center">
                 <img src="../Img/51551.jpg" style="border: solid; height: 450px; width: 600px;" />

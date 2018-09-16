@@ -167,6 +167,7 @@
     <Content Include="Page\CollectionTrain.aspx" />
     <Content Include="Page\Contact.aspx" />
     <Content Include="Page\Home.aspx" />
+    <Content Include="Page\Logout.aspx" />
     <Content Include="Page\Program.aspx" />
     <Content Include="Page\Register.aspx" />
     <Content Include="Page\StepWork.aspx" />
@@ -323,6 +324,13 @@
     </Compile>
     <Compile Include="Page\Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\Logout.aspx.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\Logout.aspx.designer.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
     </Compile>
     <Compile Include="Page\Program.aspx.cs">
       <DependentUpon>Program.aspx</DependentUpon>
