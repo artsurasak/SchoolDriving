@@ -10,7 +10,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/DrivingSchool.dll">
-      <publishTime>09/13/2018 00:23:14</publishTime>
+      <publishTime>09/18/2018 23:10:19</publishTime>
     </File>
     <File Include="Bootstrape/css/album.css">
       <publishTime>10/19/2017 12:23:28</publishTime>
@@ -324,11 +324,104 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Img/Register.jpg">
       <publishTime>08/28/2018 00:29:40</publishTime>
     </File>
+    <File Include="Img/Teach/รุ่นที่ 1/51526.jpg">
+      <publishTime>09/18/2018 22:10:33</publishTime>
+    </File>
+    <File Include="Img/Teach/รุ่นที่ 1/51527.jpg">
+      <publishTime>09/18/2018 22:10:49</publishTime>
+    </File>
+    <File Include="Img/Teach/รุ่นที่ 1/51528.jpg">
+      <publishTime>09/18/2018 22:10:55</publishTime>
+    </File>
+    <File Include="Img/Teach/รุ่นที่ 1/51529.jpg">
+      <publishTime>09/18/2018 22:11:11</publishTime>
+    </File>
+    <File Include="Img/Teach/รุ่นที่ 1/51530.jpg">
+      <publishTime>09/18/2018 22:11:34</publishTime>
+    </File>
+    <File Include="Img/Teach/รุ่นที่ 1/51543.jpg">
+      <publishTime>09/18/2018 22:12:02</publishTime>
+    </File>
+    <File Include="Img/Teach/รุ่นที่ 1/51544.jpg">
+      <publishTime>09/18/2018 22:12:14</publishTime>
+    </File>
+    <File Include="Img/Teach/รุ่นที่ 1/51545.jpg">
+      <publishTime>09/18/2018 22:13:19</publishTime>
+    </File>
+    <File Include="Img/Teach/รุ่นที่ 1/51546.jpg">
+      <publishTime>09/18/2018 22:13:49</publishTime>
+    </File>
+    <File Include="Img/Teach/รุ่นที่ 1/51547.jpg">
+      <publishTime>09/18/2018 22:14:02</publishTime>
+    </File>
+    <File Include="Img/Teach/รุ่นที่ 1/51548.jpg">
+      <publishTime>09/18/2018 22:14:13</publishTime>
+    </File>
+    <File Include="Img/Teach/รุ่นที่ 1/S__6840337.jpg">
+      <publishTime>09/18/2018 22:17:45</publishTime>
+    </File>
+    <File Include="Img/Teach/รุ่นที่ 1/S__6840338.jpg">
+      <publishTime>09/18/2018 22:18:03</publishTime>
+    </File>
+    <File Include="Img/Teach/รุ่นที่ 1/S__6840345.jpg">
+      <publishTime>09/18/2018 22:18:34</publishTime>
+    </File>
+    <File Include="Img/Teach/รุ่นที่ 1/S__6840346.jpg">
+      <publishTime>09/18/2018 22:18:40</publishTime>
+    </File>
+    <File Include="Img/Teach/รุ่นที่ 1/S__6840347.jpg">
+      <publishTime>09/18/2018 22:18:46</publishTime>
+    </File>
+    <File Include="Img/Test/รุ่นที่ 1/288578.jpg">
+      <publishTime>09/18/2018 22:25:17</publishTime>
+    </File>
+    <File Include="Img/Test/รุ่นที่ 1/288579.jpg">
+      <publishTime>09/18/2018 22:25:43</publishTime>
+    </File>
+    <File Include="Img/Test/รุ่นที่ 1/288580.jpg">
+      <publishTime>09/18/2018 22:25:57</publishTime>
+    </File>
+    <File Include="Img/Test/รุ่นที่ 1/S__6840323.jpg">
+      <publishTime>09/18/2018 22:26:45</publishTime>
+    </File>
+    <File Include="Img/Test/รุ่นที่ 1/S__6840325.jpg">
+      <publishTime>09/18/2018 22:26:58</publishTime>
+    </File>
+    <File Include="Img/Test/รุ่นที่ 1/S__6840326.jpg">
+      <publishTime>09/18/2018 22:27:12</publishTime>
+    </File>
+    <File Include="Img/Test/รุ่นที่ 1/S__6840329.jpg">
+      <publishTime>09/18/2018 22:27:20</publishTime>
+    </File>
+    <File Include="Img/Test/รุ่นที่ 1/S__6840336.jpg">
+      <publishTime>09/18/2018 22:27:29</publishTime>
+    </File>
+    <File Include="Img/Test/รุ่นที่ 1/S__6840339.jpg">
+      <publishTime>09/18/2018 22:26:17</publishTime>
+    </File>
+    <File Include="Img/Test/รุ่นที่ 1/S__6840343.jpg">
+      <publishTime>09/18/2018 22:27:43</publishTime>
+    </File>
+    <File Include="Img/Test/รุ่นที่ 1/S__6840344.jpg">
+      <publishTime>09/18/2018 22:27:57</publishTime>
+    </File>
+    <File Include="Img/Train/รุ่นที่ 1/23798.jpg">
+      <publishTime>09/17/2018 00:50:52</publishTime>
+    </File>
+    <File Include="Img/Train/รุ่นที่ 1/23800.jpg">
+      <publishTime>09/17/2018 00:52:50</publishTime>
+    </File>
+    <File Include="Img/Train/รุ่นที่ 1/23801.jpg">
+      <publishTime>09/17/2018 00:52:59</publishTime>
+    </File>
+    <File Include="Img/Train/รุ่นที่ 1/23802.jpg">
+      <publishTime>09/17/2018 00:53:06</publishTime>
+    </File>
     <File Include="MainFrame.Master">
-      <publishTime>09/12/2018 00:29:46</publishTime>
+      <publishTime>09/18/2018 21:57:49</publishTime>
     </File>
     <File Include="Page/Branch.aspx">
-      <publishTime>09/09/2018 12:20:15</publishTime>
+      <publishTime>09/16/2018 22:31:24</publishTime>
     </File>
     <File Include="Page/BranchBang.aspx">
       <publishTime>09/11/2018 00:44:50</publishTime>
@@ -361,25 +454,28 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/11/2018 00:47:26</publishTime>
     </File>
     <File Include="Page/Collection.aspx">
-      <publishTime>09/12/2018 00:29:25</publishTime>
+      <publishTime>09/16/2018 22:32:00</publishTime>
     </File>
     <File Include="Page/CollectionImg/Teach/Default.aspx">
       <publishTime>09/03/2018 23:46:08</publishTime>
     </File>
     <File Include="Page/CollectionTeach.aspx">
-      <publishTime>09/05/2018 22:16:37</publishTime>
+      <publishTime>09/18/2018 22:33:42</publishTime>
     </File>
     <File Include="Page/CollectionTest.aspx">
-      <publishTime>09/05/2018 22:16:37</publishTime>
+      <publishTime>09/18/2018 22:31:26</publishTime>
     </File>
     <File Include="Page/CollectionTrain.aspx">
-      <publishTime>09/05/2018 22:16:37</publishTime>
+      <publishTime>09/18/2018 22:32:34</publishTime>
     </File>
     <File Include="Page/Contact.aspx">
-      <publishTime>09/11/2018 00:36:59</publishTime>
+      <publishTime>09/16/2018 22:39:55</publishTime>
     </File>
     <File Include="Page/Home.aspx">
-      <publishTime>09/13/2018 00:21:42</publishTime>
+      <publishTime>09/18/2018 21:47:07</publishTime>
+    </File>
+    <File Include="Page/Logout.aspx">
+      <publishTime>09/15/2018 13:47:35</publishTime>
     </File>
     <File Include="Page/Program.aspx">
       <publishTime>09/09/2018 12:21:50</publishTime>
@@ -388,7 +484,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/10/2018 23:23:08</publishTime>
     </File>
     <File Include="Page/StepWork.aspx">
-      <publishTime>09/09/2018 12:15:38</publishTime>
+      <publishTime>09/16/2018 22:35:27</publishTime>
     </File>
     <File Include="Page/UploadImg.aspx">
       <publishTime>09/11/2018 22:35:16</publishTime>
