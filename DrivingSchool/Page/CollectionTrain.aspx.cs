@@ -17,10 +17,11 @@ namespace DrivingSchool.Page
             string sql;
             int count;
             System.Web.UI.HtmlControls.HtmlGenericControl myh4;
-            
+            System.Web.UI.HtmlControls.HtmlGenericControl imgDiv = new System.Web.UI.HtmlControls.HtmlGenericControl("DIV");
+            System.Web.UI.HtmlControls.HtmlImage img;
             string tmp = "";
             sql = "select * ";
-            sql += "from [SchoolDrive].[dbo].[Img] ";
+            sql += "from [mitruam_SchoolDrive].[mitruam_sp].[Img] ";
             sql += "where CategoryID = '2' ";
             sql += "order by Generation ";
             ds = db.getData(sql);
@@ -37,19 +38,17 @@ namespace DrivingSchool.Page
                         myh4.Style.Add("margin-left", "100px");
                         myh4.Style.Add("font-weight", "bold");
                         containImg.Controls.Add(myh4);
+                        imgDiv = new System.Web.UI.HtmlControls.HtmlGenericControl("DIV");
+                        imgDiv.Style.Add("text-align", "center");
+                        imgDiv.Style.Add("margin-top", "10px;");
+                        imgDiv.Style.Add("margin-bottom", "10px;");
                     }
-                    System.Web.UI.HtmlControls.HtmlGenericControl imgDiv = new System.Web.UI.HtmlControls.HtmlGenericControl("DIV");
-                    imgDiv.Style.Add("text-align", "center");
-                    System.Web.UI.HtmlControls.HtmlImage img = new System.Web.UI.HtmlControls.HtmlImage();
+                    img = new System.Web.UI.HtmlControls.HtmlImage();
                     img.Src = ds.Tables[0].Rows[i]["ImgURL"].ToString();
                     img.Alt = ds.Tables[0].Rows[i]["ImgDTL"].ToString();
                     img.Attributes["class"] = "img_showCase";
                     imgDiv.Controls.Add(img);
                     containImg.Controls.Add(imgDiv);
-                    //else
-                    //{
-
-                    //}
                 }
             }
         }

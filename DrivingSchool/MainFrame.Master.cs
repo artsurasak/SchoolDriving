@@ -44,7 +44,7 @@ namespace DrivingSchool
             DataSet ds;
             Class.dbConfig db = new Class.dbConfig();
             sql = "select userName ";
-            sql += "from [SchoolDrive].[dbo].[UserLogin] ";
+            sql += "from [mitruam_SchoolDrive].[mitruam_sp].[UserLogin] ";
             sql += "where userName = '" + txtUsername.Text + "'";
             sql += "and Password = '" + txtPassword.Text +"'";
             ds = db.getData(sql);

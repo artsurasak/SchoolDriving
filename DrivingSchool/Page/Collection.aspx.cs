@@ -21,7 +21,7 @@ namespace DrivingSchool.Page
             string sql;
             DataSet ds;
             sql = "select * ";
-            sql += "from [SchoolDrive].[dbo].[Img] ";
+            sql += "from [mitruam_SchoolDrive].[mitruam_sp].[Img] ";
             ds = db.getData(sql);
             if (ds.Tables[0].Rows.Count > 0){
                 for (int i = 0; i < ds.Tables[0].Rows.Count; i++)

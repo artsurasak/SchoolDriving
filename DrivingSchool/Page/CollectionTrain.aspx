@@ -35,14 +35,6 @@
         <hr />
         <h3 style="margin-left: 50px; font-weight: bold;">บรรยากาศการอบรม</h3>
         <div id="containImg" runat="server">
-            <%--<h4 style="margin-left: 100px; font-weight: bold;">รุ่นที่ 1</h4>
-            <div id="Logo" style="text-align: center;">
-                <img class="img_showCase" src="../Img/23798.jpg" alt="อบรมขับรถ1" />
-                <img class="img_showCase" src="../Img/23800.jpg" alt="อบรมขับรถ2" />
-                <img class="img_showCase" src="../Img/23801.jpg" alt="อบรมขับรถ3" />
-                <img class="img_showCase" src="../Img/23802.jpg" alt="อบรมขับรถ4" />
-                <img class="img_showCase" src="../Img/Part2/S__6840342.jpg" alt="อบรมขับรถ5" />
-            </div>--%>
             <div id="myModal" class="modal" style="margin-top: 60px;" tabindex='-1'>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">X</span>

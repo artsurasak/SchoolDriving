@@ -12,9 +12,9 @@ namespace DrivingSchool.Class
         {
             //SqlConnection conn;
             string strConn;
-            //strConn = "Data Source=mssql.smartmedia.co.th;Initial Catalog=smartmedia_leave;User ID=smartmedia_sp;Password=P@ssw0rd";
+            strConn = "Data Source=mssql.mitruamjaidriving.com;Initial Catalog=mitruam_SchoolDrive;User ID=mitruam_sp;Password=p@ssw0rd";
             //strConn = "Server=mssql.smartmedia.co.th;Database=smartmedia_leave;uid=smartmedia_sp;password=P@ssword";
-            strConn = "Server=LAPTOP-9RESSIQU\\SQLEXPRESS;Database=SchoolDrive;Trusted_Connection=true";
+            //strConn = "Server=LAPTOP-9RESSIQU\\SQLEXPRESS;Database=SchoolDrive;Trusted_Connection=true";
             return strConn;
         }
 
