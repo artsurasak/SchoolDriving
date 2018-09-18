@@ -10,7 +10,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/DrivingSchool.dll">
-      <publishTime>09/18/2018 23:10:19</publishTime>
+      <publishTime>09/18/2018 23:25:44</publishTime>
     </File>
     <File Include="Bootstrape/css/album.css">
       <publishTime>10/19/2017 12:23:28</publishTime>
@@ -454,7 +454,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/11/2018 00:47:26</publishTime>
     </File>
     <File Include="Page/Collection.aspx">
-      <publishTime>09/16/2018 22:32:00</publishTime>
+      <publishTime>09/18/2018 23:25:02</publishTime>
     </File>
     <File Include="Page/CollectionImg/Teach/Default.aspx">
       <publishTime>09/03/2018 23:46:08</publishTime>

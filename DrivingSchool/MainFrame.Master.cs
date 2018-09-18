@@ -52,7 +52,7 @@ namespace DrivingSchool
             {
                 Session["userLogin"] = ds.Tables[0].Rows[0]["userName"];
                 Response.Write("<script> alert('Login Complete') </script>");
-                Response.Redirect("Home.aspx");
+                Page.Response.Redirect(Page.Request.Url.ToString(), true);
             }
             else { 
                 Response.Write("<script> alert('UserName or Password is wrong') </script>"); 
