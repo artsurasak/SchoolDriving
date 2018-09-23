@@ -70,6 +70,13 @@
     <Content Include="Bootstrape\js\bootstrap.bundle.min.js.map" />
     <Content Include="Bootstrape\js\bootstrap.js.map" />
     <Content Include="Bootstrape\js\bootstrap.min.js.map" />
+    <Content Include="Img\51526.jpg" />
+    <Content Include="Img\51528.jpg" />
+    <Content Include="Img\51529.jpg" />
+    <Content Include="Img\51543.jpg" />
+    <Content Include="Img\51544.jpg" />
+    <Content Include="Img\51546.jpg" />
+    <Content Include="Img\51548.jpg" />
     <Content Include="Img\Branch\Bang\109549.jpg" />
     <Content Include="Img\Branch\Bang\22715.jpg" />
     <Content Include="Img\Branch\Bang\22720.jpg" />
