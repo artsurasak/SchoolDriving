@@ -10,7 +10,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/DrivingSchool.dll">
-      <publishTime>09/18/2018 23:41:06</publishTime>
+      <publishTime>10/11/2018 22:14:00</publishTime>
     </File>
     <File Include="Bootstrape/css/album.css">
       <publishTime>10/19/2017 12:23:28</publishTime>
@@ -237,6 +237,18 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Img/Course.jpg">
       <publishTime>08/28/2018 00:33:06</publishTime>
     </File>
+    <File Include="Img/Cover/S__9396406.jpg">
+      <publishTime>10/11/2018 16:28:05</publishTime>
+    </File>
+    <File Include="Img/Cover/S__9396407.jpg">
+      <publishTime>10/11/2018 16:28:49</publishTime>
+    </File>
+    <File Include="Img/Cover/S__9396408.jpg">
+      <publishTime>10/11/2018 16:28:52</publishTime>
+    </File>
+    <File Include="Img/Cover/S__9396409.jpg">
+      <publishTime>10/11/2018 16:28:57</publishTime>
+    </File>
     <File Include="Img/Drive.jpg">
       <publishTime>09/11/2018 23:12:46</publishTime>
     </File>
@@ -418,7 +430,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/17/2018 00:53:06</publishTime>
     </File>
     <File Include="MainFrame.Master">
-      <publishTime>09/18/2018 21:57:49</publishTime>
+      <publishTime>10/11/2018 22:08:20</publishTime>
     </File>
     <File Include="Page/Branch.aspx">
       <publishTime>09/16/2018 22:31:24</publishTime>
@@ -454,10 +466,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/11/2018 00:47:26</publishTime>
     </File>
     <File Include="Page/Collection.aspx">
-      <publishTime>09/18/2018 23:25:02</publishTime>
+      <publishTime>10/11/2018 21:48:29</publishTime>
     </File>
     <File Include="Page/CollectionImg/Teach/Default.aspx">
       <publishTime>09/03/2018 23:46:08</publishTime>
+    </File>
+    <File Include="Page/CollectionStudent.aspx">
+      <publishTime>10/11/2018 21:26:34</publishTime>
     </File>
     <File Include="Page/CollectionTeach.aspx">
       <publishTime>09/18/2018 22:33:42</publishTime>
@@ -469,10 +484,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/18/2018 22:32:34</publishTime>
     </File>
     <File Include="Page/Contact.aspx">
-      <publishTime>09/16/2018 22:39:55</publishTime>
+      <publishTime>10/11/2018 21:55:25</publishTime>
     </File>
     <File Include="Page/Home.aspx">
-      <publishTime>09/18/2018 21:47:07</publishTime>
+      <publishTime>10/11/2018 22:41:41</publishTime>
     </File>
     <File Include="Page/Logout.aspx">
       <publishTime>09/15/2018 13:47:35</publishTime>
@@ -484,7 +499,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/10/2018 23:23:08</publishTime>
     </File>
     <File Include="Page/StepWork.aspx">
-      <publishTime>09/16/2018 22:35:27</publishTime>
+      <publishTime>09/23/2018 16:49:16</publishTime>
     </File>
     <File Include="Page/UploadImg.aspx">
       <publishTime>09/11/2018 22:35:16</publishTime>
@@ -499,7 +514,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/13/2018 00:00:21</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>09/07/2018 23:58:55</publishTime>
+      <publishTime>10/11/2018 22:43:02</publishTime>
     </File>
   </ItemGroup>
 </Project>

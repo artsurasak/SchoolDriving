@@ -22,9 +22,11 @@ namespace DrivingSchool
             linkUpload.HRef = "Page/UploadImg.aspx";
             linkLogout.HRef = "Page/Logout.aspx";
             logo.Src = "Img/Logo/Logo2_Clear.png";
-            firstImg.Src = "Img/Part2/S__6840335.jpg";
-            SecondImg.Src = "Img/Part2/S__6840334.jpg";
-            thirdImg.Src = "Img/Part2/S__6840328.jpg";
+            firstImg.Src =  "Img/Part2/S__6840335.jpg";
+            SecondImg.Src = "Img/Cover/S__9396406.jpg";
+            thirdImg.Src = "Img/Cover/S__9396407.jpg";
+            FouthImg.Src = "Img/Cover/S__9396408.jpg";
+            FiveImg.Src = "Img/Cover/S__9396409.jpg";
             if (Session["userLogin"] != null)
             {
                 LoginForm.Visible = false;

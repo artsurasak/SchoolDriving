@@ -175,6 +175,24 @@ namespace DrivingSchool {
         protected global::System.Web.UI.HtmlControls.HtmlImage thirdImg;
         
         /// <summary>
+        /// FouthImg control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlImage FouthImg;
+        
+        /// <summary>
+        /// FiveImg control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlImage FiveImg;
+        
+        /// <summary>
         /// ContentDetail control.
         /// </summary>
         /// <remarks>

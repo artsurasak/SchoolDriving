@@ -9,8 +9,8 @@
     </title>
     <meta charset="utf-8" />
     <%--<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />--%>
-    <meta name="description" content="โรงเรียนสอนขับรถมิตรร่วมใจ เรียนพร้อมสอบใบขับขี่ที่นี่ได้เลย รับรองโดยกรมการขนส่งทางบก โทร 02-329-0188, 094-652-4697, 095-709-5417" />
-    <meta name="keywords" content="โรงเรียนสอนขับรถ,ประเวศ,เรียนพร้อมสอบใบขับขี่,ขับรถ,เรียนขับรถ" />
+    <meta name="description" content="โรงเรียนสอนขับรถมิตรร่วมใจ เรียนพร้อมสอบใบขับขี่ที่นี่ได้เลย สอนขับรถโดยครูผู้มีทักษะและมีประสบการณ์ในการสอน สอนขับรถในท่ามาตรฐานที่ใช้ในการขับขี่ รับรองโดยกรมการขนส่งทางบก โทร 02-329-0188, 094-652-4697" />
+    <meta name="keywords" content="โรงเรียนสอนขับรถ,ประเวศ,เรียนพร้อมสอบใบขับขี่,ขับรถ,เรียนขับรถ,เรียบขับรถพร้อมใบขับขี่,ซื้อใบขับขี่" />
     <meta name="author" content="" />
     <link rel="icon" href="Img/Logo/Logo2_Clear.png" />
     <link href="Bootstrape/css/bootstrap.min.css" rel="stylesheet" />
@@ -101,11 +101,11 @@
             </div>
             <div id="LoginForm" class="row" runat="server" style="margin-top: 10px; background-color: #267cd3;">
                 <div class="col-md-6">
-                        <div class="form-group" style="margin-top:10px; margin-left:20px;">
-                            <asp:TextBox ID="txtUsername" runat="server" placeholder="Username"></asp:TextBox>
-                            <asp:TextBox ID="txtPassword" TextMode="Password"  placeholder="Password" runat="server"></asp:TextBox>
-                            <asp:Button ID="btnSubmit" CssClass="btn btn-secondary" runat="server" Text="Login" OnClick="btnSubmit_Click" />
-                        </div>
+                    <div class="form-group" style="margin-top: 10px; margin-left: 20px;">
+                        <asp:TextBox ID="txtUsername" runat="server" placeholder="Username"></asp:TextBox>
+                        <asp:TextBox ID="txtPassword" TextMode="Password" placeholder="Password" runat="server"></asp:TextBox>
+                        <asp:Button ID="btnSubmit" CssClass="btn btn-secondary" runat="server" Text="Login" OnClick="btnSubmit_Click" />
+                    </div>
                 </div>
             </div>
         </header>
@@ -115,6 +115,8 @@
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                 <li data-target="#myCarousel" data-slide-to="1"></li>
                 <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
             </ol>
             <div class="carousel-inner" style="height:450px;">
                 <div class="carousel-item active" style="height:100%" >
@@ -123,29 +125,21 @@
                       <div class="carousel-caption text-left">
                         <h1 style="color:#ffffff; text-shadow:0.1em 0.1em 0.2em black; font-weight:bold;">โรงเรียนสอนขับรถ มิตรร่วมใจ</h1>
                         <h4 style="color:#ffffff; text-shadow:0.1em 0.1em 0.2em black; font-weight:bold;">เรียนพร้อมสอบใบขับขี่ที่นี่ได้เลย รับรองโดยกรมการขนส่งทางบก</h4>
-                        <h4 style="color:#ffffff; text-shadow:0.1em 0.1em 0.2em black; font-weight:bold;">โทร 02-329-0188,094-652-4697,095-709-5417</h4>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item" style="height:100%" >
-                    <img class="second-slide" runat="server" id="SecondImg" alt="Second slide">
-                    <div class="container">
-                      <div class="carousel-caption text-left">
-                        <h1 style="color:#ffffff; text-shadow:0.1em 0.1em 0.2em black; font-weight:bold;">โรงเรียนสอนขับรถ มิตรร่วมใจ</h1>
-                        <h4 style="color:#ffffff; text-shadow:0.1em 0.1em 0.2em black; font-weight:bold;">เรียนพร้อมสอบใบขับขี่ที่นี่ได้เลย รับรองโดยกรมการขนส่งทางบก</h4>
-                        <h4 style="color:#ffffff; text-shadow:0.1em 0.1em 0.2em black; font-weight:bold;">โทร 02-329-0188,094-652-4697,095-709-5417</h4>
+                        <h4 style="color:#ffffff; text-shadow:0.1em 0.1em 0.2em black; font-weight:bold;">โทร 02-329-0188,094-652-4697</h4>
                       </div>
                     </div>
+                </div>
+                <div class="carousel-item" style="height:100%" >
+                    <img class="second-slide" runat="server" id="SecondImg" alt="Second slide" />
                   </div>
           <div class="carousel-item" style="height:100%">
             <img class="third-slide" runat="server" id="thirdImg" alt="Third slide" />
-            <div class="container">
-              <div class="carousel-caption text-left">
-                   <h1 style="color:#ffffff; text-shadow:0.1em 0.1em 0.2em black; font-weight:bold;">โรงเรียนสอนขับรถ มิตรร่วมใจ</h1>
-                <h4 style="color:#ffffff; text-shadow:0.1em 0.1em 0.2em black; font-weight:bold;">เรียนพร้อมสอบใบขับขี่ที่นี่ได้เลย รับรองโดยกรมการขนส่งทางบก</h4>
-                <h4 style="color:#ffffff; text-shadow:0.1em 0.1em 0.2em black; font-weight:bold;">โทร 02-329-0188,094-652-4697,095-709-5417</h4>
-              </div>
-            </div>
+          </div>
+                <div class="carousel-item" style="height:100%">
+            <img class="third-slide" runat="server" id="FouthImg" alt="Fouth slide" />
+          </div>
+                <div class="carousel-item" style="height:100%">
+            <img class="third-slide" runat="server" id="FiveImg" alt="Five slide" />
           </div>
        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -169,7 +163,7 @@
                 <div class="col-md-6"  style="vertical-align:middle;">
                     <h4><u>โรงเรียนสอนขับรถ มิตรร่วมใจ</u></h4>
                     <p><span class="fa fa-home"></span>&nbsp;โรงเรียนสอนขับรถ มิตรร่วมใจ สำนักงานใหญ่ (ใกล้โรงพบาบาลสิรินธร) 498 ถ.อ่อนนุช ประเวศ ประเวศ กรุงเทพ 10250 </p> 
-                    <p><span class="fa fa-phone"></span>&nbsp;02-329-0188, 094-652-4697, 095-709-5417</p>
+                    <p><span class="fa fa-phone"></span>&nbsp;02-329-0188, 094-652-4697</p>
                     <p><span class="fa fa-facebook-square">&nbsp;<a style="color:black;" href="https://th-th.facebook.com/M.Driving/">Mitruemjai Mitr</a></span>&nbsp;</p>
                 </div>
             </div>

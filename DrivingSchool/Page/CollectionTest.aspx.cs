@@ -28,7 +28,6 @@ namespace DrivingSchool.Page
             count = ds.Tables[0].Rows.Count;
             if (ds.Tables[0].Rows.Count > 0)
             {
-                tmp = ds.Tables[0].Rows[0]["Generation"].ToString();
                 for (int i = 0; i < count; i++)
                 {
                     if (i == 0 || tmp != ds.Tables[0].Rows[i]["Generation"].ToString())
@@ -49,6 +48,7 @@ namespace DrivingSchool.Page
                     img.Attributes["class"] = "img_showCase";
                     imgDiv.Controls.Add(img);
                     containImg.Controls.Add(imgDiv);
+                    tmp = ds.Tables[0].Rows[i]["Generation"].ToString();
                 }
             }
         }

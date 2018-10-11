@@ -59,12 +59,12 @@
                 <h1>นำเสนอ</h1>
             </div>
             <div class="row" style="margin-top:50px;">
-                <div class="col-lg-6" style="vertical-align: middle; margin-bottom: 30px; text-align: center">
+               <%-- <div class="col-lg-6" style="vertical-align: middle; margin-bottom: 30px; text-align: center">
                     <video controls style="transform: rotate(270deg)" width="500" height="500">
                         <source src="../Video/VideoTeach.mp4" type="video/mp4" />
                     </video>
-                </div>
-                 <div class="col-lg-6" style="vertical-align: middle; text-align: center">
+                </div>--%>
+                 <div class="col-lg-12" style="vertical-align: middle; text-align: center">
                      <iframe style="display: inline-block;" height="500" width="500" src="https://www.youtube.com/embed/Rjf9RT0AC8I" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                  </div>
             </div>

@@ -8,7 +8,7 @@ using System.Data;
 
 namespace DrivingSchool.Page
 {
-    public partial class CollectionTeach : System.Web.UI.Page
+    public partial class CollectionStudent : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -22,7 +22,7 @@ namespace DrivingSchool.Page
             string tmp = "";
             sql = "select * ";
             sql += "from [mitruam_SchoolDrive].[mitruam_sp].[Img] ";
-            sql += "where CategoryID = '1' ";
+            sql += "where CategoryID = '4' ";
             sql += "order by Generation ";
             ds = db.getData(sql);
             count = ds.Tables[0].Rows.Count;

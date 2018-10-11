@@ -93,6 +93,10 @@
     <Content Include="Img\Branch\Sri\25188848.jpg" />
     <Content Include="Img\Contact.jpg" />
     <Content Include="Img\Course.jpg" />
+    <Content Include="Img\Cover\S__9396406.jpg" />
+    <Content Include="Img\Cover\S__9396407.jpg" />
+    <Content Include="Img\Cover\S__9396408.jpg" />
+    <Content Include="Img\Cover\S__9396409.jpg" />
     <Content Include="Img\Part2\S__6840322.png" />
     <Content Include="Img\Part2\S__6840328.jpg" />
     <Content Include="Img\Part2\S__6840334.jpg" />
@@ -172,6 +176,7 @@
     <Content Include="Page\BranchRom9.aspx" />
     <Content Include="Page\BranchSri.aspx" />
     <Content Include="Page\Collection.aspx" />
+    <Content Include="Page\CollectionStudent.aspx" />
     <Content Include="Page\CollectionTeach.aspx" />
     <Content Include="Page\CollectionTest.aspx" />
     <Content Include="Page\CollectionTrain.aspx" />
@@ -280,6 +285,13 @@
     <Compile Include="Page\Collection.aspx.designer.cs">
       <DependentUpon>Collection.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Page\CollectionStudent.aspx.cs">
+      <DependentUpon>CollectionStudent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\CollectionStudent.aspx.designer.cs">
+      <DependentUpon>CollectionStudent.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Page\CollectionTeach.aspx.cs">
       <DependentUpon>CollectionTeach.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -352,7 +364,9 @@
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Img\Student\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
