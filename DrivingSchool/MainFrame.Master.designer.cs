@@ -49,31 +49,94 @@ namespace DrivingSchool {
         protected global::System.Web.UI.HtmlControls.HtmlAnchor linkWork;
         
         /// <summary>
-        /// linkProgram control.
+        /// linkMin control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlAnchor linkProgram;
+        protected global::System.Web.UI.HtmlControls.HtmlAnchor linkMin;
         
         /// <summary>
-        /// linkRegister control.
+        /// linkRom9 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlAnchor linkRegister;
+        protected global::System.Web.UI.HtmlControls.HtmlAnchor linkRom9;
         
         /// <summary>
-        /// linkBranch control.
+        /// linkPhra control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlAnchor linkBranch;
+        protected global::System.Web.UI.HtmlControls.HtmlAnchor linkPhra;
+        
+        /// <summary>
+        /// linkRam79 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlAnchor linkRam79;
+        
+        /// <summary>
+        /// linkSri control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlAnchor linkSri;
+        
+        /// <summary>
+        /// linkSukha3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlAnchor linkSukha3;
+        
+        /// <summary>
+        /// linkMoo control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlAnchor linkMoo;
+        
+        /// <summary>
+        /// linkLad30 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlAnchor linkLad30;
+        
+        /// <summary>
+        /// linkLad54 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlAnchor linkLad54;
+        
+        /// <summary>
+        /// linkLadPraow control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlAnchor linkLadPraow;
         
         /// <summary>
         /// linkColl control.
@@ -83,6 +146,15 @@ namespace DrivingSchool {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor linkColl;
+        
+        /// <summary>
+        /// linkRegister control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlAnchor linkRegister;
         
         /// <summary>
         /// linkCont control.

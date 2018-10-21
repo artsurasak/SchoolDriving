@@ -12,14 +12,14 @@
                 <asp:Image ImageUrl="~/Img/Branch/Dindang/1536314066805.jpg" runat="server" Height="450" Width="600" />
             </div>
             <div class="col-lg-6" style="vertical-align: middle; text-align: center">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d407.2836991454694!2d100.5962678422007!3d13.7934940552524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29dc213d314a7%3A0xabe973ff5f8544e3!2z4LiZ4Lie4LmA4LiB4LmJ4LiyIOC4quC4reC4meC4guC4seC4muC4o-C4luC4ouC4meC4leC5jA!5e0!3m2!1sth!2sth!4v1536314861279" width="600" height="450" frameborder="0" style="border: 0" allowfullscreen></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3874.755773397034!2d100.59407051483095!3d13.793590990320435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29d8daf92ea1d%3A0xe614ef410709c071!2z4Lih4Li04LiV4Lij4Lij4LmI4Lin4Lih4LmD4LiIIOC4quC4reC4meC4guC4seC4muC4o-C4lg!5e0!3m2!1sen!2sth!4v1539798743069" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
         </div>
         <div style="margin-left: 50px;">
             <h2>ติดต่อโรงเรียนสอนขับรถ</h2>
             <hr />
-            <h4>โรงเรียนสอนขับรถ มิตรร่วมใจ จุดรับสมัคร ลาดพร้าวโชคชัย 4 และ จุดรับสมัครดินแดง 2209 ปากซอย 55/1 ถนน ลาดพร้าว แขวง สะพาน 2 เขตวังทองหลาง 10310 </h4>
-            <h5>โทร 081-558-8818 , 086-056-8881 </h5>
+            <h4>โรงเรียนมิตรร่วมใจสอนขับรถ จุดรับสมัคร ลาดพร้าวโชคชัย 4 และ จุดรับสมัครดินแดง 2209 ปากซอย 55/1 ถนน ลาดพร้าว แขวง สะพาน 2 เขตวังทองหลาง 10310 </h4>
+            <h5>โทร <a data-rel="external" href="tel:081-558-8818">081-558-8818</a>, <a data-rel="external" href="tel:086-056-8881">086-056-8881</a> </h5>
         </div>
     </div>
 </asp:Content>

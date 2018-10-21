@@ -4,7 +4,7 @@
     ภาพบรรยากาศ
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentDetail" runat="server">
-    <h1 class="headerDTL">รูปภาพบรรยากาศการเรียนการสอนของโรงเรียน มิตรร่วมใจ</h1>
+    <h1 class="headerDTL">รูปภาพบรรยากาศการเรียนการสอนของโรงเรียนมิตรร่วมใจสอนขับรถ</h1>
     <hr />
     <div class="row">
         <div class="col-lg-3" style="vertical-align: middle; margin-bottom: 30px; margin-top: 30px; text-align: center">

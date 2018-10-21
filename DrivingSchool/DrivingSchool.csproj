@@ -104,6 +104,13 @@
     <Content Include="Img\Part2\S__6840336.jpg" />
     <Content Include="Img\Part2\S__6840342.jpg" />
     <Content Include="Img\Part2\S__6840346.jpg" />
+    <Content Include="Img\part3\1.jpg" />
+    <Content Include="Img\part3\2.jpg" />
+    <Content Include="Img\part3\3.jpg" />
+    <Content Include="Img\part3\4.jpg" />
+    <Content Include="Img\part3\40753.jpg" />
+    <Content Include="Img\part3\40755.jpg" />
+    <Content Include="Img\part3\News.jpg" />
     <Content Include="Img\Register.jpg" />
     <Content Include="Img\Teach\รุ่นที่ 1\51526.jpg" />
     <Content Include="Img\Teach\รุ่นที่ 1\51527.jpg" />
@@ -189,6 +196,14 @@
     <Content Include="Page\UploadImg.aspx" />
     <Content Include="Stylesheet\SchoolDriver.css" />
     <Content Include="Img\51551.jpg" />
+    <Content Include="Video\1.mp4" />
+    <Content Include="Video\2.mp4" />
+    <Content Include="Video\3.mp4" />
+    <Content Include="Video\4.mp4" />
+    <Content Include="Video\5.mp4" />
+    <Content Include="Video\6.mp4" />
+    <Content Include="Video\7.mp4" />
+    <Content Include="Video\8.mp4" />
     <Content Include="Video\VideoTeach.mp4" />
     <Content Include="Web.config" />
   </ItemGroup>

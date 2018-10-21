@@ -38,7 +38,38 @@
                 }
             });
         });
+
+
     </script>
+    <style>
+        .sidebar-nav {
+            padding: 9px 0;
+        }
+
+        .dropdown-menu {
+            opacity: 0.9;
+            /*transition: height 0.15s ease-out;*/
+            -webkit-transition: height .5s ease-out;
+            -moz-transition: height .5s ease-out;
+            -ms-transition: height .5s ease-out;
+            -o-transition: height .5s ease-out;
+            transition: height .5s ease-out;
+            overflow: hidden;
+        }
+
+            .dropdown-menu li a:hover {
+                background-color: black;
+            }
+
+        .dropdown:hover .dropdown-menu {
+            display: block;
+            /*-webkit-transition: height .5s ease-in;
+            -moz-transition: height .5s ease-in;
+            -ms-transition: height .5s ease-in;
+            -o-transition: height .5s ease-in;
+            transition: height .5s ease-in;*/
+        }
+    </style>
 </head>
 <body>
     <div id="fb-root"></div>
@@ -67,21 +98,57 @@
                             <li class="nav-item">
                                 <a class="nav-link" id="linkWork" runat="server">หลักการสอนขับรถยนต์</a>
                             </li>
+                            <li class="dropdown">
+                                <a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">จุดรับสมัคร<b class="caret"></b></a>
+                                <ul class="dropdown-menu" style="background-color: black; text-align: center; font-weight: bold; width: 300px;" id="menu1">
+                                    <li class="dropdown-header" style="font-size: 18px; color: #267cd3;">สะดวกจุดไหนติดต่อจุดนั้น</li>
+                                    <li class="dropdown-submenu" style="padding: 5px;">
+                                        <a id="linkMin" runat="server" style="color: white; font-size: 18px;">มีนบุรี<i class="icon-arrow-right"></i></a>
+                                    </li>
+                                    <li class="dropdown-submenu" style="padding: 5px;">
+                                        <a id="linkRom9" runat="server" style="font-size: 18px; margin-top: 50px; color: white;">ร่มเกล้า<i class="icon-arrow-right"></i></a>
+                                    </li>
+                                    <li class="dropdown-submenu" style="padding: 5px;">
+                                        <a id="linkPhra" runat="server" style="color: white; font-size: 18px;">พระโขนง<i class="icon-arrow-right"></i></a>
+                                    </li>
+                                    <li class="dropdown-submenu" style="padding: 5px;">
+                                        <a id="linkRam79" runat="server" style="color: white; font-size: 18px;">รามคำแหง<i class="icon-arrow-right"></i></a>
+                                    </li>
+                                    <li class="dropdown-submenu" style="padding: 5px;">
+                                        <a id="linkSri" runat="server" style="color: white; font-size: 18px;">ศรีนครินทร์<i class="icon-arrow-right"></i></a>
+                                    </li>
+                                    <li class="dropdown-submenu" style="padding: 5px;">
+                                        <a id="linkSukha3" runat="server" style="color: white; font-size: 18px;">สุขาภิบาล 3<i class="icon-arrow-right"></i></a>
+                                    </li>
+                                    <li class="dropdown-submenu" style="padding: 5px;">
+                                        <a id="linkMoo" runat="server" style="color: white; font-size: 18px;">หมู่บ้านนักกีฬา<i class="icon-arrow-right"></i></a>
+                                    </li>
+                                    <li class="dropdown-submenu" style="padding: 5px;">
+                                        <a id="linkLad30" runat="server" style="color: white; font-size: 18px;">ลาดกระบัง 30/1 (วัด2)<i class="icon-arrow-right"></i></a>
+                                    </li>
+                                    <li class="dropdown-submenu" style="padding: 5px;">
+                                        <a id="linkLad54" runat="server" style="color: white; margin-top: 50px; font-size: 18px;">ลาดกระบัง (ปากซอย 54)<i class="icon-arrow-right"></i></a>
+                                    </li>
+                                    <li class="dropdown-submenu" style="padding: 5px;">
+                                        <a id="linkLadPraow" runat="server" style="color: white; font-size: 18px;">ลาดพร้าวโชคชัย4 ดินแดง รัชดา<i class="icon-arrow-right"></i></a>
+                                    </li>
+
+                                </ul>
+                            </li>
+                            <%--  <li class="nav-item">
+                                <a class="nav-link" id="linkBranch" runat="server">จุดรับสมัคร</a>
+
+                            </li>--%>
                             <li class="nav-item">
-                                <a class="nav-link" id="linkProgram" runat="server">หลักสูตรเปิดสอน</a>
+                                <a class="nav-link" id="linkColl" runat="server">ภาพบรรยากาศ</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" id="linkRegister" runat="server">สมัครเรียน</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" id="linkBranch" runat="server">จุดรับสมัคร</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="linkColl" runat="server">ภาพบรรยากาศ</a>
-                            </li>
-                            <li class="nav-item">
                                 <a class="nav-link" id="linkCont" runat="server">ติดต่อเรา</a>
                             </li>
+
                             <li>
                                 <a class="nav-link" id="linkUpload" runat="server">Upload Image</a>
                             </li>
@@ -123,7 +190,7 @@
                     <img class="first-slide" runat="server" id="firstImg" alt="SchoolDriving">
                     <div class="container">
                       <div class="carousel-caption text-left">
-                        <h1 style="color:#ffffff; text-shadow:0.1em 0.1em 0.2em black; font-weight:bold;">โรงเรียนสอนขับรถ มิตรร่วมใจ</h1>
+                        <h1 style="color:#ffffff; text-shadow:0.1em 0.1em 0.2em black; font-weight:bold;">โรงเรียนมิตรร่วมใจสอนขับรถ</h1>
                         <h4 style="color:#ffffff; text-shadow:0.1em 0.1em 0.2em black; font-weight:bold;">เรียนพร้อมสอบใบขับขี่ที่นี่ได้เลย รับรองโดยกรมการขนส่งทางบก</h4>
                         <h4 style="color:#ffffff; text-shadow:0.1em 0.1em 0.2em black; font-weight:bold;">โทร 02-329-0188,094-652-4697</h4>
                       </div>
@@ -158,12 +225,13 @@
             <div class="row" style="margin-top:60px; padding-top:20px; padding-bottom:20px; background-color:#8da3ba; color:#ffffff" >
                 <div class="col-md-6" style="vertical-align:middle; text-align:center">
                     <h4>LIKE US</h4>
-                    <div class="fb-page" data-href="https://www.facebook.com/M.Driving/" data-width="400" data-height="200" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Mitruemjai/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Mitruemjai/">มิตรร่วมใจสอนขับรถยนต์ by เสริมศักดิ์</a></blockquote></div>
+                    <div class="fb-page" data-href="https://www.facebook.com/M.Driving/" data-width="400" data-height="200" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Mitruemjai/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Mitruemjai/">มิตรร่วมใจสอนขับรถยนต์</a></blockquote></div>
                 </div>
                 <div class="col-md-6"  style="vertical-align:middle;">
-                    <h4><u>โรงเรียนสอนขับรถ มิตรร่วมใจ</u></h4>
-                    <p><span class="fa fa-home"></span>&nbsp;โรงเรียนสอนขับรถ มิตรร่วมใจ สำนักงานใหญ่ (ใกล้โรงพบาบาลสิรินธร) 498 ถ.อ่อนนุช ประเวศ ประเวศ กรุงเทพ 10250 </p> 
-                    <p><span class="fa fa-phone"></span>&nbsp;02-329-0188, 094-652-4697</p>
+                    <h4><u>โรงเรียน มิตรร่วมใจ สอนขับรถ</u></h4>
+                    <p><span class="fa fa-home"></span>&nbsp;โรงเรียน มิตรร่วมใจ สอนขับรถ สำนักงานใหญ่ (ใกล้โรงพบาบาลสิรินธร) 498 ถ.อ่อนนุช ประเวศ ประเวศ กรุงเทพ 10250 </p> 
+                    <p><span class="fa fa-phone"></span>&nbsp;<a data-rel="external" href="tel:02-329-0188">02-329-0188</a>, <a data-rel="external" href="tel:02-329-0187">02-329-0187</a></p>
+                    
                     <p><span class="fa fa-facebook-square">&nbsp;<a style="color:black;" href="https://th-th.facebook.com/M.Driving/">Mitruemjai Mitr</a></span>&nbsp;</p>
                 </div>
             </div>

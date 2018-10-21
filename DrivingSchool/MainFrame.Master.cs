@@ -14,15 +14,25 @@ namespace DrivingSchool
         {
             linkHome.HRef = "Page/Home.aspx";
             linkWork.HRef = "Page/StepWork.aspx";
-            linkProgram.HRef = "Page/Program.aspx";
             linkRegister.HRef = "Page/Register.aspx";
-            linkBranch.HRef = "Page/Branch.aspx";
             linkColl.HRef = "Page/Collection.aspx";
             linkCont.HRef = "Page/Contact.aspx";
             linkUpload.HRef = "Page/UploadImg.aspx";
             linkLogout.HRef = "Page/Logout.aspx";
+            
+            linkRom9.HRef = "Page/BranchRom9.aspx";
+            linkLad54.HRef = "Page/BranchLad54.aspx";
+            linkMin.HRef = "Page/BranchMin.aspx";
+            linkPhra.HRef = "Page/BranchPhra.aspx";
+            linkLad30.HRef = "Page/BranchLad30.aspx";
+            linkSukha3.HRef = "Page/BranchBang.aspx";
+            linkRam79.HRef = "Page/BranchRam.aspx";
+            linkSri.HRef = "Page/BranchSri.aspx";
+            linkLadPraow.HRef = "Page/BranchDin.aspx";
+            linkMoo.HRef = "Page/BranchMoo.aspx";
+
             logo.Src = "Img/Logo/Logo2_Clear.png";
-            firstImg.Src =  "Img/Part2/S__6840335.jpg";
+            firstImg.Src = "Img/Part2/S__6840335.jpg";
             SecondImg.Src = "Img/Cover/S__9396406.jpg";
             thirdImg.Src = "Img/Cover/S__9396407.jpg";
             FouthImg.Src = "Img/Cover/S__9396408.jpg";

@@ -34,7 +34,7 @@
         <hr />
         <h3 style="margin-left: 50px; font-weight: bold;">นักเรียนคนเก่งของเรา</h3>
         <div id="containImg" runat="server">
-            <div id="myModal" class="modal" style="margin-top: 60px;" tabindex='-1'>
+            <div id="myModal" class="modal" style="margin-top: 100px;" tabindex='-1'>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">X</span>
                 </button>
