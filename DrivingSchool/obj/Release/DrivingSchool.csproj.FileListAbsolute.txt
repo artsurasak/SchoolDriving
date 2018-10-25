@@ -4,3 +4,9 @@ C:\Users\SP\Documents\GitHub\SchoolDriving\DrivingSchool\bin\DrivingSchool.pdb
 C:\Users\SP\Documents\GitHub\SchoolDriving\DrivingSchool\obj\Release\DrivingSchool.csprojResolveAssemblyReference.cache
 C:\Users\SP\Documents\GitHub\SchoolDriving\DrivingSchool\obj\Release\DrivingSchool.dll
 C:\Users\SP\Documents\GitHub\SchoolDriving\DrivingSchool\obj\Release\DrivingSchool.pdb
+C:\Users\580009\Documents\GitHub\SchoolDriving\DrivingSchool\bin\DrivingSchool.dll.config
+C:\Users\580009\Documents\GitHub\SchoolDriving\DrivingSchool\bin\DrivingSchool.dll
+C:\Users\580009\Documents\GitHub\SchoolDriving\DrivingSchool\bin\DrivingSchool.pdb
+C:\Users\580009\Documents\GitHub\SchoolDriving\DrivingSchool\obj\Release\DrivingSchool.csprojResolveAssemblyReference.cache
+C:\Users\580009\Documents\GitHub\SchoolDriving\DrivingSchool\obj\Release\DrivingSchool.dll
+C:\Users\580009\Documents\GitHub\SchoolDriving\DrivingSchool\obj\Release\DrivingSchool.pdb
