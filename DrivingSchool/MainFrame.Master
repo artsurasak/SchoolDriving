@@ -192,7 +192,7 @@
                       <div class="carousel-caption text-left">
                         <h1 style="color:#ffffff; text-shadow:0.1em 0.1em 0.2em black; font-weight:bold;">โรงเรียนมิตรร่วมใจสอนขับรถ</h1>
                         <h4 style="color:#ffffff; text-shadow:0.1em 0.1em 0.2em black; font-weight:bold;">เรียนพร้อมสอบใบขับขี่ที่นี่ได้เลย รับรองโดยกรมการขนส่งทางบก</h4>
-                        <h4 style="color:#ffffff; text-shadow:0.1em 0.1em 0.2em black; font-weight:bold;">โทร 02-329-0188,094-652-4697</h4>
+                        <h4 style="color:#ffffff; text-shadow:0.1em 0.1em 0.2em black; font-weight:bold;">โทร <a data-rel="external" href="tel:02-329-0188">02-329-0188</a>,<a data-rel="external" href="tel:02-329-0187">02-329-0187</a></h4>
                       </div>
                     </div>
                 </div>
