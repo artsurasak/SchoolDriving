@@ -1,11 +1,11 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MainFrame.Master" AutoEventWireup="true" CodeBehind="BranchRam.aspx.cs" Inherits="DrivingSchool.Page.BranchRam" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="Title" runat="server">
-    จุดรับสมัคร รามคำแหง 79/2
+    จุดประชาสัมพันธ์ รามคำแหง 79/2
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentDetail" runat="server">
     <div id="container" style="margin-left: 50px;">
-        <h3>จุดรับสมัคร รามคำแหง</h3>
+        <h3>จุดประชาสัมพันธ์ รามคำแหง</h3>
         <hr />
         <div class="row">
             <div class="col-lg-6" style="vertical-align: middle; margin-bottom: 30px; text-align: center">
@@ -18,8 +18,8 @@
         <div style="margin-left: 50px;">
             <h2>ติดต่อโรงเรียนสอนขับรถ</h2>
             <hr />
-            <h4>โรงเรียนมิตรร่วมใจสอนขับรถ จุดรับสมัคร รามคำแหง เลขที่2857 ซอยรามคำแหง 79/2 ถนนรามคำแหง แขวงหัวหมาก เขตบางกะปิ กรุงเทพ 10240</h4>
-            <h5>โทร <a data-rel="external" href="tel:081-303-3982">081-303-3982</a> .อ.ประดิษฐ </h5>
+            <h4>โรงเรียนมิตรร่วมใจสอนขับรถ จุดประชาสัมพันธ์ รามคำแหง เลขที่2857 ซอยรามคำแหง 79/2 ถนนรามคำแหง แขวงหัวหมาก เขตบางกะปิ กรุงเทพ 10240</h4>
+            <%--<h5>โทร <a data-rel="external" href="tel:081-303-3982">081-303-3982</a> .อ.ประดิษฐ </h5>--%>
         </div>
     </div>
 </asp:Content>

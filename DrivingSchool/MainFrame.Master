@@ -95,11 +95,22 @@
                             <li class="nav-item">
                                 <a class="nav-link" id="linkHome" runat="server">หน้าแรก</a>
                             </li>
-                            <li class="nav-item">
+                            <%--<li class="nav-item">
                                 <a class="nav-link" id="linkWork" runat="server">หลักการสอนขับรถยนต์</a>
+                            </li>--%>
+                            <li class="dropdown">
+                                <a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">หลักการสอนขับรถ<b class="caret"></b></a>
+                                <ul class="dropdown-menu" style="background-color: black; text-align: center; font-weight: bold; width: 300px;" id="menu1">
+                                    <li class="dropdown-submenu" style="padding: 5px;">
+                                        <a id="linkWork" runat="server" style="color: white; font-size: 18px;">หลักการสอนขับรถยนต์<i class="icon-arrow-right"></i></a>
+                                    </li>
+                                    <li class="dropdown-submenu" style="padding: 5px;">
+                                        <a id="linkWorkMotorcycle" runat="server" style="font-size: 18px; margin-top: 50px; color: white;">หลักการสอนขับรถจักรยานยนต์<i class="icon-arrow-right"></i></a>
+                                    </li>
+                                </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">จุดรับสมัคร<b class="caret"></b></a>
+                                <a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">จุดประชาสัมพันธ์<b class="caret"></b></a>
                                 <ul class="dropdown-menu" style="background-color: black; text-align: center; font-weight: bold; width: 300px;" id="menu1">
                                     <li class="dropdown-header" style="font-size: 18px; color: #267cd3;">สะดวกจุดไหนติดต่อจุดนั้น</li>
                                     <li class="dropdown-submenu" style="padding: 5px;">
@@ -108,9 +119,9 @@
                                     <li class="dropdown-submenu" style="padding: 5px;">
                                         <a id="linkRom9" runat="server" style="font-size: 18px; margin-top: 50px; color: white;">ร่มเกล้า<i class="icon-arrow-right"></i></a>
                                     </li>
-                                    <li class="dropdown-submenu" style="padding: 5px;">
+                                   <%-- <li class="dropdown-submenu" style="padding: 5px;">
                                         <a id="linkPhra" runat="server" style="color: white; font-size: 18px;">พระโขนง<i class="icon-arrow-right"></i></a>
-                                    </li>
+                                    </li>--%>
                                     <li class="dropdown-submenu" style="padding: 5px;">
                                         <a id="linkRam79" runat="server" style="color: white; font-size: 18px;">รามคำแหง<i class="icon-arrow-right"></i></a>
                                     </li>
@@ -135,10 +146,6 @@
 
                                 </ul>
                             </li>
-                            <%--  <li class="nav-item">
-                                <a class="nav-link" id="linkBranch" runat="server">จุดรับสมัคร</a>
-
-                            </li>--%>
                             <li class="nav-item">
                                 <a class="nav-link" id="linkColl" runat="server">ภาพบรรยากาศ</a>
                             </li>
@@ -155,19 +162,13 @@
                             <li>
                                 <a class="nav-link" id="linkLogout" runat="server">Log out</a>
                             </li>
-                            <%--<li style="margin-right:20px; margin-left:50px;">
-                            <asp:TextBox ID="txtUsername" runat="server" CssClass="form-control"></asp:TextBox>
-                        </li>
-                         <li>
-                            <asp:TextBox ID="txtPassword" TextMode="Password" runat="server" CssClass="form-control"></asp:TextBox>
-                        </li>--%>
                         </ul>
                     </div>
 
                 </nav>
             </div>
             <div id="LoginForm" class="row" runat="server" style="margin-top: 10px; background-color: #267cd3;">
-                <div class="col-md-6">
+                <div class="col-md-10">
                     <div class="form-group" style="margin-top: 10px; margin-left: 20px;">
                         <asp:TextBox ID="txtUsername" runat="server" placeholder="Username"></asp:TextBox>
                         <asp:TextBox ID="txtPassword" TextMode="Password" placeholder="Password" runat="server"></asp:TextBox>

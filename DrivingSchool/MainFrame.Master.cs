@@ -14,6 +14,7 @@ namespace DrivingSchool
         {
             linkHome.HRef = "Page/Home.aspx";
             linkWork.HRef = "Page/StepWork.aspx";
+            linkWorkMotorcycle.HRef = "Page/StepWorkMotorCycle.aspx";
             linkRegister.HRef = "Page/Register.aspx";
             linkColl.HRef = "Page/Collection.aspx";
             linkCont.HRef = "Page/Contact.aspx";
@@ -23,7 +24,7 @@ namespace DrivingSchool
             linkRom9.HRef = "Page/BranchRom9.aspx";
             linkLad54.HRef = "Page/BranchLad54.aspx";
             linkMin.HRef = "Page/BranchMin.aspx";
-            linkPhra.HRef = "Page/BranchPhra.aspx";
+            //linkPhra.HRef = "Page/BranchPhra.aspx";
             linkLad30.HRef = "Page/BranchLad30.aspx";
             linkSukha3.HRef = "Page/BranchBang.aspx";
             linkRam79.HRef = "Page/BranchRam.aspx";
@@ -48,6 +49,13 @@ namespace DrivingSchool
                 linkUpload.Visible = false;
                 linkLogout.Visible = false;
             }
+
+            //int currentNumberOfUsers = Global.CurrentNumberOfUsers;
+            //int totalNumberOfUsers = Global.TotalNumberOfUsers;
+            ////DateTime current = Global.CurrentDateTime;
+            //lblCurrentNumberOfUsers.Text = currentNumberOfUsers.ToString();
+            //lblTotalNumberOfUsers.Text = totalNumberOfUsers.ToString();
+            ////date.Text = current.ToString("dd/MM/yyyy HH:mm:ss");
         }
 
         protected void btnSubmit_Click(object sender, EventArgs e)

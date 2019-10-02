@@ -20,6 +20,7 @@ namespace DrivingSchool.Page
             imgGuarantee.Src = "../Img/Part3/4.jpg";
             imgPresent1.Src = "../Img/part2/S__6840336.jpg";
             imgPresent2.Src = "../Img/part3/News.jpg";
+            imgPresent3.Src = "../Img/Motor/img1.jpg";
 
             video1.Src = "../Video/1.mp4";
             video2.Src = "../Video/2.mp4";

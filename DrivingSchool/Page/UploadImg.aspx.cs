@@ -41,6 +41,8 @@ namespace DrivingSchool.Page
                 case 2: return "Train";
                 case 3: return "Test";
                 case 4: return "Student";
+                case 5: return "TeachMotor";
+                case 6: return "TestMotor";
                 default:
                     return "";
             }

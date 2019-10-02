@@ -1,11 +1,11 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MainFrame.Master" AutoEventWireup="true" CodeBehind="BranchBang.aspx.cs" Inherits="DrivingSchool.Page.BranchBang" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="Title" runat="server">
-    จุดรับสมัคร สุขาภิบาล3
+    จุดประชาสัมพันธ์ สุขาภิบาล3
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentDetail" runat="server">
     <div id="container" style="margin-left: 50px;">
-        <h3>จุดรับสมัคร สุขาภิบาล3</h3>
+        <h3>จุดประชาสัมพันธ์ สุขาภิบาล3</h3>
         <hr />
         <div class="row">
             <div class="col-lg-6" style="vertical-align: middle; margin-bottom: 30px; text-align: center">
@@ -18,8 +18,8 @@
         <div style="margin-left: 50px;">
             <h2>ติดต่อโรงเรียนสอนขับรถ</h2>
             <hr />
-            <h4>โรงเรียนมิตรร่วมใจสอนขับรถ จุดรับสมัคร สุขาภิบาล3 3575/2 ซอย รามคำแหง 89/1 ถนน รามคำแหง แขวง หัวหมาก เขต บางกะปิ กรุงเทพมหานคร 10240</h4>
-            <h5>โทร <a data-rel="external" href="tel:081-8336128">081-8336128</a>  , <a data-rel="external" href="tel:083-199-3458">083-199-3458</a></h5>
+            <h4>โรงเรียนมิตรร่วมใจสอนขับรถ จุดประชาสัมพันธ์ สุขาภิบาล3 3575/2 ซอย รามคำแหง 89/1 ถนน รามคำแหง แขวง หัวหมาก เขต บางกะปิ กรุงเทพมหานคร 10240</h4>
+            <%--<h5>โทร <a data-rel="external" href="tel:081-8336128">081-8336128</a>  , <a data-rel="external" href="tel:083-199-3458">083-199-3458</a></h5>--%>
         </div>
     </div>
 </asp:Content>

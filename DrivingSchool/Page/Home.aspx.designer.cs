@@ -139,6 +139,15 @@ namespace DrivingSchool.Page {
         protected global::System.Web.UI.HtmlControls.HtmlImage imgPresent1;
         
         /// <summary>
+        /// imgPresent3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlImage imgPresent3;
+        
+        /// <summary>
         /// imgPresent2 control.
         /// </summary>
         /// <remarks>

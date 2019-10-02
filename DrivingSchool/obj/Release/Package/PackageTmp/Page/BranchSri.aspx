@@ -1,11 +1,11 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MainFrame.Master" AutoEventWireup="true" CodeBehind="BranchSri.aspx.cs" Inherits="DrivingSchool.Page.BranchSri" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="Title" runat="server">
-    จุดรับสมัครศรีนครินทร์ (แยกศรีนุช)
+    จุดประชาสัมพันธ์ ศรีนครินทร์ (แยกศรีนุช)
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentDetail" runat="server">
     <div id="container" style="margin-left: 50px;">
-        <h3>จุดรับสมัครศรีนครินทร์ (แยกศรีนุช)</h3>
+        <h3>จุดประชาสัมพันธ์ ศรีนครินทร์ (แยกศรีนุช)</h3>
         <hr />
         <div class="row">
             <div class="col-lg-6" style="vertical-align: middle; margin-bottom: 30px; text-align: center">
@@ -18,8 +18,8 @@
         <div style="margin-left: 50px;">
             <h2>ติดต่อโรงเรียนสอนขับรถ</h2>
             <hr />
-            <h4>โรงเรียนมิตรร่วมใจสอนขับรถ จุดรับสมัครศรีนครินทร์ 2277 ซอย อ่อนนุช ถนน ศรีนครินทร์ ถนน สุขุมวิท 77 แขวง สวนหลวง เขต สวนหลวง กรุงเทพมหานคร 10250</h4>
-            <h5>โทร <a data-rel="external" href="tel:094-242-3536">094-242-3536</a></h5>
+            <h4>โรงเรียนมิตรร่วมใจสอนขับรถ จุดประชาสัมพันธ์ ศรีนครินทร์ 2277 ซอย อ่อนนุช ถนน ศรีนครินทร์ ถนน สุขุมวิท 77 แขวง สวนหลวง เขต สวนหลวง กรุงเทพมหานคร 10250</h4>
+           <%-- <h5>โทร <a data-rel="external" href="tel:094-242-3536">094-242-3536</a></h5>--%>
         </div>
     </div>
 </asp:Content>

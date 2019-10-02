@@ -49,6 +49,15 @@ namespace DrivingSchool {
         protected global::System.Web.UI.HtmlControls.HtmlAnchor linkWork;
         
         /// <summary>
+        /// linkWorkMotorcycle control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlAnchor linkWorkMotorcycle;
+        
+        /// <summary>
         /// linkMin control.
         /// </summary>
         /// <remarks>
@@ -65,15 +74,6 @@ namespace DrivingSchool {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor linkRom9;
-        
-        /// <summary>
-        /// linkPhra control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlAnchor linkPhra;
         
         /// <summary>
         /// linkRam79 control.

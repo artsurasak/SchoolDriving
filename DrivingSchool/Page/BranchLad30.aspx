@@ -1,11 +1,11 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MainFrame.Master" AutoEventWireup="true" CodeBehind="BranchLad30.aspx.cs" Inherits="DrivingSchool.Page.BranchLad30" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="Title" runat="server">
-    จุดรับสมัคร ลาดกระบัง 30/1 (วัด 2)
+    จุดประชาสัมพันธ์ ลาดกระบัง 30/1 (วัด 2)
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentDetail" runat="server">
     <div id="container" style="margin-left: 50px;">
-        <h3>จุดรับสมัคร ลาดกระบัง 30/1 (วัด 2)</h3>
+        <h3>จุดประชาสัมพันธ์ ลาดกระบัง 30/1 (วัด 2)</h3>
         <hr />
         <div class="row">
             <div class="col-lg-6" style="vertical-align: middle; margin-bottom: 30px; text-align: center">
@@ -18,8 +18,8 @@
         <div style="margin-left: 50px;">
             <h2>ติดต่อโรงเรียนสอนขับรถ</h2>
             <hr />
-            <h4>โรงเรียนมิตรร่วมใจสอนขับรถ จุดรับสมัคร ลาดกระบัง 30/1 (วัด 2) 644 ซอย ลาดกระบัง 30/1 แขวง ลาดกระบัง เขต ลาดกระบัง กรุงเทพมหานคร 10520  </h4>
-            <h5>โทร <a data-rel="external" href="tel:080-752-7701">080-752-7701</a> , <a data-rel="external" href="tel:096-994-0945">096-994-0945</a>  อ.มนูญ </h5>
+            <h4>โรงเรียนมิตรร่วมใจสอนขับรถ จุดประชาสัมพันธ์ ลาดกระบัง 30/1 (วัด 2) 644 ซอย ลาดกระบัง 30/1 แขวง ลาดกระบัง เขต ลาดกระบัง กรุงเทพมหานคร 10520  </h4>
+           <%-- <h5>โทร <a data-rel="external" href="tel:080-752-7701">080-752-7701</a> , <a data-rel="external" href="tel:096-994-0945">096-994-0945</a>  อ.มนูญ </h5>--%>
         </div>
     </div>
 </asp:Content>

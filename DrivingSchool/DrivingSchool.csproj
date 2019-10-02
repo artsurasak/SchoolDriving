@@ -70,6 +70,7 @@
     <Content Include="Bootstrape\js\bootstrap.bundle.min.js.map" />
     <Content Include="Bootstrape\js\bootstrap.js.map" />
     <Content Include="Bootstrape\js\bootstrap.min.js.map" />
+    <Content Include="Global.asax" />
     <Content Include="Img\51526.jpg" />
     <Content Include="Img\51528.jpg" />
     <Content Include="Img\51529.jpg" />
@@ -97,6 +98,10 @@
     <Content Include="Img\Cover\S__9396407.jpg" />
     <Content Include="Img\Cover\S__9396408.jpg" />
     <Content Include="Img\Cover\S__9396409.jpg" />
+    <Content Include="Img\Motor\img1.jpg" />
+    <Content Include="Img\Motor\img2.jpg" />
+    <Content Include="Img\Motor\Motor1.jpg" />
+    <Content Include="Img\Motor\Motor2.jpg" />
     <Content Include="Img\Part2\S__6840322.png" />
     <Content Include="Img\Part2\S__6840328.jpg" />
     <Content Include="Img\Part2\S__6840334.jpg" />
@@ -178,14 +183,15 @@
     <Content Include="Page\BranchLad54.aspx" />
     <Content Include="Page\BranchMin.aspx" />
     <Content Include="Page\BranchMoo.aspx" />
-    <Content Include="Page\BranchPhra.aspx" />
     <Content Include="Page\BranchRam.aspx" />
     <Content Include="Page\BranchRom9.aspx" />
     <Content Include="Page\BranchSri.aspx" />
     <Content Include="Page\Collection.aspx" />
     <Content Include="Page\CollectionStudent.aspx" />
     <Content Include="Page\CollectionTeach.aspx" />
+    <Content Include="Page\CollectionTeachMotor.aspx" />
     <Content Include="Page\CollectionTest.aspx" />
+    <Content Include="Page\CollectionTestMotor.aspx" />
     <Content Include="Page\CollectionTrain.aspx" />
     <Content Include="Page\Contact.aspx" />
     <Content Include="Page\Home.aspx" />
@@ -193,6 +199,7 @@
     <Content Include="Page\Program.aspx" />
     <Content Include="Page\Register.aspx" />
     <Content Include="Page\StepWork.aspx" />
+    <Content Include="Page\StepWorkMotorCycle.aspx" />
     <Content Include="Page\UploadImg.aspx" />
     <Content Include="Stylesheet\SchoolDriver.css" />
     <Content Include="Img\51551.jpg" />
@@ -209,6 +216,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class\dbConfig.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
     <Compile Include="MainFrame.Master.cs">
       <DependentUpon>MainFrame.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -265,13 +275,6 @@
     <Compile Include="Page\BranchMoo.aspx.designer.cs">
       <DependentUpon>BranchMoo.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Page\BranchPhra.aspx.cs">
-      <DependentUpon>BranchPhra.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Page\BranchPhra.aspx.designer.cs">
-      <DependentUpon>BranchPhra.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Page\BranchRam.aspx.cs">
       <DependentUpon>BranchRam.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -314,12 +317,26 @@
     <Compile Include="Page\CollectionTeach.aspx.designer.cs">
       <DependentUpon>CollectionTeach.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Page\CollectionTeachMotor.aspx.cs">
+      <DependentUpon>CollectionTeachMotor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\CollectionTeachMotor.aspx.designer.cs">
+      <DependentUpon>CollectionTeachMotor.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Page\CollectionTest.aspx.cs">
       <DependentUpon>CollectionTest.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Page\CollectionTest.aspx.designer.cs">
       <DependentUpon>CollectionTest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\CollectionTestMotor.aspx.cs">
+      <DependentUpon>CollectionTestMotor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\CollectionTestMotor.aspx.designer.cs">
+      <DependentUpon>CollectionTestMotor.aspx</DependentUpon>
     </Compile>
     <Compile Include="Page\CollectionTrain.aspx.cs">
       <DependentUpon>CollectionTrain.aspx</DependentUpon>
@@ -370,6 +387,13 @@
     <Compile Include="Page\StepWork.aspx.designer.cs">
       <DependentUpon>StepWork.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Page\StepWorkMotorCycle.aspx.cs">
+      <DependentUpon>StepWorkMotorCycle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\StepWorkMotorCycle.aspx.designer.cs">
+      <DependentUpon>StepWorkMotorCycle.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Page\UploadImg.aspx.cs">
       <DependentUpon>UploadImg.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -381,6 +405,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Img\Student\" />
+    <Folder Include="Img\TeachMotor\" />
+    <Folder Include="Img\TestMotor\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

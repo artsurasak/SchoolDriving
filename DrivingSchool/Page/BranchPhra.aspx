@@ -1,11 +1,11 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MainFrame.Master" AutoEventWireup="true" CodeBehind="BranchPhra.aspx.cs" Inherits="DrivingSchool.Page.BranchPhra" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="Title" runat="server">
-    จุดรับสมัคร พระโขนง
+    จุดประชาสัมพันธ์ พระโขนง
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentDetail" runat="server">
     <div id="container" style="margin-left: 50px;">
-        <h3>จุดรับสมัคร พระโขนง</h3>
+        <h3>จุดประชาสัมพันธ์ พระโขนง</h3>
         <hr />
         <div class="row">
             <div class="col-lg-6" style="vertical-align: middle; margin-bottom: 30px; text-align: center">
@@ -18,7 +18,7 @@
         <div style="margin-left: 50px;">
             <h2>ติดต่อโรงเรียนสอนขับรถ</h2>
             <hr />
-            <h4>โรงเรียนมิตรร่วมใจสอนขับรถ จุดรับสมัคร พระโขนง 1468 ถ.สุขุมวิท. เชิงสพานพระโขนง แขวงพระโขนง เขตคลองเตย กรุงเทพมหานคร 10260</h4>
+            <h4>โรงเรียนมิตรร่วมใจสอนขับรถ จุดประชาสัมพันธ์ พระโขนง 1468 ถ.สุขุมวิท. เชิงสพานพระโขนง แขวงพระโขนง เขตคลองเตย กรุงเทพมหานคร 10260</h4>
             <h5>โทร <a data-rel="external" href="tel:02-331-0611">02-331-0611</a></h5>
         </div>
     </div>

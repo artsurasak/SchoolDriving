@@ -34,7 +34,7 @@
                         <asp:TextBox ID="txtTel" CssClass="form-control" runat="server"></asp:TextBox></asp:TableCell>
                 </asp:TableRow>
                 <asp:TableRow>
-                    <asp:TableCell Style="padding: 10px;"><asp:Label ID="lblRegis" runat="server">จุดรับสมัคร</asp:Label></asp:TableCell>
+                    <asp:TableCell Style="padding: 10px;"><asp:Label ID="lblRegis" runat="server">จุดประชาสัมพันธ์</asp:Label></asp:TableCell>
                     <asp:TableCell Style="padding: 10px;">
                         <asp:DropDownList ID="ddlBranch" CssClass="form-control" runat="server">
                             <asp:ListItem Value="Main" Text="สำนักงานใหญ่" Selected="True"></asp:ListItem>
@@ -55,14 +55,16 @@
                     <asp:TableCell Style="padding: 10px;">
                         <asp:DropDownList ID="ddlCourse" CssClass="form-control" runat="server">
                             <asp:ListItem Value="15" Text="หลักสูตรสอนขับรถยนต์ 15 ชั่วโมง"></asp:ListItem>
-                            <asp:ListItem Value="6" Text="หลักสูตรเรียนขับรถ (ที่ไม่สอบใบขับขี่) 6 ชั่วโมง"></asp:ListItem>
-                            <asp:ListItem Value="10" Text="หลักสูตรเรียนขับรถ (ที่ไม่สอบใบขับขี่) 10 ชั่วโมง"></asp:ListItem>
+                            <asp:ListItem Value="6" Text="หลักสูตรเรียนขับรถยนต์ (ที่ไม่สอบใบขับขี่) 6 ชั่วโมง"></asp:ListItem>
+                            <asp:ListItem Value="10" Text="หลักสูตรเรียนขับรถยนต์ (ที่ไม่สอบใบขับขี่) 10 ชั่วโมง"></asp:ListItem>
+                            <asp:ListItem Value="115" Text="หลักสูตรเรียนขับรถจักรยานยนต์"></asp:ListItem>
                         </asp:DropDownList>
                     </asp:TableCell>
                 </asp:TableRow>
                 <asp:TableRow>
                     <asp:TableCell Style="padding: 10px;" ColumnSpan="2" HorizontalAlign="Center">
-                        <asp:Button CssClass="btn btn-primary" runat="server" ID="btnSubmit" Text="สมัครเรียน" OnClick="btnSubmit_Click" />
+                        <asp:Button CssClass="btn btn-primary" runat="server" ID="btnSubmit" Text="สมัครเรียนผ่าน Email" OnClick="btnSubmit_Click" />&nbsp;
+                        <asp:Button CssClass="btn btn-success" runat="server" ID="btnSubmitLine" Text="สมัครเรียนผ่านไลน์" OnClick="btnSubmitLine_Click"/>
                     </asp:TableCell>
                 </asp:TableRow>
             </asp:Table>
@@ -81,7 +83,7 @@
                 <ul >
                     <li class="liText">อายุ 18 ปี</li>
                     <li class="liText">บัตรประชาชน</li>
-                    <li class="liText">รูปถ่ายขนาด 1 นิ้ว 4 รูป</li>
+                    <li class="liText">รูปถ่ายขนาด 1 นิ้ว 2 รูป</li>
                     <li class="liText">ใบรับรองแพทย์</li>
                     <li class="liText">พาสสปอร์ต (สำหรับชาวต่างชาติ)</li>
                 </ul>

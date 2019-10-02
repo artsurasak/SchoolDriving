@@ -1,11 +1,11 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MainFrame.Master" AutoEventWireup="true" CodeBehind="BranchLad54.aspx.cs" Inherits="DrivingSchool.Page.BranchLad54" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="Title" runat="server">
-    จุดรับสมัคร ลาดกระบัง (ปากซอย 54)
+    จุดประชาสัมพันธ์ ลาดกระบัง (ปากซอย 54)
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentDetail" runat="server">
     <div id="container" style="margin-left: 50px;">
-        <h3>จุดรับสมัคร ลาดกระบัง (ปากซอย 54)</h3>
+        <h3>จุดประชาสัมพันธ์ ลาดกระบัง (ปากซอย 54)</h3>
         <hr />
         <div class="row">
             <div class="col-lg-6" style="vertical-align: middle; margin-bottom:30px; text-align: center">
@@ -19,8 +19,8 @@
         <div style="margin-left: 50px;">
             <h2>ติดต่อโรงเรียนสอนขับรถ</h2>
             <hr />
-            <h4>โรงเรียนมิตรร่วมใจสอนขับรถ ลาดกระบัง 54 แขวง ลาดกระบัง เขต ลาดกระบัง กรุงเทพมหานคร 10520</h4>
-            <h5>โทร <a data-rel="external" href="tel:086-903-0257">086-903-0257</a></h5>
+            <h4>โรงเรียนมิตรร่วมใจสอนขับรถ จุดประชาสัมพันธ์ ลาดกระบัง 54 แขวง ลาดกระบัง เขต ลาดกระบัง กรุงเทพมหานคร 10520</h4>
+            <%--<h5>โทร <a data-rel="external" href="tel:086-903-0257">086-903-0257</a></h5>--%>
         </div>
     </div>
 </asp:Content>
