@@ -21,16 +21,15 @@ namespace DrivingSchool
             linkUpload.HRef = "Page/UploadImg.aspx";
             linkLogout.HRef = "Page/Logout.aspx";
             
-            linkRom9.HRef = "Page/BranchRom9.aspx";
-            linkLad54.HRef = "Page/BranchLad54.aspx";
-            linkMin.HRef = "Page/BranchMin.aspx";
-            //linkPhra.HRef = "Page/BranchPhra.aspx";
-            linkLad30.HRef = "Page/BranchLad30.aspx";
-            linkSukha3.HRef = "Page/BranchBang.aspx";
-            linkRam79.HRef = "Page/BranchRam.aspx";
-            linkSri.HRef = "Page/BranchSri.aspx";
-            linkLadPraow.HRef = "Page/BranchDin.aspx";
-            linkMoo.HRef = "Page/BranchMoo.aspx";
+            //linkRom9.HRef = "Page/BranchRom9.aspx";
+            //linkLad54.HRef = "Page/BranchLad54.aspx";
+            //linkMin.HRef = "Page/BranchMin.aspx";
+            //linkLad30.HRef = "Page/BranchLad30.aspx";
+            //linkSukha3.HRef = "Page/BranchBang.aspx";
+            //linkRam79.HRef = "Page/BranchRam.aspx";
+            //linkSri.HRef = "Page/BranchSri.aspx";
+            //linkLadPraow.HRef = "Page/BranchDin.aspx";
+            //linkMoo.HRef = "Page/BranchMoo.aspx";
 
             logo.Src = "Img/Logo/Logo2_Clear.png";
             firstImg.Src = "Img/Part2/S__6840335.jpg";

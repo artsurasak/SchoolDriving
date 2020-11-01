@@ -5,7 +5,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentDetail" runat="server">
     <div style="margin-left: 50px;">
-        <h1>สมัครเรียนขับรถต์</h1>
+        <h1>สมัครเรียนขับรถยนต์</h1>
         <%--<form runat="server">--%>
             <asp:Table runat="server" Style="border-spacing: 5px;">
                 <asp:TableRow Style="padding: 10px;">
@@ -64,7 +64,7 @@
                 <asp:TableRow>
                     <asp:TableCell Style="padding: 10px;" ColumnSpan="2" HorizontalAlign="Center">
                         <asp:Button CssClass="btn btn-primary" runat="server" ID="btnSubmit" Text="สมัครเรียนผ่าน Email" OnClick="btnSubmit_Click" />&nbsp;
-                        <asp:Button CssClass="btn btn-success" runat="server" ID="btnSubmitLine" Text="สมัครเรียนผ่านไลน์" OnClick="btnSubmitLine_Click"/>
+                   <%--     <asp:Button CssClass="btn btn-success" runat="server" ID="btnSubmitLine" Text="สมัครเรียนผ่านไลน์" OnClick="btnSubmitLine_Click"/>--%>
                     </asp:TableCell>
                 </asp:TableRow>
             </asp:Table>

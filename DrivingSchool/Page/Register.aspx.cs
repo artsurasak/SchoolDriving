@@ -56,38 +56,38 @@ namespace DrivingSchool.Page
             }
         }
 
-        protected void btnSubmitLine_Click(object sender, EventArgs e)
-        {
-            string token = "Dn0J6GyqZ6JrlAnfTKhdDssbJxwV9GsTC4XVQhDpJzA";
-            string msg = "สมัครคอร์สเรียนขับรถ";
-            msg += lblName.Text + ": " + txtName.Text + "\n";
-            msg += lblAge.Text + ": " + txtAge.Text + "\n";
-            msg += lblIdCard.Text + ": " + txtID.Text + "\n";
-            msg += lblEmail.Text + ": " + txtEmail.Text + "\n";
-            msg += lblTel.Text + ": " + txtTel.Text + "\n";
-            msg += lblRegis.Text + ": " + ddlBranch.SelectedItem.Text + "\n";
-            msg += lblCourse.Text + ": " + ddlCourse.SelectedItem.Text;
-            try
-            {
-                var request = (HttpWebRequest)WebRequest.Create("https://notify-api.line.me/api/notify");
-                var postData = string.Format("message={0}", msg);
-                var data = Encoding.UTF8.GetBytes(postData);
+        //protected void btnSubmitLine_Click(object sender, EventArgs e)
+        //{
+        //    string token = "Dn0J6GyqZ6JrlAnfTKhdDssbJxwV9GsTC4XVQhDpJzA";
+        //    string msg = "สมัครคอร์สเรียนขับรถ";
+        //    msg += lblName.Text + ": " + txtName.Text + "\n";
+        //    msg += lblAge.Text + ": " + txtAge.Text + "\n";
+        //    msg += lblIdCard.Text + ": " + txtID.Text + "\n";
+        //    msg += lblEmail.Text + ": " + txtEmail.Text + "\n";
+        //    msg += lblTel.Text + ": " + txtTel.Text + "\n";
+        //    msg += lblRegis.Text + ": " + ddlBranch.SelectedItem.Text + "\n";
+        //    msg += lblCourse.Text + ": " + ddlCourse.SelectedItem.Text;
+        //    try
+        //    {
+        //        var request = (HttpWebRequest)WebRequest.Create("https://notify-api.line.me/api/notify");
+        //        var postData = string.Format("message={0}", msg);
+        //        var data = Encoding.UTF8.GetBytes(postData);
 
-                request.Method = "POST";
-                request.ContentType = "application/x-www-form-urlencoded";
-                request.ContentLength = data.Length;
-                request.Headers.Add("Authorization", "Bearer " + token);
+        //        request.Method = "POST";
+        //        request.ContentType = "application/x-www-form-urlencoded";
+        //        request.ContentLength = data.Length;
+        //        request.Headers.Add("Authorization", "Bearer " + token);
 
-                using (var stream = request.GetRequestStream()) stream.Write(data, 0, data.Length);
-                var response = (HttpWebResponse)request.GetResponse();
-                var responseString = new StreamReader(response.GetResponseStream()).ReadToEnd();
-                Response.Write("<script> alert('สมัครเรียนเรียบร้อยครับ ขอบคุณครับ') </script>");
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.ToString());
-            }
+        //        using (var stream = request.GetRequestStream()) stream.Write(data, 0, data.Length);
+        //        var response = (HttpWebResponse)request.GetResponse();
+        //        var responseString = new StreamReader(response.GetResponseStream()).ReadToEnd();
+        //        Response.Write("<script> alert('สมัครเรียนเรียบร้อยครับ ขอบคุณครับ') </script>");
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        Console.WriteLine(ex.ToString());
+        //    }
 
-        }
+        //}
     }
 }

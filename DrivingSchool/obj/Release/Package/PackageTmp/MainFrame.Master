@@ -109,7 +109,7 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li class="dropdown">
+                            <%--<li class="dropdown">
                                 <a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">จุดประชาสัมพันธ์<b class="caret"></b></a>
                                 <ul class="dropdown-menu" style="background-color: black; text-align: center; font-weight: bold; width: 300px;" id="menu1">
                                     <li class="dropdown-header" style="font-size: 18px; color: #267cd3;">สะดวกจุดไหนติดต่อจุดนั้น</li>
@@ -119,9 +119,6 @@
                                     <li class="dropdown-submenu" style="padding: 5px;">
                                         <a id="linkRom9" runat="server" style="font-size: 18px; margin-top: 50px; color: white;">ร่มเกล้า<i class="icon-arrow-right"></i></a>
                                     </li>
-                                   <%-- <li class="dropdown-submenu" style="padding: 5px;">
-                                        <a id="linkPhra" runat="server" style="color: white; font-size: 18px;">พระโขนง<i class="icon-arrow-right"></i></a>
-                                    </li>--%>
                                     <li class="dropdown-submenu" style="padding: 5px;">
                                         <a id="linkRam79" runat="server" style="color: white; font-size: 18px;">รามคำแหง<i class="icon-arrow-right"></i></a>
                                     </li>
@@ -145,7 +142,7 @@
                                     </li>
 
                                 </ul>
-                            </li>
+                            </li>--%>
                             <li class="nav-item">
                                 <a class="nav-link" id="linkColl" runat="server">ภาพบรรยากาศ</a>
                             </li>
@@ -226,14 +223,14 @@
             <div class="row" style="margin-top:60px; padding-top:20px; padding-bottom:20px; background-color:#8da3ba; color:#ffffff" >
                 <div class="col-md-6" style="vertical-align:middle; text-align:center">
                     <h4>LIKE US</h4>
-                    <div class="fb-page" data-href="https://www.facebook.com/M.Driving/" data-width="400" data-height="200" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Mitruemjai/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Mitruemjai/">มิตรร่วมใจสอนขับรถยนต์</a></blockquote></div>
+                    <div class="fb-page" data-href="https://www.facebook.com/มิตรร่วมใจสอนขับรถยนต์-สาขาใหญ่-ประเวศ-102142447896690/" data-width="400" data-height="200" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Mitruemjai/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Mitruemjai/">มิตรร่วมใจสอนขับรถยนต์</a></blockquote></div>
                 </div>
                 <div class="col-md-6"  style="vertical-align:middle;">
                     <h4><u>โรงเรียน มิตรร่วมใจ สอนขับรถ</u></h4>
                     <p><span class="fa fa-home"></span>&nbsp;โรงเรียน มิตรร่วมใจ สอนขับรถ สำนักงานใหญ่ (ใกล้โรงพบาบาลสิรินธร) 498 ถ.อ่อนนุช ประเวศ ประเวศ กรุงเทพ 10250 </p> 
                     <p><span class="fa fa-phone"></span>&nbsp;<a data-rel="external" href="tel:02-329-0188">02-329-0188</a>, <a data-rel="external" href="tel:02-329-0187">02-329-0187</a></p>
                     
-                    <p><span class="fa fa-facebook-square">&nbsp;<a style="color:black;" href="https://th-th.facebook.com/M.Driving/">Mitruemjai Mitr</a></span>&nbsp;</p>
+                    <p><span class="fa fa-facebook-square">&nbsp;<a style="color:black;" href="https://th-th.facebook.com/มิตรร่วมใจสอนขับรถยนต์-สาขาใหญ่-ประเวศ-102142447896690/">Mitruemjai Mitr</a></span>&nbsp;</p>
                 </div>
             </div>
         </div>
